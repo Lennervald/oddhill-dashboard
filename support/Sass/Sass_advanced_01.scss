@@ -1,0 +1,226 @@
+List Functions: 
+------------------------------
+
+examples 1: 
+
+$list1: 200px;
+$list2: 1px 2px 3px black;
+$list2: Arial, opensans, san-serif;
+$nestedList: 1px 2px 3px black, 1px 2px 3px black, 1px 2px 3px black
+
+FUNCTIONS:
+
+length, ntn, set-ntn, list-seperator, join, append
+
+html{
+  background: length($list2); // this would be 4. and length($nestedList) would be 3!
+}
+
+html{
+  background: nth($list2, 2); // Picks a defined item in the list. 2px
+}
+
+html{
+  background: list-seperator($list2, comma); // Adds a comma or space (only these two),
+}
+
+html{
+  background: join($list1, $list2, comma); // 200px, 1px 2px 3px black;
+}
+
+html{
+  background: append($list2, '300px'); // 1px 2px 3px black, 200px;
+}
+
+html{
+  background: index($list3, 'Arial'); // 1
+}
+
+
+Maps: 
+------------------------------
+
+$map1 {
+  "key1" : "value1",
+  "key2" : 200px
+}
+
+$map2 { "keykey1" : "value 1", "keykey2" : "Value 2", "keykey3": "More Values" }
+
+$map3 {
+  "key1" : "value 1", 
+  "key2" : "Value 2", 
+  "key3": "More Values",
+  "nestedMap" : (
+    "nestedKey": "nest Val1",
+    "url": "/img/img3.png",
+    "width": 300
+  )
+}
+
+Functions: map-keys(), map-values(), map-has-key(), map-get(), inspect(map-merge()), inspect(map-remove())
+
+test-foo {
+  content map-keys($map1 ) // This function will produce a list of all key names / "key1", "key2" 
+  content map-values($map1 ) // This function will produce a list of all values/ "value1", 200px; Ps these wont work with nested maps
+  content map-has-key($map1, "key2") // true
+  content map-get($map2, "keykey2") // targeting a key to get it's value. "Value 2"
+  content inspect(map-merge($map1, $map2)) // will merge these two together
+  content inspect(map-remove($map1, "key2")) // will remove this key and still print out the rest of the map
+
+}
+
+Maths: 
+------------------------------
+
+$a: 16px; $b: 32px; $c: 4.5px;
+$equation: 5 + 15 + $b;
+
+div{
+  width: 100px;
+  width: 10 + 20 + $a; //46px
+  width: here you can use * / % 4 * (3 -4) etc. 
+  width: $equation; // You can use these as variables
+}
+
+Functions / Methods: round, floor, percentage, min, max, random
+
+div{
+  width: round(4 * 99px); // 144,888 round of to the nearset whole Int. 145
+  width: floor(4 * 99px); // 144,888 round down to that same whole Int. 144
+  width: percentage(1.2); // 120%
+  width: percentage(.2); // 20% // Ps percantage doesn't work with variables that has css measurements such as px
+  width: min(10, 20, 30, 34) // finds the smallest number in a list. 10
+  width: random() // number between 0 - 1
+  width: random(100) // will prodce whole numbers from 1 - 100
+
+  
+}
+
+
+IF directives: 
+------------------------------
+
+$type: element;
+$num: 10;
+$noVal : null;
+
+html {
+  content: "Css Code output"
+}
+
+// put in a condition: 
+
+html {
+
+  @if $type == element( content: 200px; ); // will produce if True
+  
+
+  @if $type == "hello World"{ content: 200px; }; // False will produce if True
+  @else if $type != "Hello World" {content: 20px; }
+  @else { content: 0;}
+
+  @if $noVal != null {
+    content: 200px;
+  }
+
+  @if $num < 10 { content: 1000px; };
+
+
+  @if $num + 10 == 10 { content: 1000px; };
+}
+
+
+You can also write like this: 
+
+
+@if $num == 10 {
+  body {
+    width: 100px;
+  }
+}
+
+
+Loops: 
+------------------------------
+
+for, each, while
+
+$headers: h1, h2, h3, h4, h5, h6; 
+$fontSize: 55px, 40px, 35px, 30px, 25px, 20px;
+
+$i: 1;
+
+// FOR simple form (not using the list variables)
+@for $i from 1 through 6 {
+  h#{$i} {fontSize: 55px}
+} 
+
+// FOR Now using the lists: 
+
+$leng: length($headers);
+
+@for $i from $leng through 6 {
+  #{ntn($headers,$i)} {
+    fontSize: ntn($fontSize,$i);
+    line-height: : ntn($fontSize,$i) +10;
+  }
+} 
+
+// EACH. Start by declaing a new varibale in the each loop
+
+@each $head in $headers {
+  #{$head} {
+    font-size: 55px;
+  }
+}
+
+// ... this only works with 1 list though. A get-around is writing is a map:
+
+$headerMap {
+  h1: 30px;
+  h2: 25px;
+  h3: 15px;
+}
+
+
+@each $head, $font in $headerMap {
+  #{head} {
+    font-size: $font;
+  }
+}
+
+
+// while. pretty useful as well
+
+@while $i <=6 {
+  #{ntn($headers, $i)} {
+    font-size: ntn($fontSize, $i)
+  }
+
+  $i: $i + 1;
+}
+
+
+Functions: 
+------------------------------
+/* Set up your own function.
+This will check if 2 lists are the same length;  */
+
+$headers: h1, h2, h3, h4, h5, h6; 
+$fontSize: 55px, 40px, 35px, 30px, 25px, 20px;
+
+@function list-check($check1, $check2) {
+  
+  $len1: length($check1);
+  $len2: length($check2);
+
+  @if $len1 == $len2 {
+    @return 200px
+  }
+  @else { @return 10px; }
+}
+
+html {
+  width: list-check($headers, $fontSize);
+}

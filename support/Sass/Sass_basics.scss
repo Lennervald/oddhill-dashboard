@@ -1,0 +1,151 @@
+Variables: 
+------------------------------
+$width : 300px;
+$gray : #ccc;
+$rgb : rgb(260,260,260);
+
+$mySelector: my-element
+
+div #{$mySelector} {
+	color: $gray;
+}
+
+// CSS div my-element 
+
+div .#{$mySelector} {
+	color: $gray;
+}
+
+// CSS div .my-element
+
+och lists: 
+
+$list: 1px 1px 1px #333;
+
+eller med 2st:
+
+$list2: 1px 2px 3px #444,
+		2px 4px 6oc #333;
+
+$list3: element1, element2, element3;
+
+
+$map ( "key1":"val1", "color":"#444");
+$bool: false;
+$null: null; // Means there is NO value. 
+
+
+Inheritance: 
+--------------------------
+
+$gray: #ccc;
+
+%snugg{
+  background: $gray;
+}
+
+.body-main{
+  @extend %snugg;
+}
+
+// CSS .body-main {  background: #ccc; }
+
+
+
+Mixins: 
+--------------------------
+
+@mixin cssProps {
+  color: blue;
+  line-height: 1px;
+}
+
+.body-main{
+  @include cssProps();
+}
+
+/* .body-main {
+  color: blue;
+  line-height: 1px;
+}
+
+*/
+
+Now... adding arguments in mixins...
+
+
+@mixin cssProps($arg1, $arg2) {
+  color: $arg1;
+  line-height: $arg2;
+}
+
+.body-main{
+  @include cssProps(#333, 2px);
+}
+
+/* CSS
+
+.body-main {
+  color: #333;
+  line-height: 2px;
+}
+
+*/
+
+another useful: 
+
+@mixin boxShadow($shadowChoice){
+  -webkit-box-shadow: $shadowChoice;
+  -moz-box-shadow: $shadowChoice;
+  box-shadow: $shadowChoice;
+}
+
+.div-2{
+  @include boxShadow(2px 3px 4px rgba);
+}
+
+/* CSS
+
+.div-2 {
+  -webkit-box-shadow: 2px 3px 4px rgba;
+  -moz-box-shadow: 2px 3px 4px rgba;
+  box-shadow: 2px 3px 4px rgba;
+}
+
+
+*/
+
+Special Case = if we need to give several values to the same variable,
+use @mixin boxShadow($shadowChoice...)
+
+
+Using Mixin : @content 
+
+@mixin keyframes(@name){
+  @-webkit-keyframes #{@name}{
+    @content;
+  }
+  @-moz-keyframes #{@name}{
+    @content;
+  }
+  @-o-keyframes #{@name}{
+    @content;
+  }
+  @keyframes #{@name}{
+    @content;
+  }
+}
+
+@include keyframes(myAnim) { 
+  //here goes the @content
+   0%{opacity: 0}
+   100%{opacity: 100}
+};
+
+
+Import:
+--------------
+
+general SASS pattern: 
+Do use underscore _ for the global varibales-mixin files
+like this:  _MainMixins.scss

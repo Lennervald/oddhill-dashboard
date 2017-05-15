@@ -1,0 +1,60 @@
+Real world Usage of the advanced stuff 
+------------------------------
+
+Color Scheme with hover:
+
+$colormap: (
+
+  white:        ( color: #FAFAFA, 
+                  hover: #fff       
+                ),
+  black:        ( color: #242323, 
+                  hover: #fff       
+                ),
+  pink:         ( color: #F9418C, 
+                  hover: #fff       
+                ),
+  yellow:       ( color: #FAEB5A, 
+                  hover: #fff       
+                ),
+  blue:         ( color: #20AAC6, 
+                  hover: #fff       
+                ),
+  purple_dark:  ( color: #2D164E, 
+                  hover: #fff       
+                ),
+  purple_light: ( color: #722FBC, 
+                  hover: #fff       
+                )
+
+);
+
+// Now to use it on a button with the class name of 'mybutton pink'
+@each $color, $map in $colormap {
+
+  @each $prop, $val in $map {
+
+    @if($prop == 'color'){
+      .mybutton.#{$color} { color: #{$val}}
+      } @else {
+      .mybutton.#{$color}:hover { color: #{$val}}
+      }
+    
+  }
+
+  
+}
+
+
+// use lighten for Hover: 
+
+$linkcolour: #0000FF;
+
+a {
+  color: $linkcolour;
+}
+
+a.lighter {
+  color: lighten($linkcolour, 50%);
+}
+
