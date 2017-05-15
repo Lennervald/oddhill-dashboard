@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <button class="btn btn-info">Knapp</button>
-    <div>color</div>
+    <p>content goes here</p>
   </div>
 </template>
 
