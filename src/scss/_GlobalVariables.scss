@@ -1,0 +1,47 @@
+/* Color Scheme:
+-----------------------------
+*/
+
+$white: #FAFAFA;
+$black: #242323;
+$pink: #F9418C;
+$yellow: #FAEB5A;
+$blue: #20AAC6;
+$purple_dark: #2D164E;
+$purple_light: #722FBC;
+
+/* Fonts:
+
+To be replaced using font-squirrel
+
+'Gotham', medium
+'Proxima Nova' semibold & light
+'Century Schoolbook' Regular
+
+Right now using Ok Google Font replacements "Montserrat" & "Merriweather"
+
+-----------------------------
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+$big-number-size: 3rem;
+
+/* Custom Shadows
+-----------------------------
+*/
+
+$main_shadow: 0px 3px 62px $black;
+$hover_shadow: 10px 10px 50px $black;
+
+
+/* Custom Times
+-----------------------------
+*/
+
+$main_time: 600ms;
+$short_time: 400ms;
+$shortest_time: 200ms;
+$long_time: 1000ms;
+$longest_time: 1600ms;

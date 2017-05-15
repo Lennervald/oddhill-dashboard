@@ -1,0 +1,43 @@
+/* Global Mixins
+-----------------------------
+*/
+@mixin niceShadow($shadowChoice) {
+    -webkit-box-shadow: $shadowChoice;
+    -moz-box-shadow: $shadowChoice;
+    -ms-box-shadow: $shadowChoice;
+    -o-box-shadow: $shadowChoice;
+    box-shadow: $shadowChoice;
+}
+
+@mixin niceTransition($ms) {
+    -webkit-transition: $ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: $ms cubic-bezier(0.42, 0, 0.58, 1);
+    -ms-transition: $ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: $ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: $ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+@mixin sameWiHe($value) {
+    width: $value;
+    height: $value;
+}
+
+@mixin noFuzz() {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin justCenter() {
+    margin: 0 auto;
+    text-align: center;
+}
+
+@mixin hoverDark($color) {
+    background: darken($color, 5%);
+    color: darken($color, 5%);
+}
+
+@mixin hoverLight($color) {
+    background: lighten($color, 5%);
+    color: lighten($color, 5%);
+}
