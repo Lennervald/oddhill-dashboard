@@ -1,8 +1,16 @@
 <template>
   <div id="app">
-    <p class="headline-lg">{{ headline }}</p>
-    <p class="links-lg">{{ links }}</p>
-    <p class="number-lg">{{ number }}<span>%</span></p>
+    <main-backgrounds></main-backgrounds>
+    <div class="container-fluid">
+    	<div class="row">
+    		<div class="col-9 wrapper-one">
+    			<main-content-wrapper></main-content-wrapper>
+    		</div>
+    		<div class="col-3 wrapper-two">
+    			<menu-wrapper></menu-wrapper>
+    		</div>
+    	</div>
+    </div>
   </div>
 </template>
 
@@ -11,9 +19,6 @@ export default {
   name: 'app',
   data () {
     return {
-      headline: 'debiteringsgrad',
-      links: 'Vecka  |  Månad  |  År',
-      number: '74'
     }
   }
 }
