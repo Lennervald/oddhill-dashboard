@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <p>{{ msg }}</p>
+    <p class="headline-lg">{{ headline }}</p>
+    <p class="links-lg">{{ links }}</p>
+    <p class="number-lg">{{ number }}<span>%</span></p>
   </div>
 </template>
 
@@ -9,7 +11,9 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      headline: 'debiteringsgrad',
+      links: 'Vecka  |  Månad  |  År',
+      number: '74'
     }
   }
 }

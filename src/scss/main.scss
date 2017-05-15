@@ -1,8 +1,17 @@
-#app {
-  text-align: center;
-  margin-top: 60px;
+@import '_MainVariables';
+@import '_MainMixins';
+
+
+
+/* General App Build:
+-----------------------------
+*/
+
+.app, html, body {
+   // This one has the Main Background Color (Static non-moving)
+   margin: 0;
+   padding: 0;
+   font-size: 100%;
+   background: $purple_dark;
 }
-
-
-
 
