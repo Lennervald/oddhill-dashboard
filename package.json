@@ -9,7 +9,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "bootstrap-vue": "^0.15.6",
+    "bulma": "^0.4.1",
     "chart.js": "^2.5.0",
     "vue": "^2.2.1",
     "vue-chartjs": "^2.6.1",

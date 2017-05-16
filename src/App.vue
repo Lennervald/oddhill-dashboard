@@ -8,6 +8,9 @@
     		</div>
     		<div class="col-3 wrapper-two">
     			<menu-wrapper></menu-wrapper>
+          <a class="button is-primary is-loading">
+            Button
+          </a>
     		</div>
     	</div>
     </div>
