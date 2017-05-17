@@ -1,11 +1,20 @@
 <template>
   <div>
-      <div class="app-wrapper-inner">
+    <div class="app-wrapper-header">
+      <div class="column is-hidden-desktop">
+        <img class="header-icon" src="./assets/images/icons/menu_open_icon.png" alt="">
+      </div>
+    </div>
+      <div class="app-wrapper-content">
         <transition name="fade">
           <component :is="selectedComponent"></component>
         </transition>
         <button class="btn btn-primary temp-slide-button" @click="next">Toggle Components</button>
       </div>
+      <div class="app-wrapper-footer">
+          <img class="footer-icon" src="./assets/images/oh_logo.png" alt="">
+      </div>
+
     </div>
 </template>
 

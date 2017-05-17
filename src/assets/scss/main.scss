@@ -28,7 +28,7 @@
 }
 
 .app-wrapper-skeleton {
-  z-index: 2;
+  z-index: 4;
 }
 
 .app-dashboard-menu-skeleton {
@@ -37,28 +37,6 @@
   height: 100vh;
 }
 
-.header-icon {
-  position: fixed;
-  top: 4vh;
-  left: 6vh;
-  max-width: 2rem;
-  z-index: 3;
-}
-
-.footer-icon {
-  position: fixed;
-  bottom: 2vh;
-  left: 6vw;
-  max-width: 7rem;
-  z-index: 3;
-}
-
-
-@media screen and (max-width: 1000px) {
-  .footer-icon {
-    max-width: 5rem;
-  }
-}
 
 /*
 -----------------------------
