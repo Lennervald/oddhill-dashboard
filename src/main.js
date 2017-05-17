@@ -21,7 +21,7 @@ import './assets/scss/main.scss';
 Vue.use(VueResource);
 Vue.use(BootstrapVue);
 Vue.component('app-wrapper', AppWrapper);
-Vue.component('app-dashboard-menu', DashboardMenu);
+Vue.component('dashboard-menu', DashboardMenu);
 Vue.component('main-backgrounds', MainBackgrounds);
 
 new Vue({

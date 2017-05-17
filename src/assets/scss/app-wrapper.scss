@@ -3,13 +3,17 @@
   padding: 0 6vw;
   height: 8vh;
 
-  .header-icon {
-    max-width: 2rem;
-    z-index: 3;
+  .burger {
+    padding-top: 2vh;
+
+    .header-icon {
+      max-width: 2rem;
+      z-index: 3;
+    }
   }
 }
 
-.app-wrapper-content {
+.app-wrapper-main {
   padding: 0 6vw;
   height: 78vh;
   overflow: hidden;
@@ -31,6 +35,7 @@
   min-height: 100%;
   z-index: 3;
 }
+
 ////////////////////////////////////////////////
 ////////////////////////////////////////////////
 // Temporary stuff for testing
@@ -42,7 +47,6 @@
   bottom: 0;
   left: 0;
 }
-
 
 @media screen and (max-width: 1000px) {
 .app-wrapper-footer {

@@ -20,27 +20,21 @@
 // General & "Skeleton" Wrappers:
 
 #app,body, html {
-  // Use this one for changing the Main Background Color + controlling the font-size (rems).
   @include noFuzz();
   @include justCenter();
   font-size: 100%;
   background: $purple_dark;
 }
 
-.app-wrapper-skeleton {
+.wrapper-skeleton {
   z-index: 4;
 }
 
-.app-dashboard-menu-skeleton {
+.dashboard-menu-skeleton {
   background: $white;
   z-index: 3;
   height: 100vh;
 }
-
-
-/*
------------------------------
-*/
 
 ////////////////////////////////////////////////
 ////////////////////////////////////////////////

@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="app-wrapper-header">
-      <div class="column is-hidden-desktop">
+      <div class="burger is-hidden-desktop">
         <img class="header-icon" src="./assets/images/icons/menu_open_icon.png" alt="">
       </div>
     </div>
-      <div class="app-wrapper-content">
+      <div class="app-wrapper-main">
         <transition name="fade">
           <component :is="selectedComponent"></component>
         </transition>
@@ -14,7 +14,6 @@
       <div class="app-wrapper-footer">
           <img class="footer-icon" src="./assets/images/oh_logo.png" alt="">
       </div>
-
     </div>
 </template>
 
