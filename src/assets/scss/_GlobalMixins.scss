@@ -1,6 +1,7 @@
-/* Global Mixins
------------------------------
-*/
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+// 1. Project Mixins:
+
 @mixin niceShadow($shadowChoice) {
     -webkit-box-shadow: $shadowChoice;
     -moz-box-shadow: $shadowChoice;
@@ -25,11 +26,18 @@
 @mixin noFuzz() {
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 @mixin justCenter() {
     margin: 0 auto;
     text-align: center;
+}
+
+@mixin verticalCenter() {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 @mixin hoverDark($color) {

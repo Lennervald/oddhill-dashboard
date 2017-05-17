@@ -1,0 +1,104 @@
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+// 1. Project Color Scheme:
+
+$white: #FAFAFA;
+$black: #242323;
+$pink: #F9418C;
+$yellow: #FAEB5A;
+$blue: #20AAC6;
+$purple_dark: #2D164E;
+$purple_light: #722FBC;
+
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+// 2. Typography:
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+/* Note:
+
+Typography from Wireframes:
+'Gotham', medium
+'Proxima Nova' semibold & light
+'Century Schoolbook' Regular
+To be replaced using font-squirrel.
+Right now using Ok Google Font replacements "Montserrat" & "Merriweather"
+
+-----------------------------
+*/
+
+$project-sans-serif: 'Montserrat', sans-serif;
+$project-serif: 'Merriweather', serif;
+
+$font-size-1: 3rem !default;
+$font-size-2: 2.5rem !default;
+$font-size-3: 2rem !default;
+$font-size-4: 1.6rem !default;
+$font-size-5: 1.25rem !default;
+$font-size-6: 1.1rem !default;
+$font-size-7: 0.75rem !default;
+
+$weight-light: 300 !default;
+$weight-normal: 400 !default;
+$weight-semibold: 500 !default;
+$weight-bold: 700 !default;
+
+$letter-spacing-1: 0.5rem !default;
+$letter-spacing-2: 0.25rem !default;
+
+.headline {
+  text-transform: uppercase;
+  font-family: $project-sans-serif;
+  font-size: $font-size-6;
+  font-weight: $weight-semibold;
+  color: $white;
+}
+
+.headline-touch {
+  @extend .headline;
+  font-size: $font-size-4;
+}
+
+.section-links {
+  font-family: $project-sans-serif;
+  font-size: $font-size-6;
+  font-weight: $weight-light;
+  letter-spacing: $letter-spacing-2;
+  color: $white;
+}
+
+.section-links-touch {
+  @extend .section-links;
+  letter-spacing: 0rem;
+}
+
+.numbers {
+  font-family: $project-serif;
+  color: $white;
+  font-size: $font-size-1;
+
+  span {
+    font-size: $font-size-1 * 0.8;
+  }
+}
+
+
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+// 3. Shadows:
+
+$main_shadow: 0px 3px 62px $black;
+$hover_shadow: 10px 10px 50px $black;
+
+
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+// 4. Times:
+
+$main_time: 600ms;
+$short_time: 400ms;
+$shortest_time: 200ms;
+$long_time: 1000ms;
+$longest_time: 1600ms;

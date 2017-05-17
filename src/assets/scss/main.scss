@@ -1,0 +1,82 @@
+@import '/bulma-variables/variables';
+@import '/bulma-variables/mixins';
+@import '/bulma-variables/functions';
+@import '/bulma-variables/animations';
+
+@import '_GlobalVariables';
+@import '_GlobalMixins';
+
+@import '/animations/main-backgrounds';
+@import '/animations/slide';
+@import '/animations/fade';
+
+@import 'dashboard-menu';
+@import 'app-wrapper';
+@import 'testbulmadebit';
+@import 'debit';
+
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+// General & "Skeleton" Wrappers:
+
+#app,body, html {
+  // Use this one for changing the Main Background Color + controlling the font-size (rems).
+  @include noFuzz();
+  @include justCenter();
+  font-size: 100%;
+  background: $purple_dark;
+}
+
+.app-wrapper-skeleton {
+  z-index: 2;
+}
+
+.app-dashboard-menu-skeleton {
+  background: $white;
+  z-index: 3;
+  height: 100vh;
+}
+
+.header-icon {
+  position: fixed;
+  top: 4vh;
+  left: 6vh;
+  max-width: 2rem;
+  z-index: 3;
+}
+
+.footer-icon {
+  position: fixed;
+  bottom: 2vh;
+  left: 6vw;
+  max-width: 7rem;
+  z-index: 3;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .footer-icon {
+    max-width: 5rem;
+  }
+}
+
+/*
+-----------------------------
+*/
+
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+// General: Hidden Scrollbar - which is undesirable in dashboard view.
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}

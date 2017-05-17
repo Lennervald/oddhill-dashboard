@@ -1,0 +1,99 @@
+@import '_GlobalVariables';
+@import '_GlobalMixins';
+
+/* Debit:
+-----------------------------
+*/
+.deb-links-container {
+  width: 100%;
+}
+/* Value Section:
+-----------------------------
+*/
+.squ-1 {
+  background: $pink;
+}
+
+.val-1 {
+  color: $pink;
+}
+
+.squ-2 {
+  background: $purple_light;
+}
+
+.val-2 {
+  color: $purple_light;
+}
+
+.deb-values-large-container {
+  width: 100%;
+  @include verticalCenter;
+
+  .box-value-large {
+    text-align: left;
+    @include noFuzz();
+  }
+
+  .box-value-large:first-of-type {
+    padding-bottom: 20px;
+  }
+
+  .value-square-large {
+    @include sameWiHe(1.8rem);
+    @include noFuzz();
+    display: inline-block;
+    position: relative;
+  }
+
+  .text-value-large {
+    position: absolute;
+    left: 2.4rem;
+    display: inline-block;
+    font-size: 1.25rem;
+    @include noFuzz();
+  }
+}
+
+.deb-values-small-container {
+  padding-top: 1rem;
+  width: 100%;
+
+  .box-value-small {
+    @include justCenter;
+    width: 16rem;
+    height: 2rem;
+  }
+
+  .value-square-small {
+    @include sameWiHe(1.8rem);
+    float: left;
+    margin-left: 1rem;
+  }
+
+  .value-square-small:first-of-type {
+    margin-left: 0;
+  }
+
+  .text-value-small {
+    float: left;
+    margin-left: 0.5rem;
+    font-size: 1.25rem;
+  }
+
+  .text-value-small:first-of-type {
+    margin-right: 2rem;
+  }
+}
+/* Temprärt släng sen! */
+.temp-box {
+  @include justCenter();
+  @include sameWiHe(100%);
+  @include niceShadow($main_shadow);
+  @include niceTransition($main_time) background: $pink;
+  height: 400px; // this will be change when chart gets in.
+}
+// .round-box:hover {
+// 	@include hoverDark($pink);
+// 	@include niceShadow($hover_shadow);
+// }

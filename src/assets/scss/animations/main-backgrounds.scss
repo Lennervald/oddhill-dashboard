@@ -1,0 +1,23 @@
+.main-backgrounds-content{
+	position: fixed;
+  top: 0;
+  left: 0;
+  width: 65%;
+  z-index: 1;
+
+	.color-div-debit {
+		position: absolute;
+		width: 40vh;
+		height: 200vh;
+		top: -80vh;
+		left: 20vw;
+    transform: scale(2,2);
+    transform: rotate(40deg);
+
+    .inside-color {
+	    background: $blue;
+			width: 100%;
+			height: 100%;
+		}
+	}
+}

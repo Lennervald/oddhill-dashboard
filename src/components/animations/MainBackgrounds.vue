@@ -3,7 +3,7 @@
       <div class="main-backgrounds-content">
         <div class="color-div-debit">
           <div class="inside-color"></div>
-        </div> 
+        </div>
       </div>
     </div>
 </template>
@@ -12,7 +12,7 @@
     export default {
         data () {
           return {
-           
+
           }
         }
       }

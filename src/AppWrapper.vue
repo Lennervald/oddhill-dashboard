@@ -1,25 +1,22 @@
 <template>
-    <div>
-        <div class="wrapper-outer-content">
-            <div class="wrapper-inner-content">
-                <transition name="fade">
-                    <component :is="selectedComponent"></component>
-                 </transition> 
-            </div>
-        <button class="btn btn-primary slider-menu" @click="next">Toggle Components</button>
-        </div>
+  <div>
+      <div class="app-wrapper-inner">
+        <transition name="fade">
+          <component :is="selectedComponent"></component>
+        </transition>
+        <button class="btn btn-primary temp-slide-button" @click="next">Toggle Components</button>
+      </div>
     </div>
 </template>
 
-
 <script>
 import Debit from './components/Debit.vue';
-import TestPage from './components/TestPage.vue';
+import TestBulmaDebit from './components/TestBulmaDebit.vue';
 
 export default {
     components: {
     One: Debit,
-    Two: TestPage
+    Two: TestBulmaDebit
     },
     data: function() {
         return {
@@ -36,7 +33,6 @@ export default {
           default:
             this.selectedComponent = 'One';
             // app.style.backgroundColor = '#722FBC';
-            
         }
       }
     }
