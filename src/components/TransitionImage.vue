@@ -1,16 +1,29 @@
 <template>
   <div>
-    <h1>hello transition</h1>
+    <div class="image-container is-three-quarter">
+      <img :src="randomImage()">
+    </div>
   </div>
 </template>
 
 <script>
 export default {
     data: function() {
-        return {
-            
-        }
+      return {
+        image: [
+          'src/assets/images/transitions/image-one.jpg',
+          'src/assets/images/transitions/image-two.jpg'
+        ]
+      }
+    },
+    methods: {
+    randomImage: function(){
+      // get an integer between 0 and 1
+      var num = Math.floor(Math.random() * 2);
+      console.log(num);
+      return this.image[num];
     }
+  }
 }
 </script>
 
