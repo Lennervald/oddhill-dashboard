@@ -7,11 +7,6 @@ import TestBulmaDebit from './components/TestBulmaDebit.vue';
 import MainBackgrounds from './components/animations/MainBackgrounds.vue';
 import DashboardMenu from './components/DashboardMenu.vue';
 
-// Add booostrap-vue-functionality
-import BootstrapVue from 'bootstrap-vue';
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap-vue/dist/bootstrap-vue.css';
-
 // Add support for Bulma
 import 'bulma/css/bulma.css';
 
@@ -19,7 +14,6 @@ import 'bulma/css/bulma.css';
 import './assets/scss/main.scss';
 
 Vue.use(VueResource);
-Vue.use(BootstrapVue);
 Vue.component('app-wrapper', AppWrapper);
 Vue.component('dashboard-menu', DashboardMenu);
 Vue.component('main-backgrounds', MainBackgrounds);
