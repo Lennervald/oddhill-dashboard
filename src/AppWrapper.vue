@@ -7,8 +7,8 @@
     </div>
       <div class="app-wrapper-main">
         <transition name="fade">
-          <!-- <TransitionImage></TransitionImage> -->
-          <component :is="selectedComponent"></component>
+          <TransitionImage></TransitionImage>
+          <!-- <component :is="selectedComponent"></component> -->
         </transition>
         <button class="btn btn-primary temp-slide-button" @click="next">Toggle Components</button>
       </div>
