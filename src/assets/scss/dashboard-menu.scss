@@ -2,11 +2,63 @@
 ////////////////////////////////////////////////
 // Dashboard Menu
 
-.dashboard-menu {
-  padding: 6vh 0 0;
-  height: 98vh;
+.menu-wrapper {
+  text-align: left;
+  height: 8vh;
+  padding: 0 2.5vw 0;
 }
 
-.menu-item {
+.message {
+  background: none;
+  // line-height: $font-size-3;
+}
+
+.message:first-of-type {
+  padding-top: 6vh;
+}
+
+.linebreaker {
+  width: 100%;
+  background: $grey;
+  height: 1px;
+  margin: 1.4vw auto;
+}
+
+.nav-menu-body{
+
+  .nav-title {
+    text-transform: uppercase;
+    font-family: $project-sans-serif;
+    font-size: $font-size-6;
+    font-weight: $weight-semibold;
+    color: $black;
+  }
+
+  .nav-number {
+    font-family: $project-serif;
+    color: $black;
+    font-size: $font-size-2;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-small {
+    font-size: 1.5rem;
+    padding-left: 0.5vw;
+    font-family: $project-sans-serif;
+  }
+
+  .nav-percent {
+    font-size: 2.3rem;
+    padding-left: 0.2vw;
+    font-family: $project-serif;
+  }
+
+  .nav-value {
+    font-family: $project-sans-serif;
+    font-size: $font-size-7;
+    font-weight: $weight-light;
+    color: $black;
+  }
 
 }

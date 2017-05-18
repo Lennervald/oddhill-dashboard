@@ -6,7 +6,7 @@
           <app-wrapper></app-wrapper>
         </div>
       </div>
-      <div class="column is-one-third is-hidden-touch">
+      <div class="column is-one-quarter is-hidden-touch">
         <div class="column dashboard-menu-skeleton">
           <dashboard-menu></dashboard-menu>
         </div>
