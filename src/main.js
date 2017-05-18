@@ -6,6 +6,7 @@ import AppWrapper from './AppWrapper.vue';
 import TestBulmaDebit from './components/TestBulmaDebit.vue';
 import MainBackgrounds from './components/animations/MainBackgrounds.vue';
 import DashboardMenu from './components/DashboardMenu.vue';
+import MobileMenu from './components/MobileMenu.vue';
 
 // Add support for Bulma
 import 'bulma/css/bulma.css';
