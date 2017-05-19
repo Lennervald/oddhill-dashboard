@@ -1,66 +1,81 @@
 <template>
-	<div class="views">
-	  <div class="row">
-	    <div class="col-12 hidden-lg-up">
-	      <div class="headline-small-container">
-	        <p class="headline-touch">{{ headline }}</p>
-	      </div>
-	    </div>
-	  </div>
+		<div class="views">
+			<section class="debit-wrapper">
+				<div class="debit-container">
+					<div class="section-divider">
 
-	  <div class="row">
-	    <div class="col-12">
-	      <div class="deb-links-container">
-	        <p class="section-links">{{ links }}</p>
-	      </div>
-	    </div>
-	  </div>
+						<article class="debit-header">
+							<p class="headline-touch is-hidden-desktop">{{ headline }}</p>
+							<p class="section-links"><span class="section-item">{{ sectionlinks[0] }}</span><span class="app-br"></span></p>
+							<p class="section-links"><span class="section-item-active">{{ sectionlinks[1] }}</span><span class="app-br"></span></p>
+							<p class="section-links"><span class="section-item">{{ sectionlinks[2] }}</span></p>
+						</article>
 
-	  <div class="row">
-	    <div class="col-1 col-md-2 col-lg-3">
-	    </div>
-	    <div class="col-10 col-md-8 col-lg-6">
-					<div class="temp-box"></div>
-	    </div>
+						<article class="debit-main">
+							<div class="columns is-gapless">
+									<div class="column empty-div is-3 is-hidden-touch">
+									</div>
 
-	    <div class="hidden-md-down col-lg-3">
-	      <div class="deb-values-large-container">
-	        <div class="box-value-large">
-	          <div class="value-square-large squ-1"></div>
-	          <p class="text-value-large val-1">{{ value1 }}</p>
-	        </div>
-	        <div class="box-value-large">
-	          <div class="value-square-large squ-2"></div>
-	          <p class="text-value-large val-2">{{ value2 }}</p>
-	        </div>
-	      </div>
-	    </div>
-		</div>
+									<div class="column is-9-touch main-component">
+										<div class="graph">
+											<img src="../assets/images/component_bgs/circle.png" alt="">
+										</div>
+									</div>
 
-		<div class="row">
-	    <div class="hidden-lg-up col-12">
-	      <div class="deb-values-small-container">
-					<div class="box-value-small">
-						<div class="value-square-small squ-2"></div>
-						<p class="text-value-small val-2">{{ value2 }}</p>
-						<div class="value-square-small squ-1"></div>
-						<p class="text-value-small val-1">{{ value1 }}</p>
-					</div>
-	      </div>
-	    </div>
+									<div class="column div-3 is-3 is-hidden-touch">
+										<div class="value-box-content">
+											<div class="value-container">
+												<section class="media">
+													<div class="media-left">
+														<div class="value-box primary-box-col">
+														</div>
+													</div>
+													<div class="media-content">
+														<div class="content">
+															<p class="text-value primary-text-col">{{value1}}</p>
+														</div>
+													</div>
+												</section>
+											</div>
+											<br>
+											<div class="value-container">
+												<section class="media">
+													<div class="media-left">
+														<div class="value-box secondary-box-col">
+														</div>
+													</div>
+													<div class="media-content">
+														<div class="content">
+															<p class="text-value secondary-text-col">{{value2}}</p>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+							 </div>
+						</article>
+
+					<article class="debit-footer is-hidden-desktop">
+						<!-- <p class="headline-touch is-hidden-desktop">{{ headline }}</p>
+						<p class="section-links">{{ links }}</p> -->
+						<h3>Footer links</h3>
+					</article>
 		</div>
 	</div>
-	</template>
+	</section>
+	</div>
+</template>
 
 <script>
 export default {
     data: function() {
         return {
-            headline: 'debiteringsgrad',
-            links: 'Vecka  |  Månad  |  År',
+						headline: 'debiteringsgrad',
+						sectionlinks: ["Vecka", "Månad", "År"],
 						value1: 'Klient',
 						value2: 'Inhouse',
-            number: '74'
+						number: '74'
         }
     }
 }

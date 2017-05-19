@@ -1,32 +1,39 @@
-.app-wrapper-header {
-  text-align: left;
-  padding: 0 6vw;
-  height: 8vh;
+.wrapper-skeleton {
+  z-index: 4;
 
-  .burger {
-    padding-top: 2vh;
+  .app-wrapper-header {
+    text-align: left;
+    padding: 0 6vw;
+    height: $app_vertical_wrapper_header;
 
-    .header-icon {
-      max-width: 2rem;
-      z-index: 3;
+    .burger {
+      position: fixed;
+      top: 3vh;
+
+      .header-icon {
+        max-width: 1.6rem;
+        z-index: 3;
+      }
     }
   }
-}
 
-.app-wrapper-main {
-  padding: 0 6vw;
-  height: 78vh;
-  overflow: hidden;
-  z-index: 3;
-}
+  .app-wrapper-main {
+    height: $app_vertical_wrapper_main;
+    // overflow: hidden;
+    // z-index: 3;
+    // background: green;
 
-.app-wrapper-footer {
-  text-align: left;
-  padding: 1vw 6vw 0;
-  height: 12vh;
+  }
 
-  .footer-icon {
-    max-width: 5.5rem;
+  .app-wrapper-footer {
+    text-align: left;
+    padding: 0 6vw 0;
+    height: $app_vertical_wrapper_footer;
+    z-index: 2;
+
+    .footer-icon {
+      max-width: 7rem;
+    }
   }
 }
 
@@ -49,9 +56,21 @@
 }
 
 @media screen and (max-width: 1000px) {
-.app-wrapper-footer {
-    .footer-icon {
-      max-width: 5rem;
+.wrapper-skeleton {
+  .app-wrapper-footer {
+      .footer-icon {
+        max-width: 5rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+.wrapper-skeleton {
+  .app-wrapper-footer {
+      .footer-icon {
+        max-width: 4rem;
+      }
     }
   }
 }

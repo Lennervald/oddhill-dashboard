@@ -3,6 +3,10 @@
 // 0. viewport with/height
 $app_wrapper_width: calc(3/4*100vw);
 
+$app_vertical_wrapper_header: 10vh;
+$app_vertical_wrapper_main: 76vh;
+$app_vertical_wrapper_footer: 8vh;
+
 // 1. Project Color Scheme:
 
 $white: #FAFAFA;
@@ -40,17 +44,19 @@ $font-size-1: calc(75% + 3vw)!default;
 $font-size-2: calc(75% + 2.3vw) !default;
 $font-size-3: calc(75% + 2vw) !default;
 $font-size-4: calc(75% + 1.2vw) !default;
-$font-size-5: calc(75% + 1vw) !default;
-$font-size-6: calc(75% + 0.5vw) !default;
-$font-size-7: calc(75% + 0.35vw) !default;
+$font-size-5: calc(75% + 0.85vw) !default;
+$font-size-6: calc(75% + 0.65vw) !default;
+$font-size-7: calc(75% + 0.6vw) !default;
+$font-size-8: calc(75% + 0.45vw) !default;
+$font-size-9: calc(75% + 0.35vw) !default;
 
 $weight-light: 300 !default;
 $weight-normal: 400 !default;
 $weight-semibold: 500 !default;
 $weight-bold: 700 !default;
 
-$letter-spacing-1: 0.5rem !default;
-$letter-spacing-2: 0.25rem !default;
+$letter-spacing-1: 0.6vw !default;
+$letter-spacing-2: 0.45vw !default;
 
 ////////////////////////////////////////////////
 ////////////////////////////////////////////////

@@ -7,22 +7,24 @@
 .headline {
   text-transform: uppercase;
   font-family: $project-sans-serif;
-  font-size: $font-size-6;
+  font-size: $font-size-8;
   font-weight: $weight-semibold;
   color: $white;
 }
 
 .headline-touch {
   @extend .headline;
-  font-size: $font-size-4;
+  font-size: $font-size-2;
+  padding-bottom: 1vh;
 }
 
 .section-links {
   font-family: $project-sans-serif;
-  font-size: $font-size-6;
+  font-size: $font-size-5;
   font-weight: $weight-light;
   letter-spacing: $letter-spacing-2;
   color: $white;
+  display: inline-block;
 }
 
 .section-links-touch {
@@ -62,6 +64,17 @@
   color: $black;
 }
 
+.text-value {
+  @extend .sub-title;
+  font-size: $font-size-5;
+  margin-left: 1vw;
+}
+
+.primary-box-col { background-color: $pink; }
+.secondary-box-col { background-color: $purple_light; }
+
+.primary-text-col { color: $pink; }
+.secondary-text-col { color: $purple_light; }
 
 
 // Other:
@@ -71,4 +84,28 @@
   background: $grey;
   height: 1px;
   margin: 1.4vw auto;
+}
+
+.section-item-active {
+  text-decoration: none;
+  display: inline-table;
+}
+
+.section-item-active:after {
+  content: "";
+  border-bottom: 0.1rem solid $yellow;
+  display: table-caption;
+  caption-side: bottom;
+  position: relative;
+  width: 95%;
+  margin-top: 0.2rem;
+
+}
+
+.app-br {
+  margin: 0 1vw;
+}
+
+.app-br:after {
+    content: "|";
 }

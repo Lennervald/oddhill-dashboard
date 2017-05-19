@@ -13,7 +13,7 @@
 
 @import '/dashboard-menu';
 @import '/app-wrapper';
-@import '/testbulmadebit';
+@import '/test-page';
 @import '/debit';
 @import '/transition-image';
 
@@ -28,9 +28,6 @@
   background: $purple_dark;
 }
 
-.wrapper-skeleton {
-  z-index: 4;
-}
 ////////////////////////////////////////////////
 ////////////////////////////////////////////////
 // General: Hidden Scrollbar - which is undesirable in dashboard view.
