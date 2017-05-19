@@ -7,7 +7,8 @@
     </div>
       <div class="app-wrapper-main">
         <transition name="fade">
-          <TransitionImage></TransitionImage>
+          <BlogPost></BlogPost>
+          <!-- <TransitionImage></TransitionImage> -->
           <!-- <component :is="selectedComponent"></component> -->
         </transition>
         <button class="btn btn-primary temp-slide-button" @click="next">Toggle Components</button>
@@ -22,13 +23,15 @@
 import Debit from './components/Debit.vue';
 import TestBulmaDebit from './components/TestBulmaDebit.vue';
 import TransitionImage from './components/TransitionImage.vue';
+import BlogPost from './components/BlogPost.vue';
 
 
 export default {
     components: {
       One: Debit,
       Two: TestBulmaDebit,
-      TransitionImage: TransitionImage
+      TransitionImage: TransitionImage,
+      BlogPost: BlogPost
     },
     data: function() {
         return {
