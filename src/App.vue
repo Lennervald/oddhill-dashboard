@@ -7,7 +7,7 @@
         </div>
       </div>
       <div class="column is-one-quarter is-hidden-touch">
-        <div class="column dashboard-menu-skeleton">
+        <div class="column dashboard-menu-skeleton is-ancestor">
           <dashboard-menu></dashboard-menu>
         </div>
       </div>

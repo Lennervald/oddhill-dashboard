@@ -36,14 +36,6 @@ Right now using Ok Google Font replacements "Montserrat" & "Merriweather"
 $project-sans-serif: 'Montserrat', sans-serif;
 $project-serif: 'Merriweather', serif;
 
-// $font-size-1: 3rem !default;
-// $font-size-2: 2.5rem !default;
-// $font-size-3: 2rem !default;
-// $font-size-4: 1.6rem !default;
-// $font-size-5: 1.25rem !default;
-// $font-size-6: 1.1rem !default;
-// $font-size-7: 0.75rem !default;
-
 $font-size-1: calc(75% + 3vw)!default;
 $font-size-2: calc(75% + 2.3vw) !default;
 $font-size-3: calc(75% + 2vw) !default;
@@ -59,43 +51,6 @@ $weight-bold: 700 !default;
 
 $letter-spacing-1: 0.5rem !default;
 $letter-spacing-2: 0.25rem !default;
-
-.headline {
-  text-transform: uppercase;
-  font-family: $project-sans-serif;
-  font-size: $font-size-6;
-  font-weight: $weight-semibold;
-  color: $white;
-}
-
-.headline-touch {
-  @extend .headline;
-  font-size: $font-size-4;
-}
-
-.section-links {
-  font-family: $project-sans-serif;
-  font-size: $font-size-6;
-  font-weight: $weight-light;
-  letter-spacing: $letter-spacing-2;
-  color: $white;
-}
-
-.section-links-touch {
-  @extend .section-links;
-  letter-spacing: 0rem;
-}
-
-// .numbers {
-//   font-family: $project-serif;
-//   color: $white;
-//   font-size: $font-size-1;
-//
-//   span {
-//     font-size: $font-size-2;
-//   }
-// }
-
 
 ////////////////////////////////////////////////
 ////////////////////////////////////////////////

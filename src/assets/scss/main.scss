@@ -5,6 +5,7 @@
 
 @import '_GlobalVariables';
 @import '_GlobalMixins';
+@import '_GlobalClasses';
 
 @import '/animations/main-backgrounds';
 @import '/animations/slide';
@@ -30,13 +31,6 @@
 .wrapper-skeleton {
   z-index: 4;
 }
-
-.dashboard-menu-skeleton {
-  background: $white;
-  z-index: 3;
-  height: 100vh;
-}
-
 ////////////////////////////////////////////////
 ////////////////////////////////////////////////
 // General: Hidden Scrollbar - which is undesirable in dashboard view.

@@ -1,0 +1,74 @@
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+// Classes
+
+// Typography:
+
+.headline {
+  text-transform: uppercase;
+  font-family: $project-sans-serif;
+  font-size: $font-size-6;
+  font-weight: $weight-semibold;
+  color: $white;
+}
+
+.headline-touch {
+  @extend .headline;
+  font-size: $font-size-4;
+}
+
+.section-links {
+  font-family: $project-sans-serif;
+  font-size: $font-size-6;
+  font-weight: $weight-light;
+  letter-spacing: $letter-spacing-2;
+  color: $white;
+}
+
+.section-links-touch {
+  @extend .section-links;
+  letter-spacing: 0rem;
+}
+
+.app-title {
+  @extend .headline;
+  color: $black;
+}
+
+.app-number {
+  font-family: $project-serif;
+  color: $black;
+  font-size: $font-size-2;
+  margin: 0;
+  padding: 0;
+}
+
+.small-print {
+  font-size: 1.5rem;
+  padding-left: 0.5vw;
+  font-family: $project-sans-serif;
+}
+
+.number-percent {
+  font-size: calc(75% + 0.3vw);
+  padding-left: 0.2vw;
+  font-family: $project-serif;
+}
+
+.sub-title {
+  font-family: $project-sans-serif;
+  font-size: $font-size-7;
+  font-weight: $weight-light;
+  color: $black;
+}
+
+
+
+// Other:
+
+.linebreaker {
+  width: 100%;
+  background: $grey;
+  height: 1px;
+  margin: 1.4vw auto;
+}
