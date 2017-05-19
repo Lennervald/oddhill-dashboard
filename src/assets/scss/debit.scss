@@ -13,18 +13,46 @@
 }
 
 .section-divider {
+
   .debit-header {
     height: $app_vertical_wrapper_main * 0.1;
   }
 
   .debit-main {
+    width: 100%;
+
     .main-component {
       height: $app_vertical_wrapper_main * 0.9;
       display: flex;
+      width: 100%;
+      position: relative;
 
       .graph {
         margin: auto;
         width: 90%;
+
+      }
+      .graph-text-wrapper {
+        position: absolute;
+        top: 35%;
+        width: 100%;
+        .message {
+          background: none;
+
+          .graph-text {
+            color: $white;
+          }
+
+          .numb {
+            font-size: $font-size-0;
+          }
+          .huge-numb {
+              font-size: 7.5vh;
+          }
+          .value {
+            padding-top: 1vh;
+          }
+        }
       }
     }
 
@@ -58,6 +86,19 @@
           height: $app_vertical_wrapper_main * 0.8;
           .graph {
             width: 60%;
+          }
+          .graph-text-wrapper {
+            top: 38%;
+            .message {
+              .graph-text {
+              }
+              .huge-numb {
+                  font-size: 7vh;
+              }
+              .value {
+                padding-top: 0.2vh;
+              }
+            }
           }
         }
       }

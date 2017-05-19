@@ -20,8 +20,6 @@
   .app-wrapper-main {
     height: $app_vertical_wrapper_main;
     // overflow: hidden;
-    // z-index: 3;
-    // background: green;
 
   }
 
@@ -29,7 +27,6 @@
     text-align: left;
     padding: 0 6vw 0;
     height: $app_vertical_wrapper_footer;
-    z-index: 2;
 
     .footer-icon {
       max-width: 7rem;

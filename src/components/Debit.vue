@@ -6,8 +6,8 @@
 
 						<article class="debit-header">
 							<p class="headline-touch is-hidden-desktop">{{ headline }}</p>
-							<p class="section-links"><span class="section-item">{{ sectionlinks[0] }}</span><span class="app-br"></span></p>
-							<p class="section-links"><span class="section-item-active">{{ sectionlinks[1] }}</span><span class="app-br"></span></p>
+							<p class="section-links"><span class="section-item-active">{{ sectionlinks[0] }}</span><span class="app-br"></span></p>
+							<p class="section-links"><span class="section-item">{{ sectionlinks[1] }}</span><span class="app-br"></span></p>
 							<p class="section-links"><span class="section-item">{{ sectionlinks[2] }}</span></p>
 						</article>
 
@@ -18,7 +18,20 @@
 
 									<div class="column is-9-touch main-component">
 										<div class="graph">
+
 											<img src="../assets/images/component_bgs/circle.png" alt="">
+
+										</div>
+										<div class="graph-text-wrapper">
+											<article class="message">
+												<p class="graph-text numb app-number is-hidden-touch">{{precentnumber}}<span class="number-percent">%</span></p>
+												<p class="graph-text headline app-title section-item-active is-hidden-touch">{{headline}}</p>
+												<p class="graph-text huge-numb app-number is-hidden-desktop">{{precentnumber}}<span class="number-percent">%</span></p>
+							  				<p class="graph-text value sub-title">{{timevalues[0]}}</p>
+							  			</article>
+											<!-- <h1>{{headline}}</h1>
+											<h1>yeh</h1>
+											<h1>yeh</h1> -->
 										</div>
 									</div>
 
@@ -75,7 +88,8 @@ export default {
 						sectionlinks: ["Vecka", "Månad", "År"],
 						value1: 'Klient',
 						value2: 'Inhouse',
-						number: '74'
+						timevalues: ["Vecka 12", "april 2017", "hela 2017"],
+						precentnumber: '74',
         }
     }
 }
