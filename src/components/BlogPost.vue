@@ -7,13 +7,14 @@
   export default {
     data: function() {
       return {
-
+        rss: ''
       }
     },
     methods: {
       getBlogItems: function(){
         this.$http.get('./src/assets/data/blog-posts.xml').then((response) => {
-          console.log(response.body);
+          this.rss = response.body;
+          console.log('Response.body: ', this.rss);
         })
       }
     },
