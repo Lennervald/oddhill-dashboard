@@ -14,7 +14,9 @@ import 'bulma/css/bulma.css';
 // Import global sass-styles
 import './assets/scss/main.scss';
 
+
 Vue.use(VueResource);
+
 Vue.component('app-wrapper', AppWrapper);
 Vue.component('dashboard-menu', DashboardMenu);
 Vue.component('main-backgrounds', MainBackgrounds);

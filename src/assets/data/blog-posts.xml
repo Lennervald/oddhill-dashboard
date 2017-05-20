@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="utf-8" ?> <rss version="2.0" xml:base="http://www.oddhill.se/" xmlns:atom="http://www.w3.org/2005/Atom"> <channel> <title>Odd Hill</title>
+ <description>Vad händer på kontoret? De senaste blogginläggen från Odd Hill.</description>
+ <link>http://www.oddhill.se/</link>
+ <atom:link rel="self" href="http://www.oddhill.se/rss.xml" />
+ <language>sv</language>
+ <image> <url>http://www.oddhill.se/sites/all/themes/oddhill/graphics/logo-rss.png</url>
+ <title>Odd Hill</title>
+ <link>http://www.oddhill.se/</link>
+ <width>143</width>
+ <height>140</height>
+</image>
+ <generator>Drupal</generator>
+ <item> <title>Projektledning i det digitala landskapet</title>
+ <link>http://www.oddhill.se/blogg/projektledning-i-det-digitala-landskapet</link>
+ <description>Webbranschen kryllar av olika yrkesroller, allt från kreativa till logiska, tekniska till administrativa. Här på Odd Hill arbetar till exempel designers, utvecklare, systemarkitekter och projektledare. Vi vill gärna berätta mer om dessa roller och kommer därför i en serie inlägg att presentera några av våra kära medarbetare. Nu har det blivit dags för en pratstund med två av våra projektledare - Michaela Nilsson och Jennifer Meurling.</description>
+ <author>hannele.piirainen@oddhill.se (Hannele Piirainen)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2017-Apr/m_o_j_wide_0.jpg" length="1431753" type="image/jpeg" />
+ <guid isPermaLink="false">764</guid>
+ <pubDate>2017-04-12T08:58:26+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Välkommen Sebastian!</title>
+ <link>http://www.oddhill.se/blogg/valkommen-sebastian</link>
+ <description>Vi är glada och stolta över att kunna presentera vår nya medarbetare - Sebastian Larsson, som börjat arbeta som frontend-utvecklare hos oss.</description>
+ <author>hannele.piirainen@oddhill.se (Hannele Piirainen)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2017-Mar/seb_bg_13.jpg" length="373691" type="image/jpeg" />
+ <guid isPermaLink="false">763</guid>
+ <pubDate>2017-03-21T13:02:49+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Hur vi arbetar med design, del 3 - Prototyper</title>
+ <link>http://www.oddhill.se/blogg/hur-vi-arbetar-med-design-del-3-prototyper</link>
+ <description>Det föregående inlägget i den här bloggserien handlade om Wireframes. Nu har det blivit dags att runda av med ett sista inlägg som handlar om hur vi som designers arbetar med prototyper på en teknisk webbyrå, nu kör vi!</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2017-Jan/landing-page-.jpg" length="59999" type="image/jpeg" />
+ <guid isPermaLink="false">762</guid>
+ <pubDate>2017-03-09T13:00:00+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Odd Hill söker webbutvecklare</title>
+ <link>http://www.oddhill.se/blogg/odd-hill-soker-webbutvecklare</link>
+ <description>Vi söker dig som är utvecklare inom frontend, backend eller full-stack. Du älskar att arbeta med Open Source och delar gärna med dig av din kunskap till andra. Du har en gedigen kunskap inom PHP, Javascript eller båda. Kunskap om och erfarenhet av Drupal CMS, Keystone, React och MEAN-stack är meriterande.</description>
+ <author>bjorn.albertsson@oddhill.se (Björn Albertsson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Dec/160617_03.jpg" length="4274892" type="image/jpeg" />
+ <guid isPermaLink="false">759</guid>
+ <pubDate>2016-12-20T12:19:10+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Positiv problemlösare </title>
+ <link>http://www.oddhill.se/blogg/positiv-problemlosare</link>
+ <description>Webbranschen kryllar av olika yrkesroller, allt från kreativa till logiska, tekniska till administrativa. Här på Odd Hill arbetar till exempel designers, utvecklare, systemarkitekter och projektledare. Vi vill gärna berätta mer om dessa roller och kommer därför i en serie inlägg att presentera några av våra kära medarbetare. Först ut är en intervju med backendutvecklaren Olof Johansson.</description>
+ <author>hannele.piirainen@oddhill.se (Hannele Piirainen)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Nov/olof_wide.jpg" length="3133612" type="image/jpeg" />
+ <guid isPermaLink="false">758</guid>
+ <pubDate>2016-11-26T23:17:34+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>What&amp;#039;s next?</title>
+ <link>http://www.oddhill.se/blogg/whats-next</link>
+ <description>Det är en jättebra fråga. Hur ser de digitala trenderna ut för 2017? 2020? Vilka nya häftiga och innovativa appar, system, datorer, telefoner och verktyg kommer vara hetast på marknaden inom bara några månader och år? Vi måste veta nu! Vi vill vara först på marknaden att erbjuda tjänster inom den senaste tekniken och vi vill göra det bra. Så, vad står vi inför?</description>
+ <author>jennifer.meurling@oddhill.se (Jennifer Meurling)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Nov/15002332_10154723442730990_8047955224634386880_o.jpg" length="152727" type="image/jpeg" />
+ <guid isPermaLink="false">756</guid>
+ <pubDate>2016-11-18T10:30:00+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Odd Hill - Gasellföretag 2016</title>
+ <link>http://www.oddhill.se/blogg/odd-hill-gasellforetag-2016</link>
+ <description>För ett år sedan kunde ni läsa ett blogginlägg där vi presenterade oss som Gasellföretag 2014. Det var det första året Odd Hill fick en gasellutmärkelse och företagets grundare Jens Grip fick sin pojkdröm uppfylld.</description>
+ <author>jennifer.meurling@oddhill.se (Jennifer Meurling)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Nov/gasell_vinnare_2016_2_1.jpg" length="36573" type="image/jpeg" />
+ <guid isPermaLink="false">755</guid>
+ <pubDate>2016-11-04T12:30:00+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>10 designverktyg vi inte kan leva utan</title>
+ <link>http://www.oddhill.se/blogg/10-designverktyg-vi-inte-kan-leva-utan</link>
+ <description>Vi som arbetar med design på Odd Hill har stor nytta av våra verktyg. Varje delmoment ska stötas och blötas och funderas kring och motiveras. Färger ska jämföras och typsnitt ska väljas och sen ska allt bakas ihop och nå upp till de höga krav vi ställer på oss själva. För att nå de bästa resultaten krävs de bästa verktygen, och här nedan listar jag några av våra absoluta favoriter.</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Sep/color-paint-palette-wall-painting.jpg" length="13211735" type="image/jpeg" />
+ <guid isPermaLink="false">753</guid>
+ <pubDate>2016-09-29T09:45:00+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Hur vi arbetar med design, del 2 - Wireframes</title>
+ <link>http://www.oddhill.se/blogg/hur-vi-arbetar-med-design-del-2-wireframes</link>
+ <description>I mitt föregående inlägg i den här bloggserien berättade jag om vilka delmoment ett designprojekt på Odd Hill kan bestå av. Jag fokuserade främst på själva produktionen av design, men i själva verket ligger det en hel del förarbete bakom. Det får bli en annan bloggserie längre fram, för i det här inlägget ska vi snacka Wireframes.</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Sep/pexels-photo-3.jpg" length="3272251" type="image/jpeg" />
+ <guid isPermaLink="false">752</guid>
+ <pubDate>2016-09-21T10:20:00+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Lansering av webbplats: Web Manuals</title>
+ <link>http://www.oddhill.se/blogg/lansering-av-webbplats-web-manuals</link>
+ <description>Nyligen lanserade vi en ny webbplats för Web Manuals, en SaaS-tjänst riktad mot flygbolag. Vi producerade design och teknisk lösning, där kravet på teknikval stod i centrum. Det var ett krav från kundens sida att webbplatsen byggdes med Open Source-teknologin Node.js, och valet föll på systemet KeystoneJS.</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Sep/pexels-photo-2.jpg" length="7073938" type="image/jpeg" />
+ <guid isPermaLink="false">750</guid>
+ <pubDate>2016-09-15T11:30:00+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Hur vi arbetar med design, del 1</title>
+ <link>http://www.oddhill.se/blogg/hur-vi-arbetar-med-design-del-1</link>
+ <description>När man arbetar med design för webb och applikationer är ofta skillnaden mellan flopp och succé samspelet mellan kund och designer. Som designer vill jag veta vilka problem kunden står inför som jag behöver lösa. Att genomföra en designprocess kan därför bli en ganska omständig resa som lätt kommer på avvägar och därmed löser fel problem om inte arbetet sker iternativt med många avstämningar mellan designer och kund. På Odd Hill lägger vi därför mycket vikt vid att alltid stämma av och prova våra lösningar på kunden för att känna av om riktningen fortfarande håller.</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Aug/desk-office-pen-ruler.jpg" length="2700101" type="image/jpeg" />
+ <guid isPermaLink="false">749</guid>
+ <pubDate>2016-08-26T11:20:24+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Breadcrumbs i Drupal 8</title>
+ <link>http://www.oddhill.se/blogg/breadcrumbs-i-drupal-8</link>
+ <description>Detta inlägg kommer anta att du som läsare har grundläggande kunskaper inom Drupal, PHP, Objekt-orienterad programmering samt en del terminologi som är vanligt förekommande när man utvecklar moderna webbplatser.&lt;br /&gt;
+&lt;br /&gt;
+Hanteringen av breadcrumbs i Drupal har länge varit ökänt svårbegriplig. Problemet har varit att det inte funnits något tydligt system för hur breadcrumbs ska definieras, det finns därför många olika lösningar att ta till och många moduler som kan lösa problemet på sitt eget lilla vis. Oftast är det ingen av lösningarna som faktiskt ger ett önskvärt resultat.</description>
+ <author>christoffer.palm@oddhill.se (Christoffer Palm)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Aug/hanselgretel.jpg" length="833531" type="image/jpeg" />
+ <guid isPermaLink="false">748</guid>
+ <pubDate>2016-08-05T11:30:00+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Dags för semester</title>
+ <link>http://www.oddhill.se/blogg/dags-semester</link>
+ <description>Efter en vår och vinter av roliga och utvecklande projekt ser vi nu fram emot sol, bad och välbehövd vila. Även om kontoret inte kommer att vara helt stängt under sommaren kan vi ändå konstatera att juli och augusti blir lite lugnare än vanligt hos oss på Odd Hill.</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Jun/photo-1464866691624-e6bdc728bedd.jpg" length="5853943" type="image/jpeg" />
+ <guid isPermaLink="false">747</guid>
+ <pubDate>2016-06-30T13:00:00+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Välkommen Magnus!</title>
+ <link>http://www.oddhill.se/blogg/valkommen-magnus</link>
+ <description>Vi välkomnar Magnus Klingberg som är ny projektledare hos oss på Odd Hill! Jag körde en variant av vår sedvanliga runda med frågor för att låta er lära känna honom lite bättre.</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Jun/magnus_wide.jpg" length="1613510" type="image/jpeg" />
+ <guid isPermaLink="false">746</guid>
+ <pubDate>2016-06-15T12:04:40+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Välkommen Michaela!</title>
+ <link>http://www.oddhill.se/blogg/valkommen-michaela</link>
+ <description>Möt Michaela Nilsson, vårt senaste tillskott till Odd Family! Jag ställde några frågor för att kunna ge er en bild av vår nya projektledare.</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-May/mikaela_160517_long.png" length="2571042" type="image/png" />
+ <guid isPermaLink="false">745</guid>
+ <pubDate>2016-05-25T10:00:00+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>SEO - Svårt att färdas genom djungeln utan en sökmotor</title>
+ <link>http://www.oddhill.se/blogg/seo-svart-att-fardas-genom-djungeln-utan-en-sokmotor</link>
+ <description>SEO är ett omdebatterat ämne med lika många åsikter som få svar. Det är därför svårt att veta exakt vad som är viktigt att tänka på när en ska börja jobba med sin SEO-strategi. Därför kommer jag guida er genom den här djungeln av fällor och spindlar för att användarna ska hitta skatten som ni sitter på.</description>
+ <author>emil.andersson@oddhill.se (Emil Andersson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-May/pexels-photo-42246.jpeg" length="2029998" type="image/jpeg" />
+ <guid isPermaLink="false">744</guid>
+ <pubDate>2016-05-20T10:00:00+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Våra arbetsflöden genom tiderna</title>
+ <link>http://www.oddhill.se/blogg/vara-arbetsfloden-genom-tiderna</link>
+ <description>När jag började på Odd Hill var vi fyra personer, mig inkluderat. Och med tanke på att vår kära VD inte bidrog med kod (men säkerligen med mycket annat bra) så var vi bara tre personer som var involverade i våra arbetsflöden från start. När vi nu består av 25 personer så skvallrar det om en process som ständigt har varit i behov av förändring för att anpassa oss till våra högt ställda krav.</description>
+ <author>olof.johansson@oddhill.se (Olof Johansson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Apr/bamboo.png" length="97696" type="image/png" />
+ <guid isPermaLink="false">742</guid>
+ <pubDate>2016-04-27T13:00:00+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Mossack Fonseca, Drupal och The Panama Papers</title>
+ <link>http://www.oddhill.se/blogg/mossack-fonseca-drupal-och-panama-papers</link>
+ <description>Vi har alla hört om skandalerna kring “The Panama Papers” och den panamanska advokatbyrån Mossack Fonseca. Storyn nystades fram genom att en hackare som kallade sig “John Doe” bröt sig in i advokatbyråns servrar och fick tillgång till en rekordmängd dokument och e-postmeddelanden. Intrånget kunde genomföras på grund av kända säkerhetsluckor i Wordpress och Drupal. Eftersom vi i huvudsak använder Drupal som CMS i våra kundprojekt tog vi ett snack med ett par av våra utvecklare, Erik Johansson och Christoffer Palm, för att ställa några säkerhetsrelaterade frågor.</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Apr/drupalgeddon_0.jpg" length="482481" type="image/jpeg" />
+ <guid isPermaLink="false">743</guid>
+ <pubDate>2016-04-25T11:00:00+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Första projektet i Drupal 8</title>
+ <link>http://www.oddhill.se/blogg/forsta-projektet-i-drupal-8</link>
+ <description>Sedan ett par månader tillbaka är vi igång med vårt första kundprojekt i Drupal 8. Vi vill gärna dela med oss lite av denna process och därför tar vi i detta inlägg en liten pratstund med våra utvecklare Christoffer &amp;amp; Hannele som är de första på Odd Hill att ge sig an Drupal 8 i skarpt läge.</description>
+ <author>hannele.piirainen@oddhill.se (Hannele Piirainen)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Feb/drupal8.png" length="49235" type="image/png" />
+ <guid isPermaLink="false">741</guid>
+ <pubDate>2016-04-20T14:45:00+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>How to pass the PMP exam</title>
+ <link>http://www.oddhill.se/blogg/how-pass-pmp-exam</link>
+ <description>For a couple of years I have been wondering which kind of qualification could help me in my daily work as a project manager. Thanks to a former colleague of mine who I met at the very first beginning of my career as a project manager I found the Project Management Institute (PMI) which “is the world’s largest non-profit membership association for the project management profession” (see pmi.org).</description>
+ <author>pia.hiltl@oddhill.se (Pia Hiltl)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Apr/photo-1443188631128-a1b6b1c5c207.jpg" length="4456734" type="image/jpeg" />
+ <guid isPermaLink="false">740</guid>
+ <pubDate>2016-04-13T11:00:00+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Välkommen Emil!</title>
+ <link>http://www.oddhill.se/blogg/valkommen-emil</link>
+ <description>Möt vårt senaste tillskott i Odd Hill-familjen, Emil Andersson, som börjat den här veckan som Digital Datastrateg!</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Apr/160405_emil_wide.jpg" length="2761435" type="image/jpeg" />
+ <guid isPermaLink="false">739</guid>
+ <pubDate>2016-04-06T13:50:00+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Motiverande morötter</title>
+ <link>http://www.oddhill.se/blogg/motiverande-morotter</link>
+ <description>Ett ämne som ständigt är på tapeten och aldrig känns föråldrat måste vara ledarskap. Inspiration och passion likaså, och kombinationen mellan dem är riktigt hett. Det sägs att vi ska eftersträva en passion i våra liv, i vårt dagliga arbete, men även inspirera andra till att finna en passion i livet. Och visst blir arbetet så mycket roligare om man är passionerad i det man gör?</description>
+ <author>carolina.erlandsson@oddhill.se (Carolina Erlandsson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Mar/photo-1455849318743-b2233052fcff.jpg" length="8461772" type="image/jpeg" />
+ <guid isPermaLink="false">738</guid>
+ <pubDate>2016-03-24T11:00:00+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Varför ska vi granska kod?</title>
+ <link>http://www.oddhill.se/blogg/varfor-ska-vi-granska-kod</link>
+ <description>Att uveckla mjukvara involverar ofta fler människor som jobbar i ett team. Under tiden som mjukvaran växer i kod så gäller det att hålla samtliga medlemmar i teamet à jour. Det gäller även att hålla kodbasen fri från buggar och annat oönskat beteende. Bästa sättet att göra detta är genom att granska kod med så kallade code reviews.</description>
+ <author>erik.johansson@oddhill.se (Erik Johansson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Mar/photo-1453060113865-968cea1ad53a.jpg" length="1641087" type="image/jpeg" />
+ <guid isPermaLink="false">737</guid>
+ <pubDate>2016-03-02T11:00:00+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Flyttdags</title>
+ <link>http://www.oddhill.se/blogg/flyttdags</link>
+ <description>När vi för 4,5 år sedan flyttade in i lokalen på Östra Rönneholmsvägen 9 bestod Odd Hill av 5 medarbetare, vi hade spenderat 2 år på Slussplan i närheten av Drottningtorget i en liten butikslokal på bottenplan. Idag är vi 23 medarbetare som ryms på samma yta, så det har minst sagt funnits behov för mer vilket vi löst genom att hyra in oss i andra lokaler i byggnaden.</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Feb/02_ingang.jpg" length="2538342" type="image/jpeg" />
+ <guid isPermaLink="false">736</guid>
+ <pubDate>2016-02-25T10:00:32+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>To deliver a successful project</title>
+ <link>http://www.oddhill.se/blogg/deliver-successful-project</link>
+ <description>My name is Pia Köhler and I’ve been working at Odd Hill as a Project Manager since two years ago. Due to my current education project, a licensing course in Project Management, I have thought a lot about what my personal definition of a successful project might be. This post includes some tips and pointers on how to become a better project manager.</description>
+ <author>pia.hiltl@oddhill.se (Pia Hiltl)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Feb/photo-1454165804606-c3d57bc86b40.jpg" length="5172502" type="image/jpeg" />
+ <guid isPermaLink="false">735</guid>
+ <pubDate>2016-02-17T11:30:00+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Årets första #utvecklardag</title>
+ <link>http://www.oddhill.se/blogg/arets-forsta-utvecklardag</link>
+ <description>Sedan Odd Hill startades för 7 år sedan har det hänt mycket med företaget. En sak vi dock har hållit fast vid är vad vi har valt att kalla för utvecklardagar.</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Feb/photo-1429051883746-afd9d56fbdaf.jpg" length="4908952" type="image/jpeg" />
+ <guid isPermaLink="false">734</guid>
+ <pubDate>2016-02-10T11:00:00+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Initiativ för mer it på Yrkeshögskolan</title>
+ <link>http://www.oddhill.se/blogg/initiativ-mer-it-pa-yrkeshogskolan</link>
+ <description>Yrkeshögskolans data och it-utbildningar blir färre. Ett resultat av otydlighet från näringslivet och dåliga ansökningar från utbildarna, anser Jens Grip, ordförande södra kretsen. Nu tar han initiativ till förändring.</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Feb/photo-1453733190371-0a9bedd82893.jpg" length="2023306" type="image/jpeg" />
+ <guid isPermaLink="false">733</guid>
+ <pubDate>2016-02-04T13:00:00+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Att arbeta med designmönster</title>
+ <link>http://www.oddhill.se/blogg/att-arbeta-med-designmonster</link>
+ <description>Ett designmönster, till vardags “design patterns”, är enkelt förklarat en vanlig lösning på ett vanligt designproblem. När vi som designers och utvecklare stöter på ett problem brukar vi använda oss av dessa lösningar. När vi till exempel väljer att placera sökfältet i övre högra hörnet på sidan följer vi ett designmönster.</description>
+ <author>nils.leckstrom@oddhill.se (Nils Leckström)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Jan/photo-1437935593714-0e005a38bf51.jpeg" length="5781242" type="image/jpeg" />
+ <guid isPermaLink="false">732</guid>
+ <pubDate>2016-01-20T13:00:00+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Microsoft släpper sitt stöd för IE</title>
+ <link>http://www.oddhill.se/blogg/microsoft-slapper-sitt-stod-ie</link>
+ <description>Nyligen gick Microsoft ut med nyheten att de släpper stödet för alla tidigare versioner av deras gamla slagskepp Internet Explorer. Något som får konsekvenser lite här och var och gör vårt arbete lite lättare.</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2016-Jan/explorer.jpg" length="83343" type="image/jpeg" />
+ <guid isPermaLink="false">729</guid>
+ <pubDate>2016-01-08T12:05:00+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>God jul &amp;amp; Gott nytt år 2016</title>
+ <link>http://www.oddhill.se/blogg/god-jul-gott-nytt-ar-2016</link>
+ <description>Året närmar sig sitt slut och vi tittar tillbaka på allt spännande som hänt år 2015. Det har varit stora och små projekt, utvecklardagar, organisationsutveckling och samarbeten av olika slag. Förutom detta har vi under årets gång även vuxit som företag, både i antal och i kompetens. Detta bådar gott för ett riktigt bra och produktivt 2016.</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Dec/photo-1447690709975-318628b14c57.jpg" length="737258" type="image/jpeg" />
+ <guid isPermaLink="false">725</guid>
+ <pubDate>2015-12-23T11:20:00+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Make use of breakpoints.yml</title>
+ <link>http://www.oddhill.se/blogg/make-use-breakpointsyml</link>
+ <description>In Drupal 8 there is a new settings file that has the task to store breakpoints. It&#039;s named breakpoints.yml. This file can exist both in a theme and in a module and the defined breakpoints can be used by Drupal modules. For example, the responsive image module which is in core can make use of the defined breakpoints. But what about using them in your CSS or JavaScript? The thought hit me some days ago and I started investigating for some feasible solutions.</description>
+ <author>jens.lind@oddhill.se (Jens Lind)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Dec/skarmavbild_2015-12-09_kl._16.18.20.png" length="91663" type="image/png" />
+ <guid isPermaLink="false">724</guid>
+ <pubDate>2015-12-10T10:30:14+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Årets sista utvecklardag är i full gång!</title>
+ <link>http://www.oddhill.se/blogg/arets-sista-utvecklardag-ar-i-full-gang</link>
+ <description>&lt;p&gt;Det är dags för årets sista utvecklardag på Odd Hill och den här gången har det planerats många projekt som alla jobbar hårt för att förverkliga. Vi kommer uppdatera bloggen dagen ut med blandade events på kontoret.&lt;/p&gt;</description>
+ <author>daniel.friis@oddhill.se (Daniel Friis)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Nov/img_7726.jpg" length="3183675" type="image/jpeg" />
+ <guid isPermaLink="false">721</guid>
+ <pubDate>2015-11-27T14:51:57+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Drupal 8 är här!</title>
+ <link>http://www.oddhill.se/blogg/drupal-8-ar-har</link>
+ <description>&lt;p&gt;Efter många månader av beta-testning och ett febrilt arbete från utvecklare runtom i världen, så har nu äntligen Drupal 8 lanserats i sin första skarpa version! Vi på Odd Hill vill rikta ett stort, stort tack till alla som har varit med och gjort detta möjligt! Det är denna typ av insatser som belyser hur starkt öppen källkod är, och vilka möjligheter som kan uppnås när alla drar åt samma håll.&lt;/p&gt;&lt;p&gt;Tack!&lt;/p&gt;</description>
+ <author>olof.johansson@oddhill.se (Olof Johansson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Feb/drupal8.png" length="49235" type="image/png" />
+ <guid isPermaLink="false">719</guid>
+ <pubDate>2015-11-20T07:23:26+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Odd Hill - Gasellföretag 2015</title>
+ <link>http://www.oddhill.se/blogg/odd-hill-gasellforetag-2015</link>
+ <description>Det finns mycket vi på Odd Hill strävar efter, att få en design hyllad på dribble, att bygga moduler till Drupal som blir välanvända och så klart att ha kundprojekt som överträffar förväntningarna.</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Mar/unsplash_528c8f581f45e_1.jpg" length="2245282" type="image/jpeg" />
+ <guid isPermaLink="false">717</guid>
+ <pubDate>2015-10-09T10:44:54+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>System design pt.4 -Technology selection / Headless Drupal</title>
+ <link>http://www.oddhill.se/blogg/system-design-pt4-technology-selection-headless-drupal</link>
+ <description>&lt;p&gt;In the fourth post in this series on system design, I want to discuss the selection of technologies in digital development projects. I also want to hijack this post to add my late-to-the-party thoughts to the conversation around one of the buzz-words in web development at the moment: Headless Drupal.&lt;/p&gt;</description>
+ <author>henno.gous@oddhill.se (Henno Gous)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Aug/technology-news-4_0.jpg" length="360097" type="image/jpeg" />
+ <guid isPermaLink="false">710</guid>
+ <pubDate>2015-08-28T15:40:00+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>System design pt.3 - System behaviour specifications</title>
+ <link>http://www.oddhill.se/blogg/system-design-pt3-system-behaviour-specifications</link>
+ <description>&lt;p&gt;In previous blog posts about system design I’ve shared some thoughts on the value of comprehensive requirements specification, as well as composite requirements perspectives. In this post I want to discuss system behaviour specifications (the green perspective from this post).&lt;/p&gt;</description>
+ <author>henno.gous@oddhill.se (Henno Gous)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Aug/153054548.jpg" length="4697772" type="image/jpeg" />
+ <guid isPermaLink="false">709</guid>
+ <pubDate>2015-08-28T15:30:00+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Kommunikation bakom låsta dörrar</title>
+ <link>http://www.oddhill.se/blogg/kommunikation-bakom-lasta-dorrar</link>
+ <description>&lt;p&gt;Vi tycker alltid om att tala om för våra vänner, kunder och anhängare när ett häftigt projekt lämnar fabriken. Men faktum är att vi på Odd Hill faktiskt också byggt en hel del webbplatser som aldrig blivit publika. Inte på grund av något missöde som skett i på vägen. Utan bara på grund av att dessa är låsta från dag ett.&lt;/p&gt;&lt;p&gt;Vid detta laget har vi faktiskt börjat få en ansenlig mängd intranät i bagaget. Jag har själv varit involverad i ett flertal av dessa. Även om vi brukar samla allt under namnet intranät så har syftet med produkterna verkligen varierat.&lt;/p&gt;</description>
+ <author>robert.magnusson@oddhill.se (Robert Magnusson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Dec/unsplash_52d9133506548_1.jpeg" length="1184505" type="image/jpeg" />
+ <guid isPermaLink="false">687</guid>
+ <pubDate>2015-05-12T09:10:25+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>System design pt.2 - Compound requirement specifications</title>
+ <link>http://www.oddhill.se/blogg/system-design-pt2-compound-requirement-specifications</link>
+ <description>&lt;p&gt;In the first post in this series, we discussed the different kinds of requirements specifications that can help to frame a problem. We reviewed technical requirements, functional requirements and use cases, and concluded by saying that these perspectives on the system’s design can change during the development process due to certain design decisions.&lt;/p&gt;</description>
+ <author>henno.gous@oddhill.se (Henno Gous)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Apr/1_0.jpg" length="760890" type="image/jpeg" />
+ <guid isPermaLink="false">708</guid>
+ <pubDate>2015-04-05T19:15:54+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>System design pt.1 - On requirements</title>
+ <link>http://www.oddhill.se/blogg/system-design-pt1-requirements</link>
+ <description>&lt;p&gt;I think that anyone who has worked on a few digital development projects will agree that requirement specification is a critical element of the project. Few things are as frustrating as working on a project where you constantly get the feeling that the requirements specifications aren’t quite right. In such cases it often feels like you’re evading or even fighting the problem the end user is actually experiencing, in stead of trying to really solve it.&lt;/p&gt;</description>
+ <author>henno.gous@oddhill.se (Henno Gous)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Apr/08312012-bowers-wilkins-headphones-001edit.jpg" length="4763838" type="image/jpeg" />
+ <guid isPermaLink="false">704</guid>
+ <pubDate>2015-04-05T15:47:43+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Odd Hill sprider sin kunskap</title>
+ <link>http://www.oddhill.se/blogg/odd-hill-sprider-sin-kunskap</link>
+ <description>Tisdag 7 april kommer vi från Odd Hill att synas ute på två olika ställen. Dels deltar vi så klart på den Drupalträff som hålls på Foo Café och dels föreläser vi på Medicon Village.</description>
+ <author>bjorn.albertsson@oddhill.se (Björn Albertsson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Apr/dews.jpg" length="752267" type="image/jpeg" />
+ <guid isPermaLink="false">701</guid>
+ <pubDate>2015-04-02T14:44:03+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Flerspråkighet i Drupal 8</title>
+ <link>http://www.oddhill.se/blogg/flersprakighet-i-drupal-8</link>
+ <description>Under vår Drupal 8-vecka höll jag en föreläsning om flerspråkighet i Drupal 8. Vi gick igenom vad som var nytt, vad som skiljer sig åt från flerspråkighet i Drupal 7 och vad som har blivit bättre. Nedan följer en sammanfattning om vad som väntar.</description>
+ <author>erik.johansson@oddhill.se (Erik Johansson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Mar/u8gbf8bbsgy3ycihyzei_img_8737.jpg" length="434833" type="image/jpeg" />
+ <guid isPermaLink="false">697</guid>
+ <pubDate>2015-03-26T14:03:08+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Configuration Management in Drupal 8</title>
+ <link>http://www.oddhill.se/blogg/configuration-management-drupal-8</link>
+ <description>&lt;p&gt;One of the most exciting initiatives for Drupal 8, in my opinion, is the Configuration Management Initiative. This makes it possible for site builders to store any configuration in files, which results in a much greater experience when it comes to version control systems such as Git.&lt;/p&gt;</description>
+ <author>olof.johansson@oddhill.se (Olof Johansson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Feb/drupal8.png" length="49235" type="image/png" />
+ <guid isPermaLink="false">699</guid>
+ <pubDate>2015-03-23T09:03:21+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Lurch and Android wear</title>
+ <link>http://www.oddhill.se/blogg/lurch-and-android-wear</link>
+ <description>&lt;p&gt;Some time ago we wrote about Lurch. The Mac application we are developing here at Odd Hill. In short Lurch is a tool that will come in handy in everyday and repetitive tasks. Lurch itself is not capable of doing much, all functionality is added by the developer through Lurch plugins. If this sounds interesting make sure to read more about Lurch in our previous post. Today I&#039;m here to tell you a little bit about what has happened since that post.&lt;/p&gt;</description>
+ <author>jens.lind@oddhill.se (Jens Lind)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Mar/_dsc8172.jpg" length="1741553" type="image/jpeg" />
+ <guid isPermaLink="false">698</guid>
+ <pubDate>2015-03-12T12:08:46+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Cap &amp;amp; Design LIVE: Data driven Design</title>
+ <link>http://www.oddhill.se/blogg/cap-design-live-data-driven-design</link>
+ <description>&lt;p&gt;I slutet av förra året höll Cap &amp;amp; Design sitt återkommande event Cap&amp;amp;Design LIVE, ämnat för formgivare. Denna gången låg fokus på just digital design. Odd Hill skickade sitt designteam till Grand Hotel i Stockholm för att medverka under dagen.&lt;/p&gt;</description>
+ <author>robert.magnusson@oddhill.se (Robert Magnusson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Mar/photo-1425315283416-2acc50323ee6.jpeg" length="438206" type="image/jpeg" />
+ <guid isPermaLink="false">686</guid>
+ <pubDate>2015-03-05T10:08:30+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Our Git workflow: Automatic deployments</title>
+ <link>http://www.oddhill.se/blogg/our-git-workflow-automatic-deployments</link>
+ <description>This is the fourth and final part of our Git workflow series, in which we&#039;ll handle automatic deployments based on branches.</description>
+ <author>olof.johansson@oddhill.se (Olof Johansson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Jan/deploy.png" length="64598" type="image/png" />
+ <guid isPermaLink="false">691</guid>
+ <pubDate>2015-02-25T13:27:37+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Proudly found elsewhere</title>
+ <link>http://www.oddhill.se/blogg/proudly-found-elsewhere</link>
+ <description>One of the many new things in Drupal 8 is a new way of thinking about 3rd party libraries. It’s called proudly found elsewhere (PFE) or invented here. This means that you as a company or organization are willing to use solutions developed by others. The goal is often to use the best solution to get the job done, no need to reinvent the wheel.</description>
+ <author>jens.lind@oddhill.se (Jens Lind)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Feb/drupal8.png" length="49235" type="image/png" />
+ <guid isPermaLink="false">696</guid>
+ <pubDate>2015-02-23T13:08:10+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Our Git workflow: Handling bugs</title>
+ <link>http://www.oddhill.se/blogg/our-git-workflow-handling-bugs</link>
+ <description>This is the third part of our Git workflow series, where we&#039;ll explain how you should handle a bug.</description>
+ <author>olof.johansson@oddhill.se (Olof Johansson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Jan/issue.png" length="126001" type="image/png" />
+ <guid isPermaLink="false">690</guid>
+ <pubDate>2015-02-18T14:37:07+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Nyheter i Drupal 8 - WYSIWYG</title>
+ <link>http://www.oddhill.se/blogg/nyheter-i-drupal-8-wysiwyg</link>
+ <description>Under februari månad har vi på Odd Hill temamånad i ämnet Drupal 8. Drupal kom ju nyligen ut med en beta och vi närmar oss release candidates, därför ville vi forska mer i ämnet och ta reda på vilka förändringar/förbättringar vi kan vänta oss av systemet. Februaris lunchföreläsningar och utvecklardag handlar därför uteslutande om Drupal 8, och de mest intressanta ämnena tas också upp här i bloggen. Mer att vänta alltså!</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Feb/drupal8.png" length="49235" type="image/png" />
+ <guid isPermaLink="false">695</guid>
+ <pubDate>2015-02-13T13:34:38+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Our Git workflow: Branches</title>
+ <link>http://www.oddhill.se/blogg/our-git-workflow-branches</link>
+ <description>In this second part, we&#039;ll cover our way of using branches in Git.</description>
+ <author>olof.johansson@oddhill.se (Olof Johansson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Jan/git_tree.png" length="224213" type="image/png" />
+ <guid isPermaLink="false">685</guid>
+ <pubDate>2015-02-12T09:30:00+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Our Git workflow: Introduction</title>
+ <link>http://www.oddhill.se/blogg/our-git-workflow-introduction</link>
+ <description>This is the first part in a series of blog posts which will cover our workflow for Git.</description>
+ <author>olof.johansson@oddhill.se (Olof Johansson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2015-Jan/git_status.png" length="208471" type="image/png" />
+ <guid isPermaLink="false">684</guid>
+ <pubDate>2015-02-04T09:50:47+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Mot ett fantastiskt 2015</title>
+ <link>http://www.oddhill.se/blogg/mot-ett-fantastiskt-2015</link>
+ <description>Vi på Odd Hill har genomgått stora förändringar under 2014 och vi har blivit fler inom både projektledning och utveckling. Vi har utvecklats genom våra många utvecklardagar och vi har fått möjlighet att arbeta med en stor mängd intressanta och framförallt roliga projekt.</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Dec/fireworks.jpg" length="6567150" type="image/jpeg" />
+ <guid isPermaLink="false">689</guid>
+ <pubDate>2014-12-31T18:00:00+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Is Drupal a market leader or not?</title>
+ <link>http://www.oddhill.se/blogg/drupal-market-leader-or-not</link>
+ <description>Recently a customer asked me why Drupal can’t be found in Gartner’s Magic Quadrant for CMS and why we still work with it. Drupal is, according to Gartner&#039;s Magic Quadrant, in fact one of the leading CMS solutions in the world. But before answering the question of why it is not visually there, let me take a minute on what Gartner’s Magic Quadrant for CMS is.</description>
+ <author>pia.hiltl@oddhill.se (Pia Hiltl)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Dec/ikmsqwyar6qn0kq48stw_annapurna.jpg" length="2046374" type="image/jpeg" />
+ <guid isPermaLink="false">688</guid>
+ <pubDate>2014-12-17T13:50:48+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Bättre design med decoupled</title>
+ <link>http://www.oddhill.se/blogg/battre-design-med-decoupled</link>
+ <description>Ett uttryck som man hör mer och mer här på kontoret är “Headless” eller “Decoupled” Drupal. I det här blogginlägget ska jag försöka förklara grunderna i vad Headless Drupal är, och varför det är av särskilt intresse för oss designers och temautvecklare.</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Dec/angular_blogg.jpg" length="93780" type="image/jpeg" />
+ <guid isPermaLink="false">682</guid>
+ <pubDate>2014-12-10T11:30:34+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Automate time consuming processes with Lurch</title>
+ <link>http://www.oddhill.se/blogg/automate-time-consuming-processes-lurch</link>
+ <description>&lt;p&gt;As a developer, you&#039;re probably experiencing repetitive common tasks throughout the day:&lt;/p&gt;</description>
+ <author>olof.johansson@oddhill.se (Olof Johansson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Nov/lurre.png" length="3937490" type="image/png" />
+ <guid isPermaLink="false">677</guid>
+ <pubDate>2014-12-08T08:59:55+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Geek Girl Meetup Öresund 2014!</title>
+ <link>http://www.oddhill.se/blogg/geek-girl-meetup-oresund-2014</link>
+ <description>Efter att ha skickat iväg våra utvecklingshungriga tjejer från Odd Hill till årets Geek Girl Meetup Öresund, fylldes kontoret under veckan av Girlpower, rosa klistermärken och ett gäng nyfikna grabbar.</description>
+ <author>carolina.erlandsson@oddhill.se (Carolina Erlandsson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Nov/0w4a7376.jpg" length="2408512" type="image/jpeg" />
+ <guid isPermaLink="false">679</guid>
+ <pubDate>2014-12-02T14:05:49+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>The Internet of Things and me</title>
+ <link>http://www.oddhill.se/blogg/internet-things-and-me</link>
+ <description>If you don&#039;t know what the Internet of Things (IoT) is yet, don&#039;t despair. You will have ample time to get used to the idea, since it’s not a technological fad that is going to come and go, unlike Second Life.</description>
+ <author>henno.gous@oddhill.se (Henno Gous)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Nov/6icr9farmmtjthqtzk8z_dsc_0123_1.jpg" length="1408508" type="image/jpeg" />
+ <guid isPermaLink="false">676</guid>
+ <pubDate>2014-11-17T11:09:56+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Utvecklardag: Färger i fokus</title>
+ <link>http://www.oddhill.se/blogg/utvecklardag-farger-i-fokus</link>
+ <description>&lt;p&gt;Detta är den tredje och sista delen i en serie blogginlägg som blev resultatet av en utvecklardag i September. Den första delen, som finns här, förklarar vad tillgänglig design innebär och vilka tekniska hjälpmedel som finns. Den andra berättar om hur Drupal stödjer oss på Odd Hill och många andra i att göra våra webbplatser mer tillgängliga och det hittar ni här. Denna tredje del berättar främst om färgblindhet, något de flesta av oss är bekanta med.&lt;/p&gt;</description>
+ <author>daniel.friis@oddhill.se (Daniel Friis)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Nov/14372035815_7ded626494_b.jpg" length="177923" type="image/jpeg" />
+ <guid isPermaLink="false">674</guid>
+ <pubDate>2014-11-17T08:14:53+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>DrupalCon 2014 - med Drupal 8 i fokus</title>
+ <link>http://www.oddhill.se/blogg/drupalcon-2014-med-drupal-8-i-fokus</link>
+ <description>&lt;p&gt;Från den 29 september och fem dagar framåt utspelade sig DrupalCon Europe, den årliga Drupal-mässan som samlar företag och utvecklare från hela världen för att utbyta kunskap, diskutera framtida tekniker och koncept och för att öka kvaliteten och samhörigheten i den redan välkomnande Drupal-världen. För årets upplaga var det Amsterdam som var värdstad och vi skickade en projektledare, en utvecklare och en designer för att kunna absorbera så mycket som möjligt av alla intryck och nyheter.&lt;/p&gt;</description>
+ <author>daniel.friis@oddhill.se (Daniel Friis)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Oct/14348895556_9e8ce68ac6_b.jpg" length="446733" type="image/jpeg" />
+ <guid isPermaLink="false">672</guid>
+ <pubDate>2014-10-17T15:37:53+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Change sorting for roles field with multiple values in Views</title>
+ <link>http://www.oddhill.se/blogg/change-sorting-roles-field-multiple-values-views</link>
+ <description>The Views module doesn&#039;t provide a setting to change the sorting for multiple value fields. We&#039;ll show you how to fix this by utilizing some basic object-oriented programming.</description>
+ <author>olof.johansson@oddhill.se (Olof Johansson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Oct/skarmavbild_2014-10-13_kl._15.50.51.png" length="225115" type="image/png" />
+ <guid isPermaLink="false">669</guid>
+ <pubDate>2014-10-13T08:37:49+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Applikationer med node-webkit</title>
+ <link>http://www.oddhill.se/blogg/applikationer-med-node-webkit</link>
+ <description>&lt;p&gt;För ett tag sen så föddes det en idé här på Odd Hill. En idé om att vi ville skapa en applikation som skulle underlätta olika manuella arbetsflöden för oss utvecklare. Vi ville helt enkelt kunna köra terminalkommandon via en applikation med ett grafiskt gränssnitt. Den här idén blev till verklighet nästkommande utvecklardag.&lt;/p&gt;</description>
+ <author>jens.lind@oddhill.se (Jens Lind)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Oct/bag-and-hands.jpg" length="1922125" type="image/jpeg" />
+ <guid isPermaLink="false">668</guid>
+ <pubDate>2014-10-10T15:52:46+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Drupal - ett mer tillgängligt CMS</title>
+ <link>http://www.oddhill.se/blogg/drupal-ett-mer-tillgangligt-cms</link>
+ <description>CMS (Content Management System) är generellt kända för att vara svårtillgängliga för funktionsnedsatta. Detta är något som Drupal valt att ändra på. I den här andra delen av vår bloggserie kring tillgänglighet, tar vi upp vad Drupal bidrar med i ämnet.</description>
+ <author>nils.leckstrom@oddhill.se (Nils Leckström)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Sep/mac-glasses.jpeg" length="2476636" type="image/jpeg" />
+ <guid isPermaLink="false">667</guid>
+ <pubDate>2014-09-30T14:59:29+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Utvecklardag: Tillgänglig design</title>
+ <link>http://www.oddhill.se/blogg/utvecklardag-tillganglig-design</link>
+ <description>Fastän internet funnits ett bra tag är det fortfarande inte helt åtkomligt för alla. Detta är ett både ett demokratiskt och kulturellt problem eftersom en stor del av befolkningen stängs ute från delar av webben. Därför valde vi att ägna månadens utvecklardag åt att fördjupa oss i detta ämne. Våra efterforskningar kommer att publiceras som serie av inlägg här på bloggen.&lt;br /&gt;
+&lt;br /&gt;
+Först ut blir detta inlägg om några olika tekniska hjälpmedel som kan underlätta för funktionshindrade internetanvändare.</description>
+ <author>hannele.piirainen@oddhill.se (Hannele Piirainen)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Sep/tumblr_n7fgnop0bz1st5lhmo1_1280.jpg" length="169445" type="image/jpeg" />
+ <guid isPermaLink="false">666</guid>
+ <pubDate>2014-09-12T15:17:23+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Lunds universitets donationskampanj nominerad</title>
+ <link>http://www.oddhill.se/blogg/lunds-universitets-donationskampanj-nominerad</link>
+ <description>Webbplatsen för Lunds universitets donationskampanj ”För en bättre värld” har blivit nominerad till Svenska Publishing-priset 2014 i kategorin Organisationssajter, där fem andra bidrag också är nominerade.</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Sep/cykel_webb.jpg" length="1842600" type="image/jpeg" />
+ <guid isPermaLink="false">663</guid>
+ <pubDate>2014-09-03T10:00:47+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Minska felhanteringen med Unit Testing</title>
+ <link>http://www.oddhill.se/blogg/minska-felhanteringen-med-unit-testing</link>
+ <description>&lt;p&gt;Inom webbutveckling, och all utveckling för den delen, så finns det flera sätt för att automatisera sina tester. Utöver rent visuella tester som kan utföra automatiserade flöden som efterliknar en riktig besökare, så kan man även testa små beståndsdelar av sin kod. Denna typ av testning kallas för Unit Testing.&lt;/p&gt;</description>
+ <author>olof.johansson@oddhill.se (Olof Johansson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Jun/martin_wessely.jpg" length="2560643" type="image/jpeg" />
+ <guid isPermaLink="false">661</guid>
+ <pubDate>2014-06-12T16:17:06+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Applikationer med Phonegap och Ionic</title>
+ <link>http://www.oddhill.se/blogg/applikationer-med-phonegap-och-ionic</link>
+ <description>&lt;p&gt;Först och främst kanske det här med native-, hybrid- och webbappar måste redas ut. Det har pratats en del om appar under de senaste åren som gått. Alla skulle ha en app, vare sig man hade ett användningsområde för det eller ej. Många företag fick för sig att skulle man vara något så skulle man ha en egen app.&lt;/p&gt;&lt;p&gt;Efterhand som Apple, Google och Microsoft (som alla har en marknadsplats för appar) började dra i bromsen, stannade hetsen upp en del. De såg hur marknadsplatserna började svämma över av appar som inte fyllde något syfte.&lt;/p&gt;</description>
+ <author>robert.magnusson@oddhill.se (Robert Magnusson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Apr/wj_03.jpg" length="1027153" type="image/jpeg" />
+ <guid isPermaLink="false">656</guid>
+ <pubDate>2014-05-26T11:46:28+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Utvecklardag 25/4 eller hur öppet är öppna data?</title>
+ <link>http://www.oddhill.se/blogg/utvecklardag-254-eller-hur-oppet-ar-oppna-data</link>
+ <description>&lt;p&gt;Målet med utvecklardagen var att lära oss mer om hur öppna data kan användas. För att göra detta mer konkret valde vi att arbeta med Open Stockholm 2014.&lt;/p&gt;Vad är Öppna Data?&lt;p&gt;Öppna data är ett Europeiskt initiativ som syftar till att publicera alla data som samlas eller produceras av offentliga verksamheter i hela Europeiska Unionen (EU) till exempel vid universitet och forskningsinstitut: geografisk information, demografisk data (om befolkning o.s.v.) eller väderinformation.&lt;/p&gt;</description>
+ <author>pia.hiltl@oddhill.se (Pia Hiltl)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-May/800px-open_data_stickers.jpg" length="103694" type="image/jpeg" />
+ <guid isPermaLink="false">659</guid>
+ <pubDate>2014-05-06T14:55:15+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>1 000 000 anledningar att välja Drupal</title>
+ <link>http://www.oddhill.se/blogg/1-000-000-anledningar-att-valja-drupal</link>
+ <description>&lt;p&gt;Sedan starten av Odd Hill för 5 år sedan har vi arbetat nästan uteslutande i CMS:et Drupal (läs mer om CMS här). Att vi valt Drupal i vårt arbete har haft många olika anledningar, där den otroligt stabila och starka basen av sidor som redan använder systemet väger tungt. Ju fler som använder systemet, desto fler kommer vara angelägna att vidareutveckla och förbättra det, något vi ser varje dag i de fantastiska moduler och projekt som publiceras på Drupal.org.&lt;/p&gt;</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Mar/unsplash_523bf67db73f1_1.jpg" length="7099342" type="image/jpeg" />
+ <guid isPermaLink="false">654</guid>
+ <pubDate>2014-04-23T13:37:00+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Konsten att sköta om ditt Nyhetsbrev</title>
+ <link>http://www.oddhill.se/blogg/konsten-att-skota-om-ditt-nyhetsbrev</link>
+ <description>En ofta förbisedd del av ett företags marknadsföring är nyhetsbrevet. Man stöter på företag som av olika anledningar väljer att inte utnyttja denna potentiella plattform för ökade intäkter och goda kundrelationer. Minst lika ofta stöter man dock på företag som insett värdet i nyhetsbrev men som gör detta på sätt som går att ifrågasätta.</description>
+ <author>robert.magnusson@oddhill.se (Robert Magnusson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Mar/unsplash_528c8f581f45e_1.jpg" length="2245282" type="image/jpeg" />
+ <guid isPermaLink="false">650</guid>
+ <pubDate>2014-03-05T14:40:58+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Karttjänsternas David och Goliat</title>
+ <link>http://www.oddhill.se/blogg/karttjansternas-david-och-goliat</link>
+ <description>&lt;p&gt;På regelbunden basis hanterar vi som webbyrå interaktiva kartor i en eller annan form. Ett ämne som egentligen är ett kapitel i sig som förtjänar mer uppmärksamhet.&lt;/p&gt;&lt;p&gt;För ett par år sedan blev begreppet geolocation ett buzzword. Det experimenterades friskt med vad interaktiva kartor kunde tillföra såväl webbplatser som appar. Så småningom växte målgruppen för karttjänsterna, från trendkänsliga webbutvecklare i norra Kalifornien till de tidiga omfamnarna.&lt;/p&gt;</description>
+ <author>robert.magnusson@oddhill.se (Robert Magnusson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2014-Feb/i5_o.jpg" length="2035914" type="image/jpeg" />
+ <guid isPermaLink="false">651</guid>
+ <pubDate>2014-02-10T09:55:25+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Utvecklardag: Services i Drupal - en bra väg för API:er?</title>
+ <link>http://www.oddhill.se/blogg/utvecklardag-services-i-drupal-en-bra-vag-apier</link>
+ <description>&lt;p&gt;En ofta återkommande uppgift för oss är att integrera sajter med olika tjänster genom API:er. Det kan vara alltifrån betalningslösningar för webbshopar eller import av objekt till en mäklare. Genom åren har vi använt en mängd olika API:er, av minst sagt varierande kvalitet, vilket har gjort att vi har lärt oss vad som kännetecknar ett bra API. Med tanke på detta, och med våra nya kunskaper som vi fick med oss från Nordic APIs, passade det utmärkt att sätta tänderna i Services.&lt;/p&gt;</description>
+ <author>olof.johansson@oddhill.se (Olof Johansson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Dec/spider_api.jpg" length="1017494" type="image/jpeg" />
+ <guid isPermaLink="false">648</guid>
+ <pubDate>2013-12-17T11:26:29+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Utvecklardag: Med javascript i fokus</title>
+ <link>http://www.oddhill.se/blogg/utvecklardag-med-javascript-i-fokus</link>
+ <description>&lt;p&gt;Javascript används ju på i princip alla webbsidor, antingen i syfte att förhöja användarupplevelsen i form av att visa eller dölja innehåll vid hover eller klick eller till mer osynlig funktionalitet som att hantera cookies och dynamisk laddning av innehåll.&lt;/p&gt;</description>
+ <author>daniel.friis@oddhill.se (Daniel Friis)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Dec/big_e0bba960fba656efbdcbf7554d14e5ffa0e0c405.jpg" length="752455" type="image/jpeg" />
+ <guid isPermaLink="false">649</guid>
+ <pubDate>2013-12-04T11:29:51+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Utvecklardag: Nya tekniker och områden</title>
+ <link>http://www.oddhill.se/blogg/utvecklardag-nya-tekniker-och-omraden</link>
+ <description>I fredags hade vi en av våra utvecklardagar då vi fokuserade på enskild utveckling till skillnad från tidigare tillfällen då vi främst arbetat i grupp. Alla valde ett eget område att fördjupa sig i, så klart tätt kopplat till vår verksamhet och dagen avslutades med att alla presenterade vad de kommit fram till samt skrev ihop en kortare sammanfattning som ni kan läsa nedan. Mycket nöje!</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Oct/wii.jpg" length="4740507" type="image/jpeg" />
+ <guid isPermaLink="false">647</guid>
+ <pubDate>2013-10-28T13:08:37+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Två dagar med Nordic APIs</title>
+ <link>http://www.oddhill.se/blogg/tva-dagar-med-nordic-apis</link>
+ <description>&lt;p&gt;Den 18-19 september gick Nordic APIs, en konferens som enbart fokuserar på APIer, av stapeln på Liljeholmen i Stockholm. Konferensen behandlar ämnen som rör både utvecklare och företagsledare, och med besökare och talare från hela världen fanns det mycket inspiration att hämta och nya kunskaper att ta åt sig.&lt;/p&gt;</description>
+ <author>olof.johansson@oddhill.se (Olof Johansson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Sep/alejandroescamilla-book.jpg" length="1423494" type="image/jpeg" />
+ <guid isPermaLink="false">639</guid>
+ <pubDate>2013-09-30T08:00:00+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>367,5 timmar senare</title>
+ <link>http://www.oddhill.se/blogg/3675-timmar-senare</link>
+ <description>&lt;p&gt;Ja, så lång tid tog det. Vår förra hemsida lanserades i februari 2010 och vi hade sedan dess bara gjort mindre uppdateringar på den. Det var alltså hög tid för oss att uppdatera vår hemsida och vi har skjutit upp projektet många gånger. Det är ju som man säger med skomakarens barn. Men nu är det alltså gjort - vår nya hemsida är äntligen på plats! &lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Sep/backdrop-new-website.jpg" length="938957" type="image/jpeg" />
+ <guid isPermaLink="false">637</guid>
+ <pubDate>2013-09-26T08:45:42+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>App-aktiga webbplatser är på ingående</title>
+ <link>http://www.oddhill.se/blogg/app-aktiga-webbplatser-ar-pa-ingaende</link>
+ <description>&lt;p&gt;En pågående trend som jag tänkt skriva om sedan ett tag tillbaka är att hemsidor blir alltmer lika sina smart-phone gelikar. Jag kom aldrig riktigt loss att få tankarna på pappret, men efter att ha sett Wacoms nya hemsida idag kände jag att det var dags. Kort och gott handlar det om hur webbplatser håller på att förändras visuellt och interaktionsmässigt, och varför det sker.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Sep/iphone-4-closeup.jpg" length="7282487" type="image/jpeg" />
+ <guid isPermaLink="false">406</guid>
+ <pubDate>2013-09-10T06:00:14+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Framtidens CMS</title>
+ <link>http://www.oddhill.se/blogg/framtidens-cms</link>
+ <description>&lt;p&gt;Majoriteten av dagens alla innehållshanteringssystem (CMS) började byggas för ett decennium sedan. De skapades med bakgrund av att man behövde möjligheten att hantera innehållet på hemsidor. Sakta har man byggt på fler och fler funktioner, och idag har systemen vuxit sig stora och robusta. De har ekosystem av moduler och plugins som gör att man inte behöver återuppfinna hjulet varje gång ny funktionalitet behövs på en webbplats.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Sep/madebyvadim.jpg" length="7260377" type="image/jpeg" />
+ <guid isPermaLink="false">407</guid>
+ <pubDate>2013-08-07T13:33:27+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Nu nalkas semestertider!</title>
+ <link>http://www.oddhill.se/blogg/nu-nalkas-semestertider</link>
+ <description>&lt;p&gt;Vi har en spännande höst att se fram emot, men innan dess är det givetvis dags för en härlig sommar och semester. De flesta av oss på kontoret har semester under juli, men vi har givetvis jour för supporthantering även under sommaren. Som vanligt nås vi då på support [at] oddhill.se eller 040-616 08 01.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Aug/dsc_0256.jpg" length="1603187" type="image/jpeg" />
+ <guid isPermaLink="false">408</guid>
+ <pubDate>2013-06-26T09:01:45+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Säg hej till Mattias och Amanda!</title>
+ <link>http://www.oddhill.se/blogg/sag-hej-till-mattias-och-amanda</link>
+ <description>&lt;p&gt;Sedan en vecka tillbaka har vi två nya praktikanter på plats hos oss. Under ett par månader kommer de att hjälpa till med allt möjligt och förhoppningsvis lära sig en massa om webbutveckling under sin tid här. Amanda arbetar främst med front-end och läser Cross Mobile Publishing på Malmö Yrkeshögskola. Mattias arbetar med backend-utveckling och läser till PHP-utvecklare på Teknikhögskolan i Malmö.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Aug/praktik.jpg" length="432438" type="image/jpeg" />
+ <guid isPermaLink="false">409</guid>
+ <pubDate>2013-06-24T17:09:00+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Vad letar du efter?</title>
+ <link>http://www.oddhill.se/blogg/vad-letar-du-efter</link>
+ <description>&lt;p&gt;Sökmotorer är en vanlig syn på hemsidor idag. Ni vet, där uppe till höger någonstans. Antingen en diskret ikon eller ett stort och tydligt textfält. Vi brukar avråda många kunder från detta, och jag tänkte berätta lite om varför, och hur vi resonerar kring att ha en sökmotor på en webbplats.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Aug/bob-van-aubel-ray-bans.jpg" length="123801" type="image/jpeg" />
+ <guid isPermaLink="false">410</guid>
+ <pubDate>2013-06-04T16:04:03+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Platsar responsiv design i budgeten?</title>
+ <link>http://www.oddhill.se/blogg/platsar-responsiv-design-i-budgeten</link>
+ <description>&lt;p&gt;Vi har nyligen påbörjat arbetet med en ny design för oddhill.se, ett projekt som vi ser mycket fram emot! Vi är väldigt måna om att vår nya webb även den här gången ska vara optimalt designad för rådande och framtida förhållanden på internet. Därför kommer här lite tankar kring responsiv design.&lt;/p&gt;</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Aug/296246_3311.jpg" length="1733884" type="image/jpeg" />
+ <guid isPermaLink="false">411</guid>
+ <pubDate>2013-04-16T11:25:43+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Vi förbättrar vår support</title>
+ <link>http://www.oddhill.se/blogg/vi-forbattrar-var-support</link>
+ <description>&lt;p&gt;Tiden går och nu har Odd Hill funnits i snart fyra år. Under den perioden har vi fått nöjet att jobba med allt fler kunder vilket lett till att vi nu ställer högre krav på oss själva gällande support och tillgänglighet. Därför sätter vi nu upp en supportmail samt skaffar ett gemensamt telefonnummer till kontoret.&lt;/p&gt;&lt;p&gt;Ni kan givetvis även maila till oss som vanligt men vill ni vara säkra på snabbt svar får ni numera support på:&lt;/p&gt;&lt;p&gt;Epost: support [at] oddhill.se&lt;br /&gt;Telefonnummer: 040-616 08 01&lt;/p&gt;</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Aug/irish-hands.jpg" length="7687216" type="image/jpeg" />
+ <guid isPermaLink="false">412</guid>
+ <pubDate>2013-04-10T15:13:12+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Vi stärker upp oss!</title>
+ <link>http://www.oddhill.se/blogg/vi-starker-upp-oss</link>
+ <description>&lt;p&gt;Det har hänt mycket hos oss på Odd Hill under vintern, och vi tänkte dela med oss av en viktig nyhet som kan vara av intresse för Er.&lt;/p&gt;&lt;p&gt;Denna veckan gick vi officiellt ut med en stor nyhet: Odd Hill bildar ett nytt kommunikationshus tillsammans med reklambyrån First Flight och PR-byrån Mannov. Mer konkret innebär det att vi blir en del av Malmös mest lovande IT och mediekoncern.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Aug/nose-up.jpg" length="7954612" type="image/jpeg" />
+ <guid isPermaLink="false">413</guid>
+ <pubDate>2013-03-06T09:19:32+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Den populära karusellen ifrågasätts</title>
+ <link>http://www.oddhill.se/blogg/den-populara-karusellen-ifragasatts</link>
+ <description>&lt;p&gt;För ett par dagar sedan skrev Erik Runyon, webbutvecklare på University of Notre Dame, ett blogginlägg om hur ineffektiv karusellen är på www.nd.edu. Han har synat statistiken och upptäckt att bara omkring 1% av besökarna klickar på någon av artiklarna i karusellen, och att den första bilden i karusellen svarar för cirka 84% av de klicken. Datan Erik Runyon samlat in tyder givetvis på att den oändligt populäre karusellen som pryder startsidan på en enorm mängd webbplatser är helt meningslös. &lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Aug/1154394_58614339.jpg" length="1445541" type="image/jpeg" />
+ <guid isPermaLink="false">414</guid>
+ <pubDate>2013-02-26T13:01:10+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Kom och mingla med oss på Reklamöl!</title>
+ <link>http://www.oddhill.se/blogg/kom-och-mingla-med-oss-pa-reklamol</link>
+ <description>&lt;p&gt;Tillsammans med Reklamöl bjuder vi in till mingel på onsdag 12 december. &lt;/p&gt;&lt;p&gt;Vi börjar klockan fem och håller på tills vi druckit upp allt öl och ätit upp alla pepparkakor.&lt;/p&gt;&lt;p&gt;Gå gärna in och anmäl dig här.&lt;/p&gt;&lt;p&gt;Varmt välkommen!&lt;/p&gt;</description>
+ <author>bjorn.albertsson@oddhill.se (Björn Albertsson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Aug/1162020_65931839.jpg" length="1053297" type="image/jpeg" />
+ <guid isPermaLink="false">415</guid>
+ <pubDate>2012-12-06T13:08:19+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Vi är i final som Årets Näringslivsrookie!</title>
+ <link>http://www.oddhill.se/blogg/vi-ar-i-final-som-arets-naringslivsrookie</link>
+ <description>&lt;p&gt;Vi kan nu stolt berätta att vi blivit nominerade och tagit oss till finalen i kategorin &quot;Årets Näringslivsrookie&quot; på Malmö Näringslivsgala 2013 som beskrivs följande:&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Aug/blurred_lines.jpeg" length="877873" type="image/jpeg" />
+ <guid isPermaLink="false">416</guid>
+ <pubDate>2012-11-27T20:11:00+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Träffa oss på Open Office</title>
+ <link>http://www.oddhill.se/blogg/traffa-oss-pa-open-office</link>
+ <description>&lt;p&gt;Nu är vi på plats på Open Office på Malmö Stadsbibliotek, där vi kommer vara veckan ut. Open Office är ett initiativ från biblioteket där företag flyttar in och skapar en tillfällig arbetsplats under en vecka. Förutom att arbeta mitt i vimlet kommer vi hålla en del presentationer under veckan. Schemat ser ni nedan.&lt;/p&gt;&lt;p&gt;Välkommen förbi!&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Aug/dscn1186_1.jpg" length="366516" type="image/jpeg" />
+ <guid isPermaLink="false">417</guid>
+ <pubDate>2012-11-19T12:24:55+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Drupalträff på Open office</title>
+ <link>http://www.oddhill.se/blogg/drupaltraff-pa-open-office</link>
+ <description>&lt;p&gt;Nästa vecka kommer vara lite annorlunda för oss på Odd Hill. Vi kommer att sitta och arbeta på Malmö stadsbibliotek. Det är en satsning som Stadsbilioteket har där företag och besökare på stadsbilioteket får en chans att mötas. Det kallas Open Office och ni kan läsa mer här &lt;/p&gt;&lt;p&gt;Vi kommer ha några spännande föreläsningar, en workshop för att se hur man får upp en hemsida i Drupal, och en Drupal träff. Hela programmet hittar ni på länken ovan.&lt;/p&gt;&lt;p&gt;Alla är hjärtligt välkomna att komma och besöka oss under veckan.&lt;/p&gt;</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Aug/drupal_0.jpg" length="2304067" type="image/jpeg" />
+ <guid isPermaLink="false">418</guid>
+ <pubDate>2012-11-13T16:43:44+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Det kommer bli en spännande höst</title>
+ <link>http://www.oddhill.se/blogg/det-kommer-bli-en-spannande-host</link>
+ <description>&lt;p&gt;Mycket har hänt hos oss på Odd Hill under första halvan av 2012. Vi har gått från att vara fem till att vara nio anställda, vi har jobbat på med befintliga kunder och fått flera nya kunder.&lt;/p&gt;&lt;p&gt;Det har varit mycket spännande att bli så många fler och arbeta med projekt som varit större än något projekt vi haft tidigare. Som till exempel Boplats Syds nya webbplats som varit ett jätteprojekt som nu ligger uppe som beta här.&lt;/p&gt;</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Aug/1426751_84794720.jpg" length="7083453" type="image/jpeg" />
+ <guid isPermaLink="false">419</guid>
+ <pubDate>2012-08-30T13:04:39+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Behövs traditionella appar?</title>
+ <link>http://www.oddhill.se/blogg/behovs-traditionella-appar</link>
+ <description>När företag lägger upp sina strategier för mobilt så är en av de första frågorna som dyker upp Ska vi satsa på en webbapp eller på (native) appar?</description>
+ <author>bjorn.albertsson@oddhill.se (Björn Albertsson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Nov/2h.jpg" length="5013982" type="image/jpeg" />
+ <guid isPermaLink="false">420</guid>
+ <pubDate>2012-08-21T12:40:58+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Smygpremiär för Boplats Syd</title>
+ <link>http://www.oddhill.se/blogg/smygpremiar-boplats-syd</link>
+ <description>&lt;p&gt;Idag lanserade vi betaversionen av Boplats Syd, Malmös kommunala tjänst för förmedling av hyresrätter.&lt;/p&gt;&lt;p&gt;Boplats Syd är en kommunalt driven lägenhetsförmedlare med över 30 000 lägenheter. Tjänstens kösystem baserat på hur länge man stått i kö till lägenhet, och verksamheten har funnits sedan ett par år tillbaka, med stor framgång. När tjänsten ursprungligen lanserades gjordes det på en lite äldre befintlig plattform.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Aug/454619_34518912.jpg" length="647536" type="image/jpeg" />
+ <guid isPermaLink="false">421</guid>
+ <pubDate>2012-07-20T19:39:53+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Odd Hill tar klivet in i idrottsvärlden</title>
+ <link>http://www.oddhill.se/blogg/odd-hill-tar-klivet-i-idrottsvarlden</link>
+ <description>&lt;p&gt;Under senhösten och vintern har vi på Odd Hill haft mycket att göra, våra veckor och månader fylls med nya intressanta projekt hela tiden och vår utveckling inom företaget pekar spikrakt uppåt. Utvecklingen inom Odd Hill beror självklart till stor del på hur vi väljer att anta utmaningar och hur vi investerar vårt arbete och vår tid i projekt som vi anser vara utvecklande för oss. Vi har sedan starten för några år sedan ett antal projekt som vi kan se som milstolpar i vår egen utveckling, och det är precis det som gör oss till en bättre byrå för varje år som går.&lt;/p&gt;</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Aug/1113690_23590384.jpg" length="290831" type="image/jpeg" />
+ <guid isPermaLink="false">422</guid>
+ <pubDate>2012-02-28T09:46:44+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Vi testar Node.js!</title>
+ <link>http://www.oddhill.se/blogg/vi-testar-nodejs</link>
+ <description>&lt;p&gt;I fredags hade vi på Odd Hill vår månatliga utvecklardag, där vi försöker testa nya tekniker och lösningar som går helt utanför vårt vanliga verktyg, Drupal. Denna gång hade det blivit dags för något som jag som utvecklare såg extra mycket fram emot, en teknik som kallas Node.js!&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt; &lt;/p&gt;</description>
+ <author>olof.johansson@oddhill.se (Olof Johansson)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Aug/1399326_44254000.jpg" length="1432332" type="image/jpeg" />
+ <guid isPermaLink="false">423</guid>
+ <pubDate>2012-02-01T17:06:41+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Ny Drupalträff i Malmö</title>
+ <link>http://www.oddhill.se/blogg/ny-drupaltraff-i-malmo</link>
+ <description>&lt;p&gt;Torsdagen den 2:a februari kommer vi delta i en ny Drupalträff - denna gången på Minc i Malmö. För arrangemanget står denna gången Leander Lindahl (http://www.popolo.se).&lt;/p&gt;&lt;p&gt;Olof Johansson (Lead developer hos oss) kommer presentera vår senaste modul: Rabbit Hole. Även Greg Dunlap som ansvarar för Configuration Management Initiative för Drupal 8 kommer finnas på plats, så vill du/ni tycka till om dev/staging/production-flöden så är det helt rätt tillfälle!&lt;/p&gt;&lt;p&gt;Välkommen!&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">424</guid>
+ <pubDate>2012-01-26T17:45:05+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Drupalträff Malmö 3.0</title>
+ <link>http://www.oddhill.se/blogg/drupaltraff-malmo-30</link>
+ <description>&lt;p&gt;Äntligen dags för ännu en Drupalträff, den här gången blir det i Odd Hill och Popolos nya lokaler på Östra Rönneholmsvägen 9 onsdagen den 12/10 kl 18.00-19.30.&lt;/p&gt;&lt;p&gt;Det blir som vanligt lite tilltugg och mycket Drupal!&lt;/p&gt;&lt;p&gt;Agendan är under upparbetning men de som är klara är:&lt;/p&gt;&lt;p&gt;Responsive design med LESS framework, Leander Lindahl, Popolo&lt;/p&gt;</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <guid isPermaLink="false">425</guid>
+ <pubDate>2011-09-29T15:50:15+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Framtiden är här  - och den är mobil</title>
+ <link>http://www.oddhill.se/blogg/framtiden-ar-har-och-den-ar-mobil</link>
+ <description>&lt;p&gt;Ni kanske minns hur det var omkring 2003-2004? WAP var fortfarande ett begrepp folk kändes vid, 3G hade inte hunnit bli en självklarhet och alla pratade om mobila sajter. Aftonbladet m.fl. lanserade speciella mobila sajter med pompa och ståt. Sedan hände inget mer. Till mångas förvåning tog det mobila surfandet aldrig fart, och det skulle dröja nästan fem år innan det började bubbla igen.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">426</guid>
+ <pubDate>2011-09-08T11:41:46+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Utvecklardag:  Responsive Design</title>
+ <link>http://www.oddhill.se/blogg/utvecklardag-responsive-design</link>
+ <description>&lt;p&gt;I samband med vår utvecklardag förra veckan skapade vi två mobilanpassade webb-applikationer med två olika beprövade tekniker. Detta inlägget handlar om Responsiv design, och den andra som vi tar upp i det andra inlägget, heter jQuery touch. Sammanfattning om Odd Hills mobila satsning hittar ni här.&lt;/p&gt;</description>
+ <author>daniel.friis@oddhill.se (Daniel Friis)</author>
+ <guid isPermaLink="false">427</guid>
+ <pubDate>2011-09-08T11:12:15+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Utvecklardag:  jQuery Touch</title>
+ <link>http://www.oddhill.se/blogg/utvecklardag-jquery-touch</link>
+ <description>&lt;p&gt;I samband med vår utvecklardag förra veckan skapade vi två mobilanpassade webb-applikationer med två olika beprövade tekniker. Detta inlägget handlar om jQuery Touch och den andra, som vi tar upp i det andra inlägget, heter Responsive Design. Sammanfattning om Odd Hills mobila satsning hittar ni här.&lt;/p&gt;</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <guid isPermaLink="false">428</guid>
+ <pubDate>2011-09-08T08:43:49+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Olsson &amp;amp; Gerthels  webbshop lanserad!</title>
+ <link>http://www.oddhill.se/blogg/olsson-gerthels-webbshop-lanserad</link>
+ <description>&lt;p&gt;I fredags lanserades ett av våra största och roligaste projekt. Det är en webbshop för möbelbutiken Olsson &amp;amp; Gerthel, byggd i Drupal Commerce. Företaget hade inte haft någon form av distansförsäljning tidigare, men har sedan 20 år varit Malmös ledande inredningsbutik. En satsning på webben har varit på tal sedan ett par år tillbaka, men det var först för ett halvår sedan som det bestämdes att Olsson &amp;amp; Gerthel skulle lansera en webbshop.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <enclosure url="http://www.oddhill.se/sites/all/files/media/images/2013-Aug/og.png" length="248942" type="image/png" />
+ <guid isPermaLink="false">429</guid>
+ <pubDate>2011-09-05T09:31:25+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Vi inleder samarbete med Popolo</title>
+ <link>http://www.oddhill.se/blogg/vi-inleder-samarbete-med-popolo</link>
+ <description>&lt;p&gt;För några månader sedan anordnade Popolo och Odd Hill Malmös första Drupal-träff. Vi upptäckte att vi har mycket gemensamt och delar samma filosofi och passion för design och kvalitet. Ur detta växte idén om ett samarbete fram. Vi ser stora fördelar med att arbeta tätt ihop: genom att arbeta tillsammans så kommer vi att kunna erbjuda våra kunder ännu bättre tjänster och stödja varandra med t ex specialistkunskaper och erfarenhet.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">430</guid>
+ <pubDate>2011-08-17T14:17:36+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Tillbaka i full styrka</title>
+ <link>http://www.oddhill.se/blogg/tillbaka-i-full-styrka</link>
+ <description>&lt;p&gt;Nu är vi på Odd Hill tillbaka i full styrka igen, och med en massa nyheter. Vi har flyttat till nya lokaler, förbättrat vårt arbetssätt, erbjuder nya tjänster och har dessutom inlett ett spännande samarbete.&lt;/p&gt;Odd Hill har flyttat till nya lokaler!&lt;p&gt;&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">431</guid>
+ <pubDate>2011-08-11T10:40:27+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Vi luskar ut framtidens mobila webb</title>
+ <link>http://www.oddhill.se/blogg/vi-luskar-ut-framtidens-mobila-webb</link>
+ <description>&lt;p&gt;Eftersom det mobila surfandet fortsätter öka bestämde vi oss för att ta reda på lite mer om vad användare förväntar sig av sin mobila surfupplevelse, och hur de trivs med dagens läge. Vi skrev därför ihop en enkät och skickade ut både till kunder, Facebook-vänner och via Twitter. Så fort vi fått in tillräckligt med svar återkommer vi givetvis med en rapport som sammanställer vad vi kommer fram till.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">432</guid>
+ <pubDate>2011-06-15T23:26:09+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Ny Drupalträff i Malmö</title>
+ <link>http://www.oddhill.se/blogg/ny-drupaltraff-i-malmo-0</link>
+ <description>&lt;p&gt;Nu är det dags för ännu en Drupalträff i Malmö. Denna gången är det våra Drupalkollegor på Lixion som svarar för lokal och givetvis kommer vi finnas på plats för att presentera vårt senaste stora case. Är du intresserad av Drupal CMS är det en perfekt mötesplats för mingel och lärdom.&lt;/p&gt;&lt;p&gt;Plats: Lixion, Södra Tullgatan 4&lt;br /&gt;Tid: 15/6 mellan 17.00 och 19.00&lt;/p&gt;&lt;p&gt;Mer info hittar du här&lt;/p&gt;&lt;p&gt;Hoppas vi ses!&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">433</guid>
+ <pubDate>2011-05-25T11:17:02+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Odd Hill sponsrar DrupalCamp 2011</title>
+ <link>http://www.oddhill.se/blogg/odd-hill-sponsrar-drupalcamp-2011</link>
+ <description>&lt;p&gt;Den sjätte och sjunde maj 2011 är det DrupalCamp uppe i Stockholm, för oss som en renodlad Drupal-byrå är det så klart riktigt spännande. Extra kul blir det i och med att vi är med och sponsrar evenemanget i år :)&lt;/p&gt;&lt;p&gt;Allt om evenemanget finns på drupalcamp.se&lt;/p&gt;&lt;p&gt;Vi vet att det kommer att bli två mycket roliga och nyttiga dagar och kommer givetvis berätta om hur det var när vi kommit hem.&lt;/p&gt;</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <guid isPermaLink="false">434</guid>
+ <pubDate>2011-04-18T11:47:12+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Odd Hill på Google Engage</title>
+ <link>http://www.oddhill.se/blogg/odd-hill-pa-google-engage</link>
+ <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I torsdags var 1/5 del av Odd Hill (dvs. undertecknad) uppe i Stockholm när Google presenterade Engage för Sverige. Det var ett spännande event och även om Engage inte är en ny produkt utan ett återförsäljarprogram för adwords så fick man se några riktigt tuffa saker de arbetar med.&lt;/p&gt;</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <guid isPermaLink="false">435</guid>
+ <pubDate>2011-03-28T17:49:01+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Artistmarknaden.se lanserad!</title>
+ <link>http://www.oddhill.se/blogg/artistmarknadense-lanserad</link>
+ <description>&lt;p&gt;Vi har sedan mitten av december arbetar med ett stort projekt: en ombyggnad av en webbtjänst som funnits sedan 2001 som var i stort behov av att dammas av och fräschas upp. Helt enkelt en total ombyggnation.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">437</guid>
+ <pubDate>2011-03-01T22:57:51+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Drupalträff i Malmö</title>
+ <link>http://www.oddhill.se/blogg/drupaltraff-i-malmo</link>
+ <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Nu är det äntligen dags för en Drupalträff i Malmö, något som vi själva länge längtat efter.&lt;/p&gt;&lt;p&gt;Den 24/2 mellan kl 17-19 är alla Drupal-intresserade mycket välkomna till vårt kontor på Exercisgatan 2.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">438</guid>
+ <pubDate>2011-02-07T17:57:25+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Nå ut till dina kunder med PaperPlanes</title>
+ <link>http://www.oddhill.se/blogg/na-ut-till-dina-kunder-med-paperplanes</link>
+ <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Förra veckan lanserade vi vår nya tjänst för nyhetsbrev - PaperPlanes. Vi har under en längre tid hanterat nyhetsbrev åt våra kunder men bestämde oss för att ta det ett steg längre. Nu är det enkelt att själva logga in och hantera epostlistor, utskick och få rapporter på utskicken.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">439</guid>
+ <pubDate>2011-01-28T09:27:59+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Varför ser Vitecobjekt så tråkiga ut på Hemnet?</title>
+ <link>http://www.oddhill.se/blogg/varfor-ser-vitecobjekt-sa-trakiga-ut-pa-hemnet</link>
+ <description>&lt;p&gt;Den senaste tiden har vi arbetat en bra del med att bygga webbplatser till mäklare. Det är en bransch där konkurrensen är stenhård mellan företagen, där säljaren kan tjäna mycket på att välja rätt mäklare som kan presentera deras bostad på ett bra sett.&lt;/p&gt;&lt;p&gt;Det är mycket att tänka på när man ger sig på att bygga en webbplats till en mäklarbyrå. Man ska se till att den ger rätt intryck både till säljare och köpare, den ska vara lätt att navigera på och samtidigt visa objekt till salu på ett bra sett.&lt;/p&gt;</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <guid isPermaLink="false">440</guid>
+ <pubDate>2011-01-17T09:18:24+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Bildskärmar och deras relation till hemsidor</title>
+ <link>http://www.oddhill.se/blogg/bildskarmar-och-deras-relation-till-hemsidor</link>
+ <description>&lt;p&gt;Varför har hemsidor stora outnyttjade ytor på större skärmar, och hur kommer det sig att nästan alla hemsidor är centrerade? Detta blogginläggen handlar om skärmars påverkan på hemsidor och vad som lett till hur det ser ut idag.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">441</guid>
+ <pubDate>2011-01-10T10:51:12+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Årets mål: AA-rating</title>
+ <link>http://www.oddhill.se/blogg/arets-mal-aa-rating</link>
+ <description>&lt;p&gt;Vi börjar det nya året med en god nyhet för oss och våra intressenter. Vi har fått god kreditvärdighet av Soliditet. Det innebär att vi nu får lov att använda deras A-märkning när vi kommunicerar med kunder och därmed kommer vi givetvis lägga upp det på vår hemsida.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <guid isPermaLink="false">442</guid>
+ <pubDate>2011-01-04T08:26:18+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Vår remake av InkClub.se i senaste numret av Internetworld</title>
+ <link>http://www.oddhill.se/blogg/var-remake-av-inkclubse-i-senaste-numret-av-internetworld</link>
+ <description>&lt;p&gt;I oktober fick vi en förfrågan från IDG om att vara med i deras återkommande del i tidningen Internetworld som går ut på att göra en remake av en befintlig välkänd sajt. Vårt val föll på InkClub.se och resultatet ser ni i nr 11 som finns ute i butik just nu. Vi fick en del varma kommentarer från deras affärsutvecklingsdirektör Henrik Nilzén, vilket vi givetvis tackar och tar emot för.&lt;/p&gt;&lt;p&gt;Uppdatering: Nu har artikeln också lagts upp på IDG.se&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">443</guid>
+ <pubDate>2010-12-16T14:37:34+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>iPad-anpassning för småföretagare på IDG</title>
+ <link>http://www.oddhill.se/blogg/ipad-anpassning-smaforetagare-pa-idg</link>
+ <description>&lt;p&gt;Idag publicerades en kortare artikel på IDG där vi gav tips på vilka åtgärder småföretagare kan göra med sina befintliga hemsidor för att vara beredd på framför allt iPad:en men även andra mindre pekstyrda enheter som just nu marknadsförs i massor.&lt;/p&gt;&lt;p&gt;Som bekant skrev jag även ett mer generellt inlägg kring detta i våras.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">444</guid>
+ <pubDate>2010-12-02T14:29:35+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Att använda sin webbplats (del 2)</title>
+ <link>http://www.oddhill.se/blogg/att-anvanda-sin-webbplats-del-2</link>
+ <description>&lt;p&gt; &lt;/p&gt;&lt;p&gt;I mitt förra blogginlägg kring hur man kan använda sin webbplats tog jag upp hur man kan minska manuellt arbete med hjälp av sin webbplats. Att minska arbete i form av inläggning av information är däremot bara en del av hur företag kan använda sin webbplats.&lt;/p&gt;</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <guid isPermaLink="false">445</guid>
+ <pubDate>2010-11-18T15:03:03+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Odd Grafiker</title>
+ <link>http://www.oddhill.se/blogg/odd-grafiker</link>
+ <description>&lt;p&gt;Odd hill växer. Vi är nu i ett behov av en grafiker som har ett brinnande intresse för grafik, foton och illustrationer. Arbetet består i huvudsak av att ta fram material för webbplatser, men även framställning av trycksaker.&lt;br /&gt;&lt;br /&gt;Företaget består idag av fem personer som alla trivs bäst när det är högt tempo och mycket att stå i. Vi har en väldigt hög yrkesheder och släpper aldrig ifrån oss projekt som vi inte är nöjda med.&lt;br /&gt;&lt;br /&gt;Vi ser gärna att du är nyutexaminerad / snart examinerad, arbetar i mac-miljö och är en glad och öppen individ.&lt;br /&gt;&lt;/p&gt;</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <guid isPermaLink="false">446</guid>
+ <pubDate>2010-10-01T17:13:57+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Odd Hill i senaste numret av Internetworld</title>
+ <link>http://www.oddhill.se/blogg/odd-hill-i-senaste-numret-av-internetworld</link>
+ <description>&lt;p&gt;I det senaste numret av Internetworld blev jag intervjuad av den trevliga Lisa Bjerre. Frågeställningen fokuserade kring iPad och förändringar webbplatser bör ha i åtanke nu när iPad:en närmar sig Sverige och en allmänt stark ställning. Givetvis är det mesta som sades helt applicerbart även på andra, kommande, pekplattor, vilket kommer spela en stor roll i framtiden.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">447</guid>
+ <pubDate>2010-09-24T07:59:10+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>A till B = A &amp;amp; O</title>
+ <link>http://www.oddhill.se/blogg/till-b-o</link>
+ <description>&lt;p&gt;Något som ständigt återkommer i mitt dagliga arbete här på Odd Hill är hur jag på bästa och enklaste sätt kan hjälpa hemsidebesökaren att nå det han eller hon är ute efter. Vi arbetar ständigt med att utveckla oss själva när det kommer till intuitivitet och effektivitet i våra projekt.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <guid isPermaLink="false">448</guid>
+ <pubDate>2010-09-17T13:00:00+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Facebook, mer än bara att gilla</title>
+ <link>http://www.oddhill.se/blogg/facebook-mer-bara-att-gilla</link>
+ <description>&lt;p&gt;När du idag surfar runt på olika hemsidor, som webbshoppar, tidningar eller bloggar, har du kanske börjat märke mer och mer hur det finns knappar för Facebook på sidan? Kanske kan du gilla artikeln du läser, eller så kan du bli ett fan till sidan på Facebook. Det du ser är de enklaste kopplingarna till Facebook, kallat Social Plugins.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+ <author>olof.johansson@oddhill.se (Olof Johansson)</author>
+ <guid isPermaLink="false">449</guid>
+ <pubDate>2010-09-07T09:41:08+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Att använda sin webbplats (Del 1)</title>
+ <link>http://www.oddhill.se/blogg/att-anvanda-sin-webbplats-del-1</link>
+ <description>&lt;p&gt;Att vara en webbyrå idag handlar om att se till hur våra kunder hanterar sin information och hur det går till när de behöver samla in information. Det ska egentligen inte vara några som helst problem med det, men förvånansvärt nog är det väldigt få som faktiskt lyckas förmedla och hämta in information på ett bra sätt.&lt;br /&gt;&lt;br /&gt;Vad kan det vara för information som ska presenteras och utbytas då? Jo det kan vara t.ex. företagsinformation, produktspecifikationer, intresseanmälningar, adressregister, vägbeskrivningar, tabeller etc. Jag skulle kunna fortsätta ett par sidor till. &lt;br /&gt;&lt;/p&gt;</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <guid isPermaLink="false">450</guid>
+ <pubDate>2010-09-01T14:25:12+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Nu är vi igång igen</title>
+ <link>http://www.oddhill.se/blogg/nu-ar-vi-igang-igen</link>
+ <description>&lt;p&gt;Nu är alla på Odd Hill igång igen. Egentligen har vi varit igång sedan i måndags men trevligt nog har vi haft fullt upp med nya uppdrag och välkomnande av Daniel, som kommer komplettera vårt team.  &lt;br /&gt;&lt;br /&gt;Semestern var så lång så att vi inte riktigt orkade hålla oss undan jobbet hela tiden. Det blev ett par möten som vi inte kunde tacka nej till, då det verkade vara så spännande projekt. Men framför allt kunde inte Adam och jag hålla oss ifrån att gå igenom företagets affärsplan. &lt;br /&gt;&lt;/p&gt;</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <guid isPermaLink="false">451</guid>
+ <pubDate>2010-08-05T11:27:55+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Kort om en av tidernas största industridesigner</title>
+ <link>http://www.oddhill.se/blogg/kort-om-en-av-tidernas-storsta-industridesigner</link>
+ <description>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Vi har förvisso sommaruppehåll på kontoret, men jag stötte på en kort video om Dieter Rams och kände mig tvungen att förmedla det vidare. Dieter är en tysk industridesigner som tillsammans med dåvarande ägarna till Braun förändrade synen på konsumentelektronik. De senaste åren har det bland Apple-fans blivit ett ökat intresse för hans design eftersom Jonathan Ive, Apples lead industrial designer, har inspirerats mycket av Rams alster.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">452</guid>
+ <pubDate>2010-07-15T22:49:08+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Lost in translation</title>
+ <link>http://www.oddhill.se/blogg/lost-translation</link>
+ <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Ibland gör tekniken exakt vad man vill, men ibland går det snett. Möjligheterna inom digitala medier är så stora att riskerna att trampa fel och göra tekniska missar är nästintill oöverkomliga. Häromdagen läste jag en väldigt intressant artikel på Fast Company som handlar om just detta. &lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">453</guid>
+ <pubDate>2010-06-20T12:47:59+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Möjligheterna med Google Maps</title>
+ <link>http://www.oddhill.se/blogg/mojligheterna-med-google-maps</link>
+ <description>&lt;p&gt;Google Maps är en karttjänst som de flesta troligtvis har använt ett flertal gånger. Den finns nämligen inte bara på http://maps.google.com, utan det är en öppen tjänst som är utbredd över ett flertal plattformar och webbsidor. Har du till exempel en iPhone använder du dig av Google Maps varje gång du tittar på en karta.&lt;/p&gt;</description>
+ <author>olof.johansson@oddhill.se (Olof Johansson)</author>
+ <guid isPermaLink="false">454</guid>
+ <pubDate>2010-06-10T16:04:24+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Kejsarens nya kläder</title>
+ <link>http://www.oddhill.se/blogg/kejsarens-nya-klader</link>
+ <description>&lt;p&gt;Idag införde Google en ny liten tjänst på sin förstasida. Det gäller möjligheten att välja en personlig bakgrundsbild på startsidan. Ett trevligt lyft som jag tror kommer uppskattas. Men har vi inte sett detta någon annanstans?&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">524</guid>
+ <pubDate>2010-06-10T12:54:02+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Tackbrev från vår praktikant Nikolette</title>
+ <link>http://www.oddhill.se/blogg/tackbrev-fran-var-praktikant-nikolette</link>
+ <description>&lt;p&gt;Nu tar vår praktikant Nikolette farväl efter ett par alldeles för korta veckor, och vi har fått ett värmande tackbrev från henne:&lt;/p&gt;&lt;p&gt;Hej!&lt;/p&gt;&lt;p&gt;Ja, då var min praktik över här på Odd Hill, tiden går fort när man har roligt ;) Jag har lärt mig mycket på tre veckor och trivdes jättebra! Det enda som var negativt var väl att praktiken var för kort. Känner liksom att jag har mer att hämta och ge ☺ Mest givande var att jag fick riktiga och meningsfulla uppgifter under min tid här och att ha fått lära känna dessa enormt duktiga och trevliga killar.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">456</guid>
+ <pubDate>2010-06-04T16:47:21+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Loungerum 2.0</title>
+ <link>http://www.oddhill.se/blogg/loungerum-20</link>
+ <description>&lt;p&gt;Förra helgen fick vi ett rum till på kontoret. Efter lite diskuterande kom vi fram till att det absolut bästa användningsområdet var ett loungerum för de där mötena som ska vara lite kreativa och så klart för att kunna ha trevliga afterwork kvällar.&lt;/p&gt;&lt;p&gt;Vi städade och byggde ihop möbler under afteworken, och för en gångs skull kunde alla slita sig från datorerna. Vi var nöjda och glada med rummet, men det saknades något.&lt;/p&gt;</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <guid isPermaLink="false">457</guid>
+ <pubDate>2010-05-21T16:18:03+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Tips: Låt dropbox underlätta filhanteringen</title>
+ <link>http://www.oddhill.se/blogg/tips-lat-dropbox-underlatta-filhanteringen</link>
+ <description>&lt;p&gt;Sedan ett halvår tillbaka&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">458</guid>
+ <pubDate>2010-05-11T13:22:41+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Spännande lördagskrönika</title>
+ <link>http://www.oddhill.se/blogg/spannande-lordagskronika</link>
+ <description>&lt;p&gt;Lördagskrönikan i Sydsvenskan gav riktigt intressant läsning idag, så intressant så att jag fick skjuta lördagens fixande på framtiden, för att skriva en snabb kommentar.&lt;br /&gt;&lt;/p&gt;</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <guid isPermaLink="false">459</guid>
+ <pubDate>2010-05-08T13:01:59+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Q&amp;amp;A på Malmö Högskola</title>
+ <link>http://www.oddhill.se/blogg/qa-pa-malmo-hogskola</link>
+ <description>&lt;p&gt;&lt;br /&gt;Idag besökte vi Malmö Högskola och K3 (Konst Kultur och Kommunikation). Vi pratade om webbutveckling generellt: vad man ska tänka på inför ett sajtbygge, och på vilket sätt hemsidor skiljer sig från andra medier.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">460</guid>
+ <pubDate>2010-05-06T14:19:38+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Google släpper nytt interface för sökningar</title>
+ <link>http://www.oddhill.se/blogg/google-slapper-nytt-interface-sokningar</link>
+ <description>&lt;p&gt;Idag släpper Google ett nytt, mer användarvänligt gränssnitt för sökningar. Google som sedan tidigare har en väldigt matematisk och ingejörsmässig syn på användarvänlighet, har givetvis spenderat lång tid åt att förfina förändringar för att göra det så enkelt som möjligt att använda.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">461</guid>
+ <pubDate>2010-05-06T13:01:37+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>CSS3, Internet Explorer och framtiden</title>
+ <link>http://www.oddhill.se/blogg/css3-internet-explorer-och-framtiden</link>
+ <description>&lt;p&gt;Vi som arbetar med webbdesign tampas ofta med en del återkommande problem. Det är nämligen så att koden vi i huvudsak använder för att implementera sidans grundutseende med, CSS, inte alltid tolkas på samma sätt av alla de olika webbläsare som idag existerar på marknaden.&lt;/p&gt;</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <guid isPermaLink="false">462</guid>
+ <pubDate>2010-05-04T10:35:26+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Eniro, lika användbart som telefonkatalogen</title>
+ <link>http://www.oddhill.se/blogg/eniro-lika-anvandbart-som-telefonkatalogen</link>
+ <description>&lt;p&gt;Eniro och deras tjänster är något som jag länge ifrågasatt nyttan av. Droppen som får mig att tappa tålamodet totalt med dem kom när jag läste om deras nya sajt Rejta.se i en artikel på Resumés nätupplaga.&lt;/p&gt;</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <guid isPermaLink="false">463</guid>
+ <pubDate>2010-04-22T18:36:19+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Med nya produkter kommer nya utmaningar</title>
+ <link>http://www.oddhill.se/blogg/med-nya-produkter-kommer-nya-utmaningar</link>
+ <description>&lt;p&gt;Allt fler dagstidningar följer New York Times väg och skapar specialgjorda varianter av sina hemsidor för den nyligen släppta iPad. Det finns fler tunga namn som snabbt hakat på trenden. Time, Reuters, m.fl. har även dom anpassat sina hemsidor just för denna produkten. Aldrig förr har en produkt av detta slag fått så många att förbereda sig, till och med innan den hade släppts. Och det för mycket gott med sig.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">464</guid>
+ <pubDate>2010-04-16T10:28:23+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Automatisk översättning?</title>
+ <link>http://www.oddhill.se/blogg/automatisk-oversattning</link>
+ <description>&lt;p&gt;Det är lätt att gilla Google. Deras tjänster är i många fall helt perfekta. Man kan enkelt hitta närmaste lunchrestaurang via mobilen oavsett var man är. Men i vissa fall räcker inte tekniken till. Man behöver en riktig människa för att få den kvalitet som efterfrågas.&lt;/p&gt;</description>
+ <author>jens.grip@oddhill.se (Jens Grip)</author>
+ <guid isPermaLink="false">465</guid>
+ <pubDate>2010-04-13T14:45:47+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Medaljometer ska öka intresset för svenska kampsportsbedrifter</title>
+ <link>http://www.oddhill.se/blogg/medaljometer-ska-oka-intresset-svenska-kampsportsbedrifter</link>
+ <description>&lt;p&gt;Svenska Budo &amp;amp; Kampsportsförbundet har sedan länge haft problem med att hävda sig i media. Trots att Sverige har ett väldigt stort antal kampsportsutövare, och alltid tar hem internationella medaljer på löpande band har mediesverige hittills haft inget eller väldigt lite intresse i att förmedla detta. Givetvis vill både vi och förbundet se förändring på denna fronten, eftersom vi har gott om utövare runt om i landet som förtjänar lite extra uppmärksamhet.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">466</guid>
+ <pubDate>2010-04-12T11:29:35+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Google street view ser oss</title>
+ <link>http://www.oddhill.se/blogg/google-street-view-ser-oss</link>
+ <description>&lt;p&gt;Efter ett par års fotograferande dök Google Street view upp i Sverige i Januari i år. Givetvis finns vi på Odd Hill representerade då vårt väldigt öppna kontor är svårt att missa. Till vänster Jens Grip och till höger jag själv.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">467</guid>
+ <pubDate>2010-04-09T16:10:25+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Prylen på allas läppar</title>
+ <link>http://www.oddhill.se/blogg/prylen-pa-allas-lappar</link>
+ <description>&lt;p&gt;Det finns en pryl som de senaste månaderna varit prylvärldens älskling. Dagligen har flera rapporter, rykten och nyheter florerat kring den på sajter som  gizmodo, wired och engadget. Jag pratar givetvis om Apples senaste produkt - iPad.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">468</guid>
+ <pubDate>2010-04-05T19:50:02+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Hitta inspiration bland gamla annonser</title>
+ <link>http://www.oddhill.se/blogg/hitta-inspiration-bland-gamla-annonser</link>
+ <description>&lt;p&gt;För ett tag sedan stötte jag på en väldigt intressant hemsida kallad Vintage Ad Browser. Det är kanske inte den grafiskt mest tilltalande hemsidan jag sett, men innehållet är helt fantastiskt. Över 100 000 gamla tidningsannonser och affischer finns att bläddra genom - från 1850 till idag. Även om det var en ganska likriktad stil på reklamen under den första halvan av 1900-talet finns det en hel del guldklimpar att hitta.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">469</guid>
+ <pubDate>2010-03-31T23:13:20+02:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Kommentering nu också i molnet</title>
+ <link>http://www.oddhill.se/blogg/kommentering-nu-ocksa-i-molnet</link>
+ <description>&lt;p&gt;Det har uppstått många tjänster det senaste året som baseras på cloud-lösningar, och ju mer semantiskt webben blir, ju mer kommer vi se av det. Ett exempel på detta är tjänsten Disqus som man allt oftare ser ersätta kommenteringsfunktioner på diverse sajter. Senast ut i raden är Veckans Affärer och IT-nyhetssajten TG Daily.&lt;/p&gt;</description>
+ <author>adam.gerthel@oddhill.se (Adam Gerthel)</author>
+ <guid isPermaLink="false">470</guid>
+ <pubDate>2010-03-16T16:10:51+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+ <item> <title>Festen blev utmärkt!</title>
+ <link>http://www.oddhill.se/blogg/festen-blev-utmarkt</link>
+ <description>&lt;p&gt;När vi på Odd Hill växte från tre till fyra, och i den svängen även ombildade till AB, var det självklart något värt att fira! Vi samlade ihop kunder, samarbetspartners och vänner till en lanseringsfest här på kontoret. &lt;/p&gt;&lt;p&gt;Sushi från Maguro, öl och vin i mängder och gott sällskap samspelade in på småtimmarna, och när de sista gästerna lämnat kunde vi sammanfatta kvällen som väldigt lyckad, något vi definitivt kommer att göra om nästa gång det finns något att fira.&lt;/p&gt;</description>
+ <author>calle.tuvesson@oddhill.se (Calle Tuvesson)</author>
+ <guid isPermaLink="false">471</guid>
+ <pubDate>2010-03-12T14:37:24+01:00</pubDate>
+ <source url="http://www.oddhill.se/rss.xml">Odd Hill</source>
+</item>
+</channel>
+</rss>
