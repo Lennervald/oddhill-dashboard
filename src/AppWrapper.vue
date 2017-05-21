@@ -7,9 +7,9 @@
     </div>
       <div class="app-wrapper-main">
         <transition name="fade">
-          <BlogPost></BlogPost>
+          <!-- <BlogPost></BlogPost>-->
           <!-- <TransitionImage></TransitionImage> -->
-          <!-- <component :is="selectedComponent"></component> -->
+          <component :is="selectedComponent"></component>
         </transition>
         <button class="btn btn-primary temp-slide-button" @click="next">Toggle Components</button>
       </div>
@@ -28,25 +28,33 @@ import BlogPost from './components/BlogPost.vue';
 
 export default {
     components: {
-      One: Debit,
-      Two: TestBulmaDebit,
-      TransitionImage: TransitionImage,
-      BlogPost: BlogPost
+      Debit,
+      TransitionImage,
+      BlogPost,
+      TestPage
     },
     data: function() {
         return {
-            selectedComponent: 'One',
+            selectedComponent: 'Debit'
         }
     },
     methods: {
       next(){
         switch(this.selectedComponent) {
-          case 'One':
-            this.selectedComponent = 'Two';
+          case 'Debit':
+            this.selectedComponent = 'BlogPost';
+            // app.style.backgroundColor = '#F9418C';
+            break;
+          case 'BlogPost':
+            this.selectedComponent = 'TransitionImage';
+            // app.style.backgroundColor = '#F9418C';
+            break;
+          case 'TransitionImage':
+            this.selectedComponent = 'TestPage';
             // app.style.backgroundColor = '#F9418C';
             break;
           default:
-            this.selectedComponent = 'One';
+            this.selectedComponent = 'Debit';
             // app.style.backgroundColor = '#722FBC';
         }
       }
