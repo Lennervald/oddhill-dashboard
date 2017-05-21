@@ -1,6 +1,6 @@
 
 <template>
-  <div>
+  <div class="views">
     <h1>{{ title }}</h1>
     <hr>
     <p>{{ description }}</p>

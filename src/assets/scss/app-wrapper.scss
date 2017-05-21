@@ -1,37 +1,25 @@
 .wrapper-skeleton {
   z-index: 4;
+}
 
-  .app-wrapper-header {
-    text-align: left;
-    padding: 0 6vw;
-    height: $app_vertical_wrapper_header;
+.header-icon {
+  position: fixed;
+  top: 6vh;
+  left: 6vw;
+  max-width: 1.8rem;
+}
 
-    .burger {
-      position: fixed;
-      top: 3vh;
 
-      .header-icon {
-        max-width: 1.6rem;
-        z-index: 3;
-      }
-    }
-  }
+.app-wrapper-main {
+  // width: 100%;
 
-  .app-wrapper-main {
-    height: $app_vertical_wrapper_main;
-    // overflow: hidden;
+}
 
-  }
-
-  .app-wrapper-footer {
-    text-align: left;
-    padding: 0 6vw 0;
-    height: $app_vertical_wrapper_footer;
-
-    .footer-icon {
-      max-width: 7rem;
-    }
-  }
+.footer-icon {
+  position: fixed;
+  bottom: 8vh;
+  left: 6vw;
+  max-width: 7rem;
 }
 
 .views {
@@ -52,22 +40,8 @@
   left: 0;
 }
 
-@media screen and (max-width: 1000px) {
-.wrapper-skeleton {
-  .app-wrapper-footer {
-      .footer-icon {
-        max-width: 5rem;
-      }
-    }
-  }
-}
-
 @media screen and (max-width: 500px) {
-.wrapper-skeleton {
-  .app-wrapper-footer {
-      .footer-icon {
-        max-width: 4rem;
-      }
-    }
+  .footer-icon {
+    max-width: 4rem;
   }
 }

@@ -1,78 +1,22 @@
 ////////////////////////////////////////////////
 ////////////////////////////////////////////////
-// Debit View:
-
-.debit-wrapper {
-  display: flex;
-
-  .debit-container {
-    height: $app_vertical_wrapper_main;
-    width: 100%;
-    margin: auto;
-  }
-}
-
-.section-divider {
-  .debit-header {
-    height: $app_vertical_wrapper_main * 0.1;
-  }
-
-  .debit-main {
-    .main-component {
-      height: $app_vertical_wrapper_main * 0.9;
-      display: flex;
-
-      .graph {
-        margin: auto;
-        width: 90%;
-      }
-    }
-
-    .div-3 {
-      margin: auto;
-
-      .value-box-content {
-        .value-container {
-          .media-left {
-            @include noFuzz();
-          }
-
-          .value-box {
-            @include noFuzz();
-            @include sameWiHe(3rem);
-            display: inline-block;
-          }
-        }
-      }
-    }
-  }
-
-  .debit-footer { height: $app_vertical_wrapper_main * 0.1; }
-}
+// Test
 
 
-@media screen and (max-width: 1000px) {
-  .section-divider {
-      .debit-main {
-        .main-component {
-          height: $app_vertical_wrapper_main * 0.8;
-          .graph {
-            width: 60%;
-          }
-        }
-      }
-  }
-}
+// ////////////////////////////////////////////////////
+//
+// @media screen and (min-width: 1600px){
 
+// }
+//
+// @media screen and (max-width: 1000px){
 
-@media screen and (max-width: 500px) {
-  .section-divider {
-      .debit-main {
-        .main-component {
-          .graph {
-            width: 85%;
-          }
-        }
-      }
-  }
-}
+// }
+//
+// @media screen and  (max-width: 768px) and (min-width: 520px) {
+
+// }
+//
+// @media screen and  (max-width: 520px) {
+
+// }

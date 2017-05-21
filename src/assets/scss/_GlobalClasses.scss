@@ -40,7 +40,7 @@
 .app-number {
   font-family: $project-serif;
   color: $black;
-  font-size: $font-size-2;
+  font-size: $font-size-1;
   margin: 0;
   padding: 0;
 }
@@ -62,12 +62,6 @@
   font-size: $font-size-7;
   font-weight: $weight-light;
   color: $black;
-}
-
-.text-value {
-  @extend .sub-title;
-  font-size: $font-size-5;
-  margin-left: 1vw;
 }
 
 .primary-box-col { background-color: $pink; }

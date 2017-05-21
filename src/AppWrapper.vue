@@ -1,22 +1,20 @@
 <template>
   <div>
-    <div class="app-wrapper-header">
-      <div class="burger is-hidden-desktop">
+    <div class="app-wrapper-header is-hidden-desktop">
         <img class="header-icon" src="./assets/images/icons/menu_open_icon.png" alt="">
-      </div>
     </div>
-      <div class="app-wrapper-main">
-        <transition name="fade">
-          <!-- <BlogPost></BlogPost>-->
-          <!-- <TransitionImage></TransitionImage> -->
-          <component :is="selectedComponent"></component>
-        </transition>
-        <button class="btn btn-primary temp-slide-button" @click="next">Toggle Components</button>
-      </div>
-      <div class="app-wrapper-footer">
-          <img class="footer-icon" src="./assets/images/oh_logo.png" alt="">
-      </div>
+    <div class="app-wrapper-main">
+      <transition name="fade">
+        <!-- <BlogPost></BlogPost>-->
+        <!-- <TransitionImage></TransitionImage> -->
+        <component :is="selectedComponent"></component>
+      </transition>
+      <button class="btn btn-primary temp-slide-button" @click="next">Toggle Components</button>
     </div>
+    <div class="app-wrapper-footer">
+        <img class="footer-icon" src="./assets/images/oh_logo.png" alt="">
+    </div>
+  </div>
 </template>
 
 <script>
@@ -43,7 +41,7 @@ export default {
         switch(this.selectedComponent) {
           case 'Debit':
             this.selectedComponent = 'BlogPost';
-            // app.style.backgroundColor = '#F9418C';
+            app.style.backgroundColor = '#F9418C';
             break;
           case 'BlogPost':
             this.selectedComponent = 'TransitionImage';
@@ -51,11 +49,12 @@ export default {
             break;
           case 'TransitionImage':
             this.selectedComponent = 'TestPage';
-            // app.style.backgroundColor = '#F9418C';
+            app.style.backgroundColor = '#2D164E';
+            // app.style.backgroundImage = url(http://www.adada.com/sites/all/themes/adada/images/bg-html.jpg);
             break;
           default:
             this.selectedComponent = 'Debit';
-            // app.style.backgroundColor = '#722FBC';
+            app.style.backgroundColor = '#2D164E';
         }
       }
     }
