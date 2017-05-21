@@ -1,8 +1,9 @@
 <template>
   <div>
-    <div class="image-container is-hidden-mobile" v-bind:style="backgroundImage">
-      <div class="color-filter is-hidden-mobile" v-bind:style="backgroundColor"></div>
-    </div>
+      <div class="image-container is-hidden-mobile" v-bind:style="backgroundImage">
+        <div class="color-filter is-hidden-mobile" v-bind:style="backgroundColor"></div>
+      </div>
+
   </div>
 </template>
 
@@ -28,14 +29,14 @@ export default {
     }
   },
   methods: {
-  
+
   },
   computed: {
     backgroundImage: function() {
       // get an integer between 0 and 7
       var num = Math.floor(Math.random() * 8);
       return {
-        background: 'url('+this.image[num]+') no-repeat center center fixed',
+        backgroundImage: 'url('+this.image[num]+')',
       }
     },
     backgroundColor: function(){
