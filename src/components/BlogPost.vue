@@ -10,6 +10,8 @@
     <p>Link: <a :href="link">{{ link }}</a></p>
     <hr>
     <p>Published: {{ pubDate }}</p>
+    <hr>
+    <p>Image:</p><img :src="image">
   </div>
 </template>
 
@@ -23,7 +25,8 @@
         author: '',
         description: '',
         link: '',
-        pubDate: ''
+        pubDate: '',
+        image: ''
       }
     },
     methods: {
@@ -45,6 +48,8 @@
           this.author = obj.item.author['#text']
           this.description = obj.item.description['#text']
           this.link = obj.item.link['#text']
+          this.image = obj.item.enclosure['@attributes'].url
+
           // Format the date to local
           var date = new Date(obj.item.pubDate['#text'])
           this.pubDate = date.toLocaleDateString();
