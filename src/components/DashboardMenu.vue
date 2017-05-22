@@ -13,7 +13,7 @@
         </a>
 
   			<div class="linebreaker"></div>
-        <a @click="setCmp('TransitionImage')"> 
+        <a @click="setCmp('TestPage')"> 
           <article class="message">
             <div class="nav-menu-body">
               <p class="app-title menu-item">Aktuella Projekt</p>

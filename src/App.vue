@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+  <slide-menu></slide-menu>
     <div class="columns is-gapless">
       <div class="column wrapper-skeleton">
         <div class="">
