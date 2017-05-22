@@ -9,7 +9,6 @@
         <!-- <TransitionImage></TransitionImage> -->
         <component :is="selectedComponent"></component>
       </transition>
-      <button class="btn btn-primary temp-slide-button" @click="next">Toggle Components</button>
     </div>
     <div class="app-wrapper-footer">
         <img class="footer-icon" src="./assets/images/oh_logo.png" alt="">
@@ -23,6 +22,8 @@ import TestPage from './components/TestPage.vue';
 import TransitionImage from './components/TransitionImage.vue';
 import BlogPost from './components/BlogPost.vue';
 
+// listen for click events from right menu
+import { eventBus } from './main.js';
 
 export default {
     components: {
@@ -36,27 +37,10 @@ export default {
             selectedComponent: 'Debit'
         }
     },
-    methods: {
-      next(){
-        switch(this.selectedComponent) {
-          case 'Debit':
-            this.selectedComponent = 'BlogPost';
-            app.style.backgroundColor = '#F9418C';
-            break;
-          case 'BlogPost':
-            this.selectedComponent = 'TransitionImage';
-            // app.style.backgroundColor = '#F9418C';
-            break;
-          case 'TransitionImage':
-            this.selectedComponent = 'TestPage';
-            app.style.backgroundColor = '#2D164E';
-            // app.style.backgroundImage = url(http://www.adada.com/sites/all/themes/adada/images/bg-html.jpg);
-            break;
-          default:
-            this.selectedComponent = 'Debit';
-            app.style.backgroundColor = '#2D164E';
-        }
-      }
+    created: function(){
+      eventBus.$on('setNewCmp',(cmp) => {
+        this.selectedComponent = cmp;
+      });
     }
 }
 </script>
