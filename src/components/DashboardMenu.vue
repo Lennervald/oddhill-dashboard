@@ -12,15 +12,15 @@
   			<div class="linebreaker"></div>
   			<article class="message">
   				<div class="nav-menu-body">
-  					<p class="app-title menu-item">Senaste Månaden</p>
-  					<p class="app-number menu-item">8</p>
-  					<p class="sub-title menu-item">Pågående Projekt</p>
+  					<p class="app-title menu-item">Aktuella Projekt</p>
+  					<p class="app-number menu-item">8.<span class="small-print"></span></p>
+  					<p class="sub-title menu-item">Senaste månaden</p>
   				</div>
   			</article>
   			<div class="linebreaker"></div>
   			<article class="message">
   				<div class="nav-menu-body">
-  					<p class="app-title menu-item">Aktuellt</p>
+  					<p class="app-title menu-item">Nästa Event</p>
   					<p class="app-number menu-item">20<span class="small-print">April</span></p>
   					<p class="sub-title menu-item">Mars 2017</p>
   				</div>
