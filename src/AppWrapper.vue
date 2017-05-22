@@ -33,7 +33,7 @@ export default {
         }
     },
     created: function(){
-      eventBus.$on('setNewCmp',(cmp) => {
+      eventBus.$on('setNewComponent',(cmp) => {
         this.selectedComponent = cmp;
       });
     }

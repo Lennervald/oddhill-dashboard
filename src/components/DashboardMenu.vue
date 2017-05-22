@@ -2,7 +2,7 @@
 	<div>
 		<div class="menu-wrapper is-parent">
       <div class="menu-box is-child">
-        <article @click="setCmp('Debit',$event)" class="message">
+        <article @click="setComponent('Debit')" class="message">
           <div class="nav-menu-body">
             <p class="app-title">Debiteringsgrad</p>
             <p class="app-number">74<span class="number-percent">%</span></p>
@@ -10,7 +10,7 @@
           </div>
         </article>
   			<div class="linebreaker"></div> 
-        <article @click="setCmp('TestPage')" class="message">
+        <article @click="setComponent('TestPage')" class="message">
           <div class="nav-menu-body">
             <p class="app-title">Aktuella Projekt</p>
             <p class="app-number">8.<span class="small-print"></span></p>
@@ -18,7 +18,7 @@
           </div>
         </article>
   			<div class="linebreaker"></div> 
-        <article @click="setCmp('TransitionImage')" class="message">
+        <article @click="setComponent('TransitionImage')" class="message">
           <div class="nav-menu-body">
             <p class="app-title">Nästa Event</p>
             <p class="app-number">20<span class="small-print">April</span></p>
@@ -26,7 +26,7 @@
           </div>
         </article>
   			<div class="linebreaker"></div>
-        <article @click="setCmp('BlogPost')" class="message">
+        <article @click="setComponent('BlogPost')" class="message">
           <div class="nav-menu-body">
             <p class="app-title">Senaste Blogginlägg</p>
             <p class="app-number">22<span class="small-print">Juli</span></p>
@@ -44,13 +44,14 @@ import { eventBus } from '../main.js';
 export default {
   data: function() {
     return {
-      state: null
+      Debit: {
+        color: null
+      }
     }
   },
   methods: {
-    setCmp: function(cmp,e){
-      eventBus.$emit('setNewCmp', cmp);
-      this.state = !this.state;
+    setComponent: function(cmp,e){
+      eventBus.$emit('setNewComponent', cmp);
     }
   }
 }
