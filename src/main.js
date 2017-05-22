@@ -21,7 +21,8 @@ Vue.component('app-wrapper', AppWrapper);
 Vue.component('dashboard-menu', DashboardMenu);
 Vue.component('main-backgrounds', MainBackgrounds);
 
-// Used for listening on clicks in right menu
+// Used for listening on right menu clicks with 
+// vue.js methods $emit() and $on()
 export const eventBus = new Vue();
 
 new Vue({

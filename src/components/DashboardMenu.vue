@@ -3,7 +3,7 @@
 		<div class="menu-wrapper is-parent">
       <div class="menu-box is-child">
         <a @click="setCmp('Debit')">
-          <article class="message">
+          <article @click="setCmp('Debit')" class="message">
             <div class="nav-menu-body">
               <p class="app-title menu-item menu-item-active">Debiteringsgrad</p>
               <p class="app-number menu-item menu-item-active">74<span class="number-percent">%</span></p>
@@ -13,7 +13,7 @@
         </a>
 
   			<div class="linebreaker"></div>
-        <a @click="setCmp('TransitionImage')"> 
+        <a @click="setCmp('TestPage')"> 
           <article class="message">
             <div class="nav-menu-body">
               <p class="app-title menu-item">Aktuella Projekt</p>
@@ -51,10 +51,10 @@
 import { eventBus } from '../main.js';
 
 export default {
-    methods: {
-      setCmp: function(cmp){
-        eventBus.$emit('setNewCmp', cmp);
-      }
+  methods: {
+    setCmp: function(cmp){
+      eventBus.$emit('setNewCmp', cmp);
     }
+  }
 }
 </script>
