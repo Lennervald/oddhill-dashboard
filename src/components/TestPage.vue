@@ -1,7 +1,7 @@
 <template>
 	<div class="views">
-		<h1>EMPTY TEST PAGE</h1>
-		<!-- <section class="hero debit-page-wrapper is-fullwidth">
+		<!--<h1>EMPTY TEST PAGE</h1>
+		<section class="hero debit-page-wrapper is-fullwidth">
 			<div class="hero-head is-vcentered">
 				<div class="columns">
 					<div class="column">

@@ -4,7 +4,7 @@
     height: 100%;
     width: 90%;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     top: 0;
     left: -90%;
     background-color: #20AAC6;
@@ -30,6 +30,7 @@
     top: 60px;
     left: 60px;
     overflow: hidden;
+    z-index: 102;
 
 
 }
@@ -58,20 +59,20 @@
 
 .open-menu {
     position: absolute;
-    top: 60px;
-    left: 60px;
+    top: -20px;
+    left: 0px;
 
 }
 
 .close-menu {
     position: absolute;
-    top: 60px;
-    right: 60px;
+    top: 20px;
+    right: 20px;
 }
 
 .open-icon {
       max-width: 2rem;
-      z-index: 3;
+      z-index: 1001;
 }
 
 .close-icon {

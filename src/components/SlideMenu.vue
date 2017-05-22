@@ -18,10 +18,6 @@
           <div class="break-row"></div>
           <a href="#">SENASTE BLOGGINLÄGG</a>
       </div>
-
-      <div class="side-nav-footer">
-          <img src="src/assets/images/oh_logo.png" alt="">
-      </div>
     </div>
 
     <div class="open-menu">

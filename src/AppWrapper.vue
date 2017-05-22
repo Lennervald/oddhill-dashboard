@@ -2,8 +2,6 @@
   <div>
     <div class="app-wrapper-main">
       <transition name="fade">
-        <!-- <BlogPost></BlogPost>-->
-        <!-- <TransitionImage></TransitionImage> -->
         <component :is="selectedComponent"></component>
       </transition>
     </div>
