@@ -1,8 +1,5 @@
 <template>
   <div>
-    <div class="app-wrapper-header is-hidden-desktop">
-        <img class="header-icon" src="./assets/images/icons/menu_open_icon.png" alt="">
-    </div>
     <div class="app-wrapper-main">
       <transition name="fade">
         <!-- <BlogPost></BlogPost>-->

@@ -20,6 +20,7 @@ Vue.use(VueResource);
 Vue.component('app-wrapper', AppWrapper);
 Vue.component('dashboard-menu', DashboardMenu);
 Vue.component('main-backgrounds', MainBackgrounds);
+Vue.component('slide-menu', SlideMenu);
 
 // Used for listening on right menu clicks with 
 // vue.js methods $emit() and $on()
