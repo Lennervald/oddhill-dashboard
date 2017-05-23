@@ -5,13 +5,13 @@
         <img class="close-icon" src="src/assets/images/icons/menu_close_icon_x.png" @click="closeNav()">
       </div>
       <div class="side-nav-content headline">
-          <a href="#"  @click="setComponent('Debit')">Debiteringsgrad</a>
+          <a href="#" @click="setComponent('Debit');closeNav()">Debiteringsgrad</a>
           <div class="break-row"></div>
-          <a href="#" @click="setComponent('TestPage')">Aktuella Projekt</a>
+          <a href="#" @click="setComponent('TestPage');closeNav()">Aktuella Projekt</a>
           <div class="break-row"></div>
-          <a href="#" @click="setComponent('TransitionImage')">Nästa event</a>
+          <a href="#" @click="setComponent('TransitionImage');closeNav()">Nästa event</a>
           <div class="break-row"></div>
-          <a href="#" @click="setComponent('BlogPost')">Senaste Blogginlägg</a>
+          <a href="#" @click="setComponent('BlogPost');closeNav()">Senaste Blogginlägg</a>
       </div>
     </div>
 
