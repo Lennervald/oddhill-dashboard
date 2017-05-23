@@ -2,11 +2,6 @@
 ////////////////////////////////////////////////
 // Debit View:
 
-#doughnut-chart {
-  min-width:100px;
-  background: red;
-}
-
 .debit-page-wrapper {
   background: purple_dark;
   background-image: url(../../assets/images/component_bgs/debitering.png);
@@ -96,6 +91,6 @@
     margin: 0 auto;
   }
   .numb {
-      font-size: $font-size-huge;
-    }
+    font-size: $font-size-huge;
+  }
 }
