@@ -7,7 +7,6 @@
   z-index: 3;
   height: 100vh;
   padding: 0;
-  color: $black;
 }
 
 .menu-wrapper {
@@ -21,16 +20,9 @@
     width: 70%;
   }
 }
-.message {
-  background: none;
+.nav-menu-body {
   color: $black;
-  .nav-menu-body {
-    color: $black;
-    &:hover {
-      cursor: pointer;
-    }
-  }
-  .active {
-    color: $pink;
+  &:hover {
+    cursor: pointer;
   }
 }
