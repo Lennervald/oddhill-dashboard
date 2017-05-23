@@ -48,6 +48,10 @@ module.exports = {
       { 
         test: /\.xml$/, 
         loader: 'xml-loader' 
+      },
+      {
+        test: /\.json/,
+        loader: 'json-loader',
       }
     ]
   },

@@ -75,9 +75,9 @@
 import DebitChart from './charts/DebitChart.vue';
 
 // get data from api-source
-var apiResponseWeek  = require('../data/debiteringsgrad/api-response-week.js');
-var apiResponseMonth = require('../data/debiteringsgrad/api-response-month.js');
-var apiResponseYear  = require('../data/debiteringsgrad/api-response-year.js');
+var apiResponseWeek  = require('../assets/data/debiteringsgrad/api-response-week.js');
+var apiResponseMonth = require('../assets/data/debiteringsgrad/api-response-month.js');
+var apiResponseYear  = require('../assets/data/debiteringsgrad/api-response-year.js');
 
 
 export default {
