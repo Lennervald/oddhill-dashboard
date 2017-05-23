@@ -19,8 +19,8 @@
 					<div class="column is-offset-3-tablet is-offset-3-desktop is-6-tablet is-6-desktop">
 						<figure class="graph-image is-centered">
 							<app-chart
-                :client-percentage="clientPercentage"
-                :inhouse-percentage="inhousePercentage"
+                :client-percentage="roundoffClient()"
+                :inhouse-percentage="roundoffInhouse()"
               ></app-chart>
 							<!-- <img src="../assets/images/component_bgs/circle.png" alt=""> -->
 							<div class="graph-text-wrapper">
@@ -110,7 +110,7 @@ export default {
 			}
 		},
     mounted: function(){
-      eventBus.$emit('valueDebit', this.clientPercentage);
+      eventBus.$emit('valueDebit', this.roundoffClient());
     }
 }
 </script>
