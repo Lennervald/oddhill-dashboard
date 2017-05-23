@@ -1,5 +1,8 @@
 <template>
 	<div class="views">
+		<article class="color-div-wrapper">
+			<div class="moving-color-div col-div-blog-page"></div>
+		</article>
 		<section class="hero blog-page-wrapper">
 			<div class="hero-head is-vcentered">
         <div class="columns is-mobile">
@@ -45,11 +48,6 @@
 				</div>
 			</div>
 		</section>
-		<div class="main-backgrounds-content">
-			<div class="color-div-blog-page">
-				<div class="inside-color"></div>
-			</div>
-		</div>
 	</div>
 </template>
 

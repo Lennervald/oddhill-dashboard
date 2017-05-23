@@ -1,6 +1,10 @@
 <template>
 <div class="views">
 
+  <article class="color-div-wrapper">
+    <div class="moving-color-div col-div-next-event"></div>
+  </article>
+
   <section class="hero next-event-page-wrapper is-fullwidth">
     <div class="hero-head component-head-spacer is-vcentered">
       <div class="columns">
@@ -27,11 +31,6 @@
       </div>
     </div>
   </section>
-  <!-- <div class="main-backgrounds-content">
-    <div class="color-div-next-event-page">
-      <div class="inside-color"></div>
-    </div>
-  </div> -->
 </div>
 </template>
 

@@ -12,6 +12,8 @@
 @import '/animations/fade';
 
 @import '/app-wrapper';
+@import '/menus/dashboard-menu';
+@import '/menus/slide-menu';
 
 @import '/main-components/debit';
 @import '/main-components/current-projects';
@@ -20,9 +22,6 @@
 @import '/main-components/transition-image';
 @import '/main-components/test-page';
 
-
-@import '/menus/dashboard-menu';
-@import '/menus/slide-menu';
 
 ////////////////////////////////////////////////
 ////////////////////////////////////////////////
@@ -34,12 +33,28 @@
   font-size: 100%;
   background: $purple_dark;
   color: $white;
-  // background-image: url(http://www.adada.com/sites/all/themes/adada/images/bg-html.jpg);
-  // background-image: url(../images/component_bgs/debitering.png);
 }
 
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+// The z-index zone
+
 .dashboard-menu-skeleton {
-  z-index: 60;
+  z-index: 10;
+}
+
+.hero-head {
+  padding-top: 10vh !important;
+  z-index:2;
+}
+
+.hero-body {
+  z-index:2;
+}
+
+
+.moving-color-div {
+  z-index: 1;
 }
 
 ////////////////////////////////////////////////

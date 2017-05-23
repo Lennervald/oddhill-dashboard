@@ -7,9 +7,9 @@
       <div class="side-nav-content headline">
           <a href="#" @click="setComponent('Debit');closeNav()">Debiteringsgrad</a>
           <div class="break-row"></div>
-          <a href="#" @click="setComponent('TestPage');closeNav()">Aktuella Projekt</a>
+          <a href="#" @click="setComponent('CurrentProjects');closeNav()">Aktuella Projekt</a>
           <div class="break-row"></div>
-          <a href="#" @click="setComponent('TransitionImage');closeNav()">Nästa event</a>
+          <a href="#" @click="setComponent('NextEvent');closeNav()">Nästa event</a>
           <div class="break-row"></div>
           <a href="#" @click="setComponent('BlogPost');closeNav()">Senaste Blogginlägg</a>
       </div>
@@ -47,41 +47,41 @@ import { eventBus } from '../../main.js';
       setComponent: function(cmp){
         eventBus.$emit('setNewComponent', cmp);
         // change text color on clicked cpm
-        switch (cmp) {
-          case 'Debit':
-            this.debit.color = '#F9418C';
-            this.testpage.color = '#242323';
-            this.transitionimage.color = '#242323';
-            this.blogpost.color = '#242323';
-            break;
-
-          case 'TestPage':
-            this.debit.color = '#242323';
-            this.testpage.color = '#F9418C';
-            this.transitionimage.color = '#242323';
-            this.blogpost.color = '#242323';
-            break;
-
-          case 'TransitionImage':
-            this.debit.color = '#242323';
-            this.testpage.color = '#242323';
-            this.transitionimage.color = '#F9418C';
-            this.blogpost.color = '#242323';
-            break;
-
-          case 'BlogPost':
-            this.debit.color = '#242323';
-            this.testpage.color = '#242323';
-            this.transitionimage.color = '#242323';
-            this.blogpost.color = '#F9418C';
-            break;
-
-          default:
-            this.debit.color = '#F9418C';
-            this.testpage.color = '#242323';
-            this.transitionimage.color = '#242323';
-            this.blogpost.color = '#242323';
-        }
+        // switch (cmp) {
+        //   case 'Debit':
+        //     this.debit.color = '#F9418C';
+        //     this.testpage.color = '#242323';
+        //     this.transitionimage.color = '#242323';
+        //     this.blogpost.color = '#242323';
+        //     break;
+        //
+        //   case 'TestPage':
+        //     this.debit.color = '#242323';
+        //     this.testpage.color = '#F9418C';
+        //     this.transitionimage.color = '#242323';
+        //     this.blogpost.color = '#242323';
+        //     break;
+        //
+        //   case 'TransitionImage':
+        //     this.debit.color = '#242323';
+        //     this.testpage.color = '#242323';
+        //     this.transitionimage.color = '#F9418C';
+        //     this.blogpost.color = '#242323';
+        //     break;
+        //
+        //   case 'BlogPost':
+        //     this.debit.color = '#242323';
+        //     this.testpage.color = '#242323';
+        //     this.transitionimage.color = '#242323';
+        //     this.blogpost.color = '#F9418C';
+        //     break;
+        //
+        //   default:
+        //     this.debit.color = '#F9418C';
+        //     this.testpage.color = '#242323';
+        //     this.transitionimage.color = '#242323';
+        //     this.blogpost.color = '#242323';
+        // }
       },
       openNav: function(){
         document.getElementById("mySidenav").style.left = "0";

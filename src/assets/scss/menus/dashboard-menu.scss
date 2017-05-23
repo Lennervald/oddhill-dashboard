@@ -3,10 +3,10 @@
 // Dashboard Menu
 
 .dashboard-menu-skeleton {
-  background: $white;
-  z-index: 300;
-  height: 100vh;
   padding: 0;
+  background: $white;
+  position: fixed;
+  width: $menu_wrapper_width;
 }
 
 .menu-wrapper {
