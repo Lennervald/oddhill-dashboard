@@ -9,12 +9,11 @@
     left: -90%;
     background-color: #20AAC6;
     overflow-x: hidden;
-    transition: 0.5s;
+    @include niceTransition($shortest_time);
     padding-top: 60px;
 }
 
 .side-nav a {
-
     text-decoration: none;
     font-size: 12px;
     color: #242323;
@@ -26,55 +25,58 @@
 }
 
 .side-nav-content {
-    position: absolute;
-    top: 60px;
-    left: 60px;
-    overflow: hidden;
-    z-index: 102;
+    padding-top: 10vh;
+    margin: 0 auto;
+    text-align: left;
+    width: 80%;
+
+    a {
+      font-size: $font-size-2;
+      color: $white;
+    }
+
+    .break-row {
+        width: 100%;
+        background-color: $white;
+        height: 2px;
+    }
 
 
 }
 
-.side-nav-footer {
-    position: absolute;
-    max-width: 5rem;
-    top: 580px;
-    left: 30px;
+// .side-nav-footer {
+//     position: absolute;
+//     max-width: 5rem;
+//     top: 580px;
+//     left: 30px;
+//
+// }
 
-
-
-}
-
-.break-row {
-    width: 100%;
-    background-color: #000000;
-    height: 2px;
-
-
-}
-@media screen and (max-height: 450px) {
-  .side-nav {padding-top: 15px;}
-  .side-nav a {font-size: 18px;}
-}
+// @media screen and (max-height: 450px) {
+//   .side-nav {padding-top: 15px;}
+//   .side-nav a {font-size: 18px;}
+// }
 
 .open-menu {
     position: absolute;
-    top: 20px;
-    left: 0px;
-
+    top: 3vh;
+    left: 6vw;
 }
+
 
 .close-menu {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 3vh;
+    right: 6vw;
 }
 
 .open-icon {
-      max-width: 2rem;
+      max-width: 1.6rem;
       z-index: 1001;
+
 }
 
 .close-icon {
-    max-width: 2rem;
+    max-width: 1.2rem;
+    filter: invert(100%);
 }

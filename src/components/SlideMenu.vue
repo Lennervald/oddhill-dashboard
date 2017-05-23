@@ -2,19 +2,16 @@
   <div>
     <div id="mySidenav" class="side-nav">
       <div class="close-menu">
-        <img class="close-icon" src="src/assets/images/icons/menu_close_icon.png" @click="closeNav()">
+        <img class="close-icon" src="src/assets/images/icons/menu_close_icon_x.png" @click="closeNav()">
       </div>
-
-      <div class="side-nav-content">
-          <a href="#">DEBITERINGSGRAD</a>
+      <div class="side-nav-content headline">
+          <a href="#"  @click="setComponent('Debit')">Debiteringsgrad</a>
           <div class="break-row"></div>
-          <a href="#">SJUKDAGAR</a>
+          <a href="#" @click="setComponent('TestPage')">Aktuella Projekt</a>
           <div class="break-row"></div>
-          <a href="#">TOPPROJEKT</a>
+          <a href="#" @click="setComponent('TransitionImage')">Nästa event</a>
           <div class="break-row"></div>
-          <a href="#">AKTUELLT</a>
-          <div class="break-row"></div>
-          <a href="#">SENASTE BLOGGINLÄGG</a>
+          <a href="#" @click="setComponent('BlogPost')">Senaste Blogginlägg</a>
       </div>
     </div>
 
@@ -27,13 +24,65 @@
 </template>
 
 <script>
-  export default {
-    data: function(){
-      return {
+import { eventBus } from '../main.js';
 
+  export default {
+    data: function() {
+      return {
+        debit: {
+          color: '#F9418C'
+        },
+        testpage: {
+          color: '#242323'
+        },
+        transitionimage: {
+          color: '#242323'
+        },
+        blogpost: {
+          color: '#242323'
+        }
       }
     },
     methods: {
+      setComponent: function(cmp){
+        eventBus.$emit('setNewComponent', cmp);
+        // change text color on clicked cpm
+        switch (cmp) {
+          case 'Debit':
+            this.debit.color = '#F9418C';
+            this.testpage.color = '#242323';
+            this.transitionimage.color = '#242323';
+            this.blogpost.color = '#242323';
+            break;
+
+          case 'TestPage':
+            this.debit.color = '#242323';
+            this.testpage.color = '#F9418C';
+            this.transitionimage.color = '#242323';
+            this.blogpost.color = '#242323';
+            break;
+
+          case 'TransitionImage':
+            this.debit.color = '#242323';
+            this.testpage.color = '#242323';
+            this.transitionimage.color = '#F9418C';
+            this.blogpost.color = '#242323';
+            break;
+
+          case 'BlogPost':
+            this.debit.color = '#242323';
+            this.testpage.color = '#242323';
+            this.transitionimage.color = '#242323';
+            this.blogpost.color = '#F9418C';
+            break;
+
+          default:
+            this.debit.color = '#F9418C';
+            this.testpage.color = '#242323';
+            this.transitionimage.color = '#242323';
+            this.blogpost.color = '#242323';
+        }
+      },
       openNav: function(){
         document.getElementById("mySidenav").style.left = "0";
       },
