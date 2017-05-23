@@ -2,6 +2,7 @@
 	<div>
 		<div class="menu-wrapper is-parent">
       <div class="menu-box is-child">
+      <button @click="setComponent('TransitionImage')" class="tmp-btn">bakgrundsbilder</button>
         <article @click="setComponent('Debit')" class="message">
           <div class="nav-menu-body">
             <p class="app-title">Debiteringsgrad</p>
@@ -44,15 +45,20 @@ import { eventBus } from '../main.js';
 export default {
   data: function() {
     return {
-      Debit: {
-        color: null
-      }
+
     }
   },
   methods: {
-    setComponent: function(cmp,e){
+    setComponent: function(cmp){
       eventBus.$emit('setNewComponent', cmp);
     }
   }
 }
 </script>
+<style>
+  .tmp-btn {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+  }
+</style>
