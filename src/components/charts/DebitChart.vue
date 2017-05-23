@@ -27,7 +27,7 @@
       fillData() {
         this.opts = {
             cutoutPercentage: 47, // The Fatness of the Pie
-            rotation: 6,
+            rotation: 5,
             responsive: true,
             maintainAspectRatio: true,
             animation: {

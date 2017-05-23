@@ -12,10 +12,15 @@
 @import '/animations/fade';
 
 @import '/app-wrapper';
-@import '/test-page';
-@import '/debit';
-@import '/blog-post';
-@import '/transition-image';
+
+@import '/main-components/debit';
+@import '/main-components/current-projects';
+@import '/main-components/next-event';
+@import '/main-components/blog-post';
+@import '/main-components/transition-image';
+@import '/main-components/test-page';
+
+
 @import '/menus/dashboard-menu';
 @import '/menus/slide-menu';
 
@@ -33,6 +38,9 @@
   // background-image: url(../images/component_bgs/debitering.png);
 }
 
+.dashboard-menu-skeleton {
+  z-index: 60;
+}
 
 ////////////////////////////////////////////////
 ////////////////////////////////////////////////

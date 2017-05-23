@@ -12,14 +12,14 @@
         </div>
         <div class="linebreaker"></div>
 
-        <div class="nav-menu-body" @click="setComponent('TestPage')" :style="testpage">
+        <div class="nav-menu-body" @click="setComponent('CurrentProjects')" :style="currentprojects">
           <p class="app-title">Aktuella Projekt</p>
           <p class="app-number">8.<span class="small-print"></span></p>
           <p class="sub-title">Senaste månaden</p>
         </div>
         <div class="linebreaker"></div>
 
-        <div class="nav-menu-body" @click="setComponent('TransitionImage')" :style="transitionimage">
+        <div class="nav-menu-body" @click="setComponent('NextEvent')" :style="nextevent">
           <p class="app-title">Nästa Event</p>
           <p class="app-number">20<span class="small-print">April</span></p>
           <p class="sub-title">maj 2017</p>
@@ -46,15 +46,18 @@ export default {
       debit: {
         color: '#F9418C'
       },
-      testpage: {
+      currentprojects: {
         color: '#242323'
       },
-      transitionimage: {
+			nextevent: {
         color: '#242323'
       },
       blogpost: {
         color: '#242323'
-      }
+      },
+			transitionimage: {
+        color: '#242323'
+      },
     }
   },
   methods: {
@@ -64,35 +67,42 @@ export default {
       switch (cmp) {
         case 'Debit':
           this.debit.color = '#F9418C';
-          this.testpage.color = '#242323';
-          this.transitionimage.color = '#242323';
+          this.currentprojects.color = '#242323';
+          this.nextevent.color = '#242323';
           this.blogpost.color = '#242323';
           break;
 
-        case 'TestPage':
+        case 'CurrentProjects':
           this.debit.color = '#242323';
-          this.testpage.color = '#F9418C';
-          this.transitionimage.color = '#242323';
+          this.currentprojects.color = '#F9418C';
+          this.nextevent.color = '#242323';
           this.blogpost.color = '#242323';
           break;
 
-        case 'TransitionImage':
-          this.debit.color = '#242323';
-          this.testpage.color = '#242323';
-          this.transitionimage.color = '#F9418C';
-          this.blogpost.color = '#242323';
-          break;
+				case 'NextEvent':
+	          this.debit.color = '#242323';
+	          this.currentprojects.color = '#242323';
+	          this.nextevent.color = '#F9418C';
+	          this.blogpost.color = '#242323';
+	          break;
 
-        case 'BlogPost':
-          this.debit.color = '#242323';
-          this.testpage.color = '#242323';
-          this.transitionimage.color = '#242323';
-          this.blogpost.color = '#F9418C';
-          break;
+			  case 'BlogPost':
+						this.debit.color = '#242323';
+						this.currentprojects.color = '#242323';
+						this.nextevent.color = '#242323';
+						this.blogpost.color = '#F9418C';
+						break;
+
+				case 'TransitionImage':
+						this.debit.color = '#242323';
+						this.currentprojects.color = '#242323';
+						this.nextevent.color = '#F9418C';
+						this.blogpost.color = '#242323';
+						break;
 
         default:
-          this.debit.color = '#F9418C';
-          this.testpage.color = '#242323';
+          this.debit.color = '#242323';
+          this.currentprojects.color = '#242323';
           this.transitionimage.color = '#242323';
           this.blogpost.color = '#242323';
       }

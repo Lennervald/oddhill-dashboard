@@ -22,9 +22,11 @@
 
 <script>
 import Debit from './components/Debit.vue';
-import TestPage from './components/TestPage.vue';
-import TransitionImage from './components/TransitionImage.vue';
+import CurrentProjects from './components/CurrentProjects.vue';
+import NextEvent from './components/NextEvent.vue';
 import BlogPost from './components/BlogPost.vue';
+import TransitionImage from './components/TransitionImage.vue';
+import TestPage from './components/TestPage.vue';
 
 // listen for click events from right menu
 import { eventBus } from './main.js';
@@ -32,9 +34,11 @@ import { eventBus } from './main.js';
 export default {
     components: {
       Debit,
-      TransitionImage,
+      CurrentProjects,
+      NextEvent,
       BlogPost,
-      TestPage
+      TestPage,
+      TransitionImage
     },
     data: function() {
         return {

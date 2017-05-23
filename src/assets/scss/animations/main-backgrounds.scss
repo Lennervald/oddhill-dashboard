@@ -21,6 +21,25 @@
 		}
 	}
 
+	// Next Event Page
+
+	.color-div-next-event-page {
+		position: absolute;
+		width: 80vh;
+		height: 300vh;
+		top: -120vh;
+		left: 10vw;
+		transform: scale(2);
+		transform: rotate(135deg);
+
+		.inside-color {
+			background: $pink;
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+		}
+	}
+
 	// Blogg Page
 
 	.color-div-blog-page {

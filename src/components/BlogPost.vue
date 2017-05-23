@@ -1,12 +1,5 @@
 <template>
 	<div class="views">
-
-		<div class="main-backgrounds-content">
-			<div class="color-div-blog-page">
-				<div class="inside-color"></div>
-			</div>
-		</div>
-
 		<section class="hero blog-page-wrapper">
 			<div class="hero-head is-vcentered">
         <div class="columns is-mobile">
@@ -51,10 +44,12 @@
 					</div>
 				</div>
 			</div>
-			<!-- <div class="hero-foot">
-
-		</div> -->
 		</section>
+		<div class="main-backgrounds-content">
+			<div class="color-div-blog-page">
+				<div class="inside-color"></div>
+			</div>
+		</div>
 	</div>
 </template>
 
