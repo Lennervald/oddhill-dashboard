@@ -15,6 +15,7 @@
 @import '/app-wrapper';
 @import '/test-page';
 @import '/debit';
+@import '/blog-post';
 @import '/transition-image';
 
 ////////////////////////////////////////////////
@@ -26,9 +27,11 @@
   @include justCenter();
   font-size: 100%;
   background: $purple_dark;
+  color: $white;
   // background-image: url(http://www.adada.com/sites/all/themes/adada/images/bg-html.jpg);
   // background-image: url(../images/component_bgs/debitering.png);
 }
+
 
 ////////////////////////////////////////////////
 ////////////////////////////////////////////////

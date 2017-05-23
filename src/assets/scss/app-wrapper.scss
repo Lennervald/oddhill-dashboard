@@ -2,46 +2,75 @@
   z-index: 4;
 }
 
-.header-icon {
+.nav {
+  background: none;
   position: fixed;
-  top: 6vh;
-  left: 6vw;
-  max-width: 1.8rem;
+  top:0;
+  height: 8vh;
+  width: 100%;
+
+  .background-opacity{
+    position: fixed;
+    background: $purple_dark;
+    opacity: 0.05;
+    width: 100%;
+    height: 8vh;
+    left: -1vh;
+  }
+
+  .header-icon {
+    position: fixed;
+    left: 6vw;
+    max-width: 1.4rem;
+    z-index: 100;
+  }
+
 }
 
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+// Specifics for ALL components using hero
 
-.app-wrapper-main {
-  // width: 100%;
-
+.hero-head {
+  padding-top: 10vh !important;
+  z-index:1;
 }
 
-.footer-icon {
-  position: fixed;
-  bottom: 8vh;
-  left: 6vw;
-  max-width: 7rem;
+.hero-body {
+  z-index:1;
 }
 
 .views {
   // important to keep this one at min-height: 100%;
   min-height: 100%;
   z-index: 3;
+  overflow-x: hidden;
 }
 
-////////////////////////////////////////////////
-////////////////////////////////////////////////
-// Temporary stuff for testing
 
-.temp-slide-button {
-  position: absolute;
-  font-size: 1rem;
-  @include noFuzz();
-  bottom: 0;
-  left: 0;
+
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+// Footer Logo
+
+.footer-icon-desktop {
+  position: fixed;
+  bottom: 4vh;
+  left: 6vw;
+  max-width: 7rem;
+}
+
+.footer-icon-mobile {
+  margin-left: 6vw;
+  margin-bottom: 6vw;
+  max-width: 7rem;
 }
 
 @media screen and (max-width: 500px) {
-  .footer-icon {
+  .footer-icon-mobile {
     max-width: 4rem;
+  }
+  .hero-body {
+    padding-bottom: 0;
   }
 }

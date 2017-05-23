@@ -3,14 +3,14 @@
   top: 0;
   left: 0;
   width: 65%;
-  z-index: 1;
+  z-index: 0;
 
 	.color-div-debit {
 		position: absolute;
 		width: 40vh;
 		height: 200vh;
 		top: -80vh;
-		left: 20vw;
+		left: 10vw;
     transform: scale(2,2);
     transform: rotate(40deg);
 
@@ -18,6 +18,46 @@
 	    background: $blue;
 			width: 100%;
 			height: 100%;
+		}
+	}
+
+	// Blogg Page
+
+	.color-div-blog-page {
+		position: absolute;
+		width: 35vh;
+		height: 200vh;
+		top: -80vh;
+		left: -10vw;
+		transform: scale(2,2);
+		transform: rotate(20deg);
+
+		.inside-color {
+			background: $pink;
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+
+////////////////////////////////////////////////////
+
+
+@media screen and  (max-width: 520px) {
+	.main-backgrounds-content{
+
+
+
+		// Blogg Page
+
+		.color-div-blog-page {
+			// position: absolute;
+			// width: 35vh;
+			// height: 200vh;
+			// top: -80vh;
+			left: -28vw;
+			// transform: scale(2,2);
+			// transform: rotate(20deg);
 		}
 	}
 }

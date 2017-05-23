@@ -1,7 +1,7 @@
 <template>
 	<div class="views">
 		<section class="hero debit-page-wrapper is-fullwidth">
-			<div class="hero-head is-vcentered">
+			<div class="hero-head component-head-spacer is-vcentered">
 				<div class="columns">
 					<div class="column">
 						<p class="headline debit-headline is-hidden-desktop">{{ headline }}</p>
@@ -14,7 +14,7 @@
 				</div>
 			</div>
 
-			<div class="hero-body">
+			<div class="hero-body component-body">
 				<div class="columns is-mobile is-vcentered">
 					<div class="column is-offset-3-tablet is-offset-3-desktop is-6-tablet is-6-desktop">
 						<figure class="graph-image is-centered">
@@ -55,6 +55,13 @@
 								<li><p class="box-values-below-text secondary-text-col">{{value2}}</p></li>
 							</ul>
 						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hero-foot is-vcentered">
+				<div class="columns">
+					<div class="column has-text-left is-hidden-desktop">
+						<img class="footer-icon-mobile" src="../assets/images/oh_logo.png" alt="">
 					</div>
 				</div>
 			</div>

@@ -1,8 +1,13 @@
 <template>
   <div>
-    <div class="app-wrapper-header is-hidden-desktop">
-        <img class="header-icon" src="./assets/images/icons/menu_open_icon.png" alt="">
-    </div>
+<nav class="nav is-hidden-desktop">
+  <div class="nav-left">
+    <a class="nav-item">
+      <div class="background-opacity"></div>
+      <img class="header-icon" src="./assets/images/icons/menu_open_icon.png" alt="">
+    </a>
+  </div>
+</nav>
     <div class="app-wrapper-main">
       <transition name="fade">
         <!-- <BlogPost></BlogPost>-->
@@ -10,8 +15,8 @@
         <component :is="selectedComponent"></component>
       </transition>
     </div>
-    <div class="app-wrapper-footer">
-        <img class="footer-icon" src="./assets/images/oh_logo.png" alt="">
+    <div class="app-wrapper-footer is-hidden-touch">
+      <img class="footer-icon-desktop" src="./assets/images/oh_logo.png" alt="">
     </div>
   </div>
 </template>
