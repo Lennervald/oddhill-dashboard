@@ -1,0 +1,77 @@
+{
+	"project1": {
+		"companyName": "Malmö FF",
+		"projectMembers": [
+			{
+				"firstName": "Oddvar",
+				"lastName": "Hillsson",
+				"commitsPerDay": 5,
+				"hoursPerDay": 6
+			},
+			{
+				"firstName": "Oddvar",
+				"lastName": "Hillsson",
+				"commits": 5,
+				"hoursPerDay": 6
+			},
+			{
+				"firstName": "Oddvar",
+				"lastName": "Hillsson",
+				"commitsPerDay": 5,
+				"hoursPerDay": 6
+			}
+
+		]
+	},
+
+	"project2": {
+		"companyName": "Sedermera Fondkommision",
+		"projectMembers": [
+			{
+				"firstName": "Oddvar",
+				"lastName": "Hillsson",
+				"commitsPerDay": 5,
+				"hoursPerDay": 6
+			},
+			{
+				"firstName": "Oddvar",
+				"lastName": "Hillsson",
+				"commitsPerDay": 5,
+				"hoursPerDay": 6
+			},
+			{
+				"firstName": "Oddvar",
+				"lastName": "Hillsson",
+				"commitsPerDay": 5,
+				"hoursPerDay": 6
+			}
+
+		]
+	},
+
+	"project3": {
+		"companyName": "Malmö Opera",
+		"projectMembers": [
+			{
+				"firstName": "Oddvar",
+				"lastName": "Hillsson",
+				"commitsPerDay": 5,
+				"hoursPerDay": 6
+			},
+			{
+				"firstName": "Oddvar",
+				"lastName": "Hillsson",
+				"commitsPerDay": 5,
+				"hoursPerDay": 6
+			},
+			{
+				"firstName": "Oddvar",
+				"lastName": "Hillsson",
+				"commitsPerDay": 5,
+				"hoursPerDay": 6
+			}
+
+		]
+	}
+}
+
