@@ -10,11 +10,15 @@
   import DoughnutChart from './DoughnutChart.js';
 
   export default{
+    props: [
+      'clientPercentage',
+      'inhousePercentage'
+    ],
     data () {
       return {
         projectname: 'Malmö Stadsteater',
-        client: 50,
-        inhouse: 22
+        client: this.clientPercentage,
+        inhouse: this.inhousePercentage
       }
     },
     created() {
