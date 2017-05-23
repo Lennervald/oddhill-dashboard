@@ -18,7 +18,8 @@
 				<div class="columns is-mobile is-vcentered">
 					<div class="column is-offset-3-tablet is-offset-3-desktop is-6-tablet is-6-desktop">
 						<figure class="graph-image is-centered">
-							<img src="../assets/images/component_bgs/circle.png" alt="">
+							<app-chart></app-chart>
+							<!-- <img src="../assets/images/component_bgs/circle.png" alt=""> -->
 							<div class="graph-text-wrapper">
 								<article class="message">
 									<p class="graph-text numb app-number">{{precentnumber}}<span class="number-percent">%</span></p>
@@ -71,6 +72,8 @@
 
 
 <script>
+import DebitChart from './charts/DebitChart.vue'
+
 export default {
     data: function() {
         return {
@@ -82,6 +85,9 @@ export default {
 				precentnumber: '74',
 
         }
+    },
+		components: {
+      appChart: DebitChart
     }
 }
 </script>
