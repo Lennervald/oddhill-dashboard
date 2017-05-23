@@ -22,9 +22,9 @@
 							<!-- <img src="../assets/images/component_bgs/circle.png" alt=""> -->
 							<div class="graph-text-wrapper">
 								<article class="message">
-									<p class="graph-text numb app-number">{{precentnumber}}<span class="number-percent">%</span></p>
-									<p class="graph-text headline app-title section-item-active is-hidden-touch is-hidden-desktop-only">{{headline}}</p>
-									<p class="graph-text value sub-title">{{timevalues[0]}}</p>
+									<p class="graph-text numb app-number">{{ clientValueWeek }}<span class="number-percent">%</span></p>
+									<p class="graph-text headline app-title section-item-active is-hidden-touch is-hidden-desktop-only">{{ headline }}</p>
+									<p class="graph-text value sub-title">{{ timevalues[0] }}</p>
 								</article>
 							</div>
 						</figure>
@@ -35,11 +35,11 @@
 							<ul class="menu-list">
 						    <li><div class="value-box primary-box-col">
 								</div></li>
-								<li><p class="text-value primary-text-col">{{value1}}</p></li>
+								<li><p class="text-value primary-text-col">{{ value1 }}</p></li>
 								<br><br>
 								<li><div class="value-box secondary-box-col">
 								</div></li>
-								<li><p class="text-value secondary-text-col">{{value2}}</p></li>
+								<li><p class="text-value secondary-text-col">{{ value2 }}</p></li>
 						  </ul>
 						</aside>
 					</div>
@@ -50,10 +50,10 @@
 						<div class="tabs box-values-below is-centered">
 							<ul>
 								<li><div class="value-box primary-box-col"></div></li>
-								<li><p class="box-values-below-text primary-text-col">{{value1}}</p></li>
+								<li><p class="box-values-below-text primary-text-col">{{ clientValueWeek }}</p></li>
 								<li><p class="space-breaker"> </p></li>
 								<li><div class="value-box secondary-box-col"></div></li>
-								<li><p class="box-values-below-text secondary-text-col">{{value2}}</p></li>
+								<li><p class="box-values-below-text secondary-text-col">{{ inhouseValueWeek }}</p></li>
 							</ul>
 						</div>
 					</div>
@@ -72,18 +72,24 @@
 
 
 <script>
-import DebitChart from './charts/DebitChart.vue'
+import DebitChart from './charts/DebitChart.vue';
+
+// get data from api-source
+var apiResponseWeek  = require('../data/debiteringsgrad/api-response-week.js');
+var apiResponseMonth = require('../data/debiteringsgrad/api-response-month.js');
+var apiResponseYear  = require('../data/debiteringsgrad/api-response-year.js');
+
 
 export default {
     data: function() {
         return {
 					headline: 'debiteringsgrad',
-				sectionlinks: ["Vecka", "Månad", "År"],
-				value1: 'Klient',
-				value2: 'Inhouse',
-				timevalues: ["Vecka 12", "april 2017", "hela 2017"],
-				precentnumber: '74',
-
+				  sectionlinks: ["Vecka", "Månad", "År"],
+			  	value1: 'Klient',
+			  	value2: 'Inhouse',
+			  	timevalues: ["Vecka 12", "april 2017", "hela 2017"],
+				  clientValueWeek: apiResponseWeek.client.percentage,
+          inhouseValueWeek: 100 - apiResponseWeek.client.percentage
         }
     },
 		components: {
