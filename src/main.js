@@ -4,8 +4,8 @@ import VueResource from 'vue-resource';
 import App from './App.vue';
 import AppWrapper from './AppWrapper.vue';
 import TestPage from './components/TestPage.vue';
-import DashboardMenu from './components/DashboardMenu.vue';
-import SlideMenu from './components/SlideMenu.vue';
+import DashboardMenu from './components/menus/DashboardMenu.vue';
+import SlideMenu from './components/menus/SlideMenu.vue';
 
 // Add support for Bulma
 import 'bulma/css/bulma.css';

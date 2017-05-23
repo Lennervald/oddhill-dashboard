@@ -10,22 +10,22 @@
           <p class="app-number">74<span class="number-percent">%</span></p>
           <p class="sub-title">Mars 2017</p>
         </div>
-        <div class="linebreaker"></div> 
-        
+        <div class="linebreaker"></div>
+
         <div class="nav-menu-body" @click="setComponent('TestPage')" :style="testpage">
           <p class="app-title">Aktuella Projekt</p>
           <p class="app-number">8.<span class="small-print"></span></p>
           <p class="sub-title">Senaste månaden</p>
         </div>
-        <div class="linebreaker"></div> 
-        
+        <div class="linebreaker"></div>
+
         <div class="nav-menu-body" @click="setComponent('TransitionImage')" :style="transitionimage">
           <p class="app-title">Nästa Event</p>
           <p class="app-number">20<span class="small-print">April</span></p>
           <p class="sub-title">maj 2017</p>
         </div>
         <div class="linebreaker"></div>
-        
+
         <div class="nav-menu-body" @click="setComponent('BlogPost')" :style="blogpost">
           <p class="app-title">Senaste Blogginlägg</p>
           <p class="app-number">22<span class="small-print">Juli</span></p>
@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import { eventBus } from '../main.js';
+import { eventBus } from '../../main.js';
 
 export default {
   data: function() {
