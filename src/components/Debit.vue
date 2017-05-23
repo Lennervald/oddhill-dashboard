@@ -25,7 +25,7 @@
 							<!-- <img src="../assets/images/component_bgs/circle.png" alt=""> -->
 							<div class="graph-text-wrapper">
 								<article class="message">
-									<p class="graph-text numb app-number">{{ clientValueWeek }}<span class="number-percent">%</span></p>
+									<p class="graph-text numb app-number">{{ clientPercentage }}<span class="number-percent">%</span></p>
 									<p class="graph-text headline app-title section-item-active is-hidden-touch is-hidden-desktop-only">{{ headline }}</p>
 									<p class="graph-text value sub-title">{{ timevalues[0] }}</p>
 								</article>
@@ -93,8 +93,8 @@ export default {
 			  	value1: 'Klient',
 			  	value2: 'Inhouse',
 			  	timevalues: ["Vecka 12", "april 2017", "hela 2017"],
-				  clientValueWeek: apiResponseWeek.client.percentage,
-          inhouseValueWeek: 100 - apiResponseWeek.client.percentage
+				  clientPercentage: apiResponseWeek.client.percentage,
+          inhousePercentage: 100 - apiResponseWeek.client.percentage
         }
     },
 		components: {
