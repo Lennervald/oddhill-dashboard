@@ -18,14 +18,14 @@
 				<div class="columns is-mobile is-vcentered">
 					<div class="column is-offset-3-tablet is-offset-3-desktop is-6-tablet is-6-desktop">
 						<figure class="graph-image is-centered">
-							<app-chart 
-                :client-percentage="clientPercentage" 
+							<app-chart
+                :client-percentage="clientPercentage"
                 :inhouse-percentage="inhousePercentage"
               ></app-chart>
 							<!-- <img src="../assets/images/component_bgs/circle.png" alt=""> -->
 							<div class="graph-text-wrapper">
 								<article class="message">
-									<p class="graph-text numb app-number">{{ clientPercentage }}<span class="number-percent">%</span></p>
+									<p class="graph-text numb app-number">{{ roundoffClient() }}<span class="number-percent">%</span></p>
 									<p class="graph-text headline app-title section-item-active is-hidden-touch is-hidden-desktop-only">{{ headline }}</p>
 									<p class="graph-text value sub-title">{{ timevalues[0] }}</p>
 								</article>
@@ -79,7 +79,7 @@ import DebitChart from './charts/DebitChart.vue';
 import { eventBus } from '../main.js';
 
 // Get response data from file temporarely
-// REMEMBER - When making a request, lets say for a week, the dates that are used 
+// REMEMBER - When making a request, lets say for a week, the dates that are used
 // should be saved in variables to be used in array "timevalues" below
 var apiResponseWeek  = require('../assets/data/debiteringsgrad/api-response-week.js')
 var apiResponseMonth = require('../assets/data/debiteringsgrad/api-response-month.js')
@@ -101,6 +101,14 @@ export default {
 		components: {
       appChart: DebitChart
     },
+		methods: {
+			roundoffClient: function(){
+				return Math.round(this.clientPercentage);
+			},
+			roundoffInhouse: function(){
+				return Math.round(this.inhousePercentage);
+			}
+		},
     mounted: function(){
       eventBus.$emit('valueDebit', this.clientPercentage);
     }
