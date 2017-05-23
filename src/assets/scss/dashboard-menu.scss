@@ -18,12 +18,10 @@
   .menu-box {
     margin: auto auto;
     width: 70%;
-    .message {
-      background: none;
-    }
   }
 }
-
-.menu-item-active {
-  color: $pink;
+.nav-menu-body {
+  &:hover {
+    cursor: pointer;
+  }
 }

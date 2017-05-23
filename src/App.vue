@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+  <slide-menu class="is-hidden-desktop header-icon"></slide-menu>
     <div class="columns is-gapless">
       <div class="column wrapper-skeleton">
           <app-wrapper></app-wrapper>
@@ -25,6 +26,3 @@ export default {
 }
 </script>
 
-<style lang="scss">
-
-</style>

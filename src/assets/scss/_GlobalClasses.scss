@@ -9,7 +9,6 @@
   font-family: $project-sans-serif;
   font-size: $font-size-8;
   font-weight: $weight-semibold;
-  color: $white;
 }
 
 .headline-touch {
@@ -23,7 +22,6 @@
   font-size: $font-size-5;
   font-weight: $weight-light;
   letter-spacing: $letter-spacing-2;
-  color: $white;
   display: inline-block;
 }
 
@@ -34,12 +32,10 @@
 
 .app-title {
   @extend .headline;
-  color: $black;
 }
 
 .app-number {
   font-family: $project-serif;
-  color: $black;
   font-size: $font-size-1;
   margin: 0;
   padding: 0;
@@ -61,7 +57,6 @@
   font-family: $project-sans-serif;
   font-size: $font-size-7;
   font-weight: $weight-light;
-  color: $black;
 }
 
 .primary-box-col { background-color: $pink; }

@@ -1,17 +1,15 @@
 <template>
   <div>
-<nav class="nav is-hidden-desktop">
-  <div class="nav-left">
-    <a class="nav-item">
-      <div class="background-opacity"></div>
-      <img class="header-icon" src="./assets/images/icons/menu_open_icon.png" alt="">
-    </a>
-  </div>
-</nav>
+    <nav class="nav is-hidden-desktop">
+      <div class="nav-left">
+        <a class="nav-item">
+          <div class="background-opacity"></div>
+          <img class="header-icon" src="./assets/images/icons/menu_open_icon.png" alt="">
+        </a>
+      </div>
+    </nav>
     <div class="app-wrapper-main">
       <transition name="fade">
-        <!-- <BlogPost></BlogPost>-->
-        <!-- <TransitionImage></TransitionImage> -->
         <component :is="selectedComponent"></component>
       </transition>
     </div>
@@ -43,7 +41,7 @@ export default {
         }
     },
     created: function(){
-      eventBus.$on('setNewCmp',(cmp) => {
+      eventBus.$on('setNewComponent',(cmp) => {
         this.selectedComponent = cmp;
       });
     }

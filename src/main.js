@@ -6,7 +6,7 @@ import AppWrapper from './AppWrapper.vue';
 import TestPage from './components/TestPage.vue';
 import MainBackgrounds from './components/animations/MainBackgrounds.vue';
 import DashboardMenu from './components/DashboardMenu.vue';
-import MobileMenu from './components/MobileMenu.vue';
+import SlideMenu from './components/SlideMenu.vue';
 
 // Add support for Bulma
 import 'bulma/css/bulma.css';
@@ -20,8 +20,10 @@ Vue.use(VueResource);
 Vue.component('app-wrapper', AppWrapper);
 Vue.component('dashboard-menu', DashboardMenu);
 Vue.component('main-backgrounds', MainBackgrounds);
+Vue.component('slide-menu', SlideMenu);
 
-// Used for listening on clicks in right menu
+// Used for listening on right menu clicks with 
+// vue.js methods $emit() and $on()
 export const eventBus = new Vue();
 
 new Vue({
