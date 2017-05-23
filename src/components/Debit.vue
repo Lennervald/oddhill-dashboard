@@ -106,7 +106,7 @@ export default {
 				return Math.round(this.clientPercentage);
 			},
 			roundoffInhouse: function(){
-				return Math.round(this.inhousePercentage);
+				return Math.floor(this.inhousePercentage);
 			}
 		},
     mounted: function(){
