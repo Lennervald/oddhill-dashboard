@@ -50,10 +50,10 @@
 						<div class="tabs box-values-below is-centered">
 							<ul>
 								<li><div class="value-box primary-box-col"></div></li>
-								<li><p class="box-values-below-text primary-text-col">{{ clientValueWeek }}</p></li>
+								<li><p class="box-values-below-text primary-text-col">{{ value1 }}</p></li>
 								<li><p class="space-breaker"> </p></li>
 								<li><div class="value-box secondary-box-col"></div></li>
-								<li><p class="box-values-below-text secondary-text-col">{{ inhouseValueWeek }}</p></li>
+								<li><p class="box-values-below-text secondary-text-col">{{ value2 }}</p></li>
 							</ul>
 						</div>
 					</div>
@@ -75,6 +75,7 @@
 import DebitChart from './charts/DebitChart.vue';
 
 // get data from api-source
+// This is mock-data, but format is correct
 var apiResponseWeek  = require('../assets/data/debiteringsgrad/api-response-week.js');
 var apiResponseMonth = require('../assets/data/debiteringsgrad/api-response-month.js');
 var apiResponseYear  = require('../assets/data/debiteringsgrad/api-response-year.js');
