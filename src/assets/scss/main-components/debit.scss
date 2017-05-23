@@ -85,9 +85,13 @@
     width: 70%;
     margin: 0 auto;
   }
-  .numb {
+
+  .graph-text-wrapper {
+    .app-number {
       font-size: $font-size-huge;
     }
+  }
+
 }
 
 @media screen and  (max-width: 520px) {
@@ -95,7 +99,9 @@
     width: 98%;
     margin: 0 auto;
   }
-  .numb {
-    font-size: $font-size-huge;
+  .graph-text-wrapper {
+    .app-number {
+      font-size: $font-size-huge;
+    }
   }
 }
