@@ -18,7 +18,10 @@
 				<div class="columns is-mobile is-vcentered">
 					<div class="column is-offset-3-tablet is-offset-3-desktop is-6-tablet is-6-desktop">
 						<figure class="graph-image is-centered">
-							<app-chart></app-chart>
+							<app-chart 
+                :client-percentage="clientPercentage" 
+                :inhouse-percentage="inhousePercentage"
+              ></app-chart>
 							<!-- <img src="../assets/images/component_bgs/circle.png" alt=""> -->
 							<div class="graph-text-wrapper">
 								<article class="message">
@@ -74,11 +77,12 @@
 <script>
 import DebitChart from './charts/DebitChart.vue';
 
-// get data from api-source
-// This is mock-data, but format is correct
-var apiResponseWeek  = require('../assets/data/debiteringsgrad/api-response-week.js');
-var apiResponseMonth = require('../assets/data/debiteringsgrad/api-response-month.js');
-var apiResponseYear  = require('../assets/data/debiteringsgrad/api-response-year.js');
+// Get response data from file temporarely
+// REMEMBER - When making a request, lets say for a week, the dates that are used 
+// should be saved in variables to be used in array "timevalues" below
+var apiResponseWeek  = require('../assets/data/debiteringsgrad/api-response-week.js')
+var apiResponseMonth = require('../assets/data/debiteringsgrad/api-response-month.js')
+var apiResponseYear  = require('../assets/data/debiteringsgrad/api-response-year.js')
 
 
 export default {
