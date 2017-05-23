@@ -4,7 +4,8 @@
       <div class="nav-left">
         <a class="nav-item">
           <div class="background-opacity"></div>
-          <img class="header-icon" src="./assets/images/icons/menu_open_icon.png" alt="">
+          <!-- <img class="header-icon" src="./assets/images/icons/menu_open_icon.png" alt=""> -->
+          <slide-menu class="is-hidden-desktop header-icon"></slide-menu>
         </a>
       </div>
     </nav>

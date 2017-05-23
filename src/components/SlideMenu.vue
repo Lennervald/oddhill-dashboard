@@ -1,7 +1,5 @@
 <template>
-
   <div>
-    
     <div id="mySidenav" class="side-nav">
       <div class="close-menu">
         <img class="close-icon" src="src/assets/images/icons/menu_close_icon.png" @click="closeNav()">
@@ -24,7 +22,7 @@
       <img class="open-icon" src="src/assets/images/icons/menu_open_icon.png" alt="" @click="openNav()">
     </div>
 
-  </div> 
+  </div>
 
 </template>
 
