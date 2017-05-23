@@ -97,8 +97,3 @@
     }
   }
 </script>
-<style>
-  div {
-    color: white;
-  }
-</style>
