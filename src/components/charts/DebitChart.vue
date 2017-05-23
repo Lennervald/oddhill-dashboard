@@ -27,6 +27,8 @@
         this.opts = {
             cutoutPercentage: 47, // The Fatness of the Pie
             rotation: 6,
+            responsive: true,
+            maintainAspectRatio: true,
             animation: {
                 animateScale: false,
                 animateRotate: true

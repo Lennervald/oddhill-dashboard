@@ -2,6 +2,11 @@
 ////////////////////////////////////////////////
 // Debit View:
 
+#doughnut-chart {
+  min-width:100px;
+  background: red;
+}
+
 .debit-page-wrapper {
   background: purple_dark;
   background-image: url(../../assets/images/component_bgs/debitering.png);
@@ -87,7 +92,7 @@
 
 @media screen and  (max-width: 520px) {
   .graph-image {
-    width: 100%;
+    width: 98%;
     margin: 0 auto;
   }
   .numb {
