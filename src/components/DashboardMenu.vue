@@ -63,38 +63,38 @@ export default {
       // change text color on clicked cpm
       switch (cmp) {
         case 'Debit':
-        this.debit.color = '#F9418C';
-        this.testpage.color = '#242323';
-        this.transitionimage.color = '#242323';
-        this.blogpost.color = '#242323';
-        break;
+          this.debit.color = '#F9418C';
+          this.testpage.color = '#242323';
+          this.transitionimage.color = '#242323';
+          this.blogpost.color = '#242323';
+          break;
 
         case 'TestPage':
-        this.debit.color = '#242323';
-        this.testpage.color = '#F9418C';
-        this.transitionimage.color = '#242323';
-        this.blogpost.color = '#242323';
-        break;
+          this.debit.color = '#242323';
+          this.testpage.color = '#F9418C';
+          this.transitionimage.color = '#242323';
+          this.blogpost.color = '#242323';
+          break;
 
         case 'TransitionImage':
-        this.debit.color = '#242323';
-        this.testpage.color = '#242323';
-        this.transitionimage.color = '#F9418C';
-        this.blogpost.color = '#242323';
-        break;
+          this.debit.color = '#242323';
+          this.testpage.color = '#242323';
+          this.transitionimage.color = '#F9418C';
+          this.blogpost.color = '#242323';
+          break;
 
         case 'BlogPost':
-        this.debit.color = '#242323';
-        this.testpage.color = '#242323';
-        this.transitionimage.color = '#242323';
-        this.blogpost.color = '#F9418C';
-        break;
+          this.debit.color = '#242323';
+          this.testpage.color = '#242323';
+          this.transitionimage.color = '#242323';
+          this.blogpost.color = '#F9418C';
+          break;
 
         default:
-        this.debit.color = '#F9418C';
-        this.testpage.color = '#242323';
-        this.transitionimage.color = '#242323';
-        this.blogpost.color = '#242323';
+          this.debit.color = '#F9418C';
+          this.testpage.color = '#242323';
+          this.transitionimage.color = '#242323';
+          this.blogpost.color = '#242323';
       }
     }
   }
