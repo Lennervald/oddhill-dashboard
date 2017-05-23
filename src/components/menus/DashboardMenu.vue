@@ -7,7 +7,7 @@
 
         <div class="nav-menu-body" @click="setComponent('Debit')" :style="debit">
           <p class="app-title">Debiteringsgrad</p>
-          <p class="app-number">74<span class="number-percent">%</span></p>
+          <p class="app-number">{{ valueDebit }}<span class="number-percent">%</span></p>
           <p class="sub-title">Mars 2017</p>
         </div>
         <div class="linebreaker"></div>
@@ -58,6 +58,7 @@ export default {
 			transitionimage: {
         color: '#242323'
       },
+      valueDebit: ''
     }
   },
   methods: {
@@ -107,6 +108,11 @@ export default {
           this.blogpost.color = '#242323';
       }
     }
+  },
+  created: function(){
+    eventBus.$on('valueDebit', (value) => {
+      this.valueDebit = value;
+    });
   }
 }
 </script>
