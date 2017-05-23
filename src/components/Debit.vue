@@ -76,6 +76,7 @@
 
 <script>
 import DebitChart from './charts/DebitChart.vue';
+import { eventBus } from '../main.js';
 
 // Get response data from file temporarely
 // REMEMBER - When making a request, lets say for a week, the dates that are used
@@ -107,6 +108,9 @@ export default {
 			roundoffInhouse: function(){
 				return Math.round(this.inhousePercentage);
 			}
-		}
+		},
+    mounted: function(){
+      eventBus.$emit('valueDebit', this.clientPercentage);
+    }
 }
 </script>
