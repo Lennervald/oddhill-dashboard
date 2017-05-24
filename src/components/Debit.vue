@@ -19,13 +19,12 @@
 					<div class="column is-offset-3-tablet is-offset-3-desktop is-6-tablet is-6-desktop">
 						<figure class="graph-image is-centered">
 							<app-chart
-                :client-percentage="roundoffClient()"
-                :inhouse-percentage="roundoffInhouse()"
+                :data="data"
               ></app-chart>
 							<!-- <img src="../assets/images/component_bgs/circle.png" alt=""> -->
 							<div class="graph-text-wrapper">
 								<article class="message">
-									<p class="graph-text app-number debit-number">{{ roundoffClient() }}<span class="number-percent">%</span></p>
+									<p class="graph-text app-number debit-number">{{ data.debit.week.client }}<span class="number-percent">%</span></p>
 									<p class="graph-text headline app-title section-item-active is-hidden-touch is-hidden-desktop-only">{{ headline }}</p>
 									<p class="graph-text value sub-title">{{ timevalues[0] }}</p>
 								</article>
@@ -95,12 +94,7 @@ export default {
       appChart: DebitChart
     },
 		methods: {
-			roundoffClient: function(){
-				return Math.round(this.data.debit.week.client);
-			},
-			roundoffInhouse: function(){
-				return Math.floor(this.data.debit.week.inhouse);
-			}
+      
 		}
 }
 </script>

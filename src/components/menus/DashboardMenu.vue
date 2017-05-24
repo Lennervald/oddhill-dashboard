@@ -63,7 +63,7 @@ export default {
       },
 
 			titleDebit: 'Debitingsgrad',
-      valueDebit: this.data.debit.week.client,
+      valueDebit: this.data.debit.month.client,
 			unitDebit: '%',
 			subDebit: 'mars 2017',
 
