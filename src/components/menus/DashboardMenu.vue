@@ -63,7 +63,7 @@ export default {
       },
 
 			titleDebit: 'Debitingsgrad',
-      valueDebit: '',
+      valueDebit: this.data.debit.week.client,
 			unitDebit: '%',
 			subDebit: 'mars 2017',
 
@@ -136,11 +136,6 @@ export default {
 			// return '"' + str.substring(0,30) + '..."';
 			return '"' + str +'"';
 		}
-  },
-  created: function(){
-    eventBus.$on('valueDebit', (value) => {
-      this.valueDebit = value;
-    });
   }
 }
 </script>
