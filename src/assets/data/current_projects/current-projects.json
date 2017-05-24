@@ -1,11 +1,7 @@
 {
-	"interval": {
-		"from": "2017-05-15",
-		"to": "2017-05-21"
-	},
 	"projects": [{
 			"name": "Malmö FF",
-			"developers": [{
+			"teamMembers": [{
 					"name": "Oddvar Hillsson",
 					"comits": "5",
 					"hours": "22"
@@ -19,7 +15,7 @@
 		},
 		{
 			"name": "Malmö Stadsteater",
-			"developers": [{
+			"teamMembers": [{
 					"name": "Oddaset Hillbert",
 					"comits": "33",
 					"hours": "38"
@@ -38,7 +34,7 @@
 		},
     {
 			"name": "Medicon Village",
-			"developers": [{
+			"teamMembers": [{
 					"name": "Oddaset Hillbert",
 					"comits": "7",
 					"hours": "25"
