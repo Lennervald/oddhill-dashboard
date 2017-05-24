@@ -1,5 +1,5 @@
 <template>
-	<div class="views">
+  <div class="views">
 		<section class="hero debit-page-wrapper is-fullwidth">
 			<div class="hero-head component-head-spacer is-vcentered">
 				<div class="columns">
@@ -78,24 +78,17 @@
 import DebitChart from './charts/DebitChart.vue';
 import { eventBus } from '../main.js';
 
-// Get response data from file temporarely
-// REMEMBER - When making a request, lets say for a week, the dates that are used
-// should be saved in variables to be used in array "timevalues" below
-var apiResponseWeek  = require('../assets/data/debiteringsgrad/api-response-week.js')
-var apiResponseMonth = require('../assets/data/debiteringsgrad/api-response-month.js')
-var apiResponseYear  = require('../assets/data/debiteringsgrad/api-response-year.js')
-
-
 export default {
+    props: [
+      'data'
+    ],
     data: function() {
         return {
 					headline: 'debiteringsgrad',
 				  sectionlinks: ["Vecka", "Månad", "År"],
 			  	value1: 'Klient',
 			  	value2: 'Inhouse',
-			  	timevalues: ["Vecka 12", "april 2017", "hela 2017"],
-				  clientPercentage: apiResponseWeek.client.percentage,
-          inhousePercentage: 100 - apiResponseWeek.client.percentage
+			  	timevalues: ["Vecka 12", "april 2017", "hela 2017"]
         }
     },
 		components: {
@@ -103,14 +96,11 @@ export default {
     },
 		methods: {
 			roundoffClient: function(){
-				return Math.round(this.clientPercentage);
+				return Math.round(this.data.debit.week.client);
 			},
 			roundoffInhouse: function(){
-				return Math.floor(this.inhousePercentage);
+				return Math.floor(this.data.debit.week.inhouse);
 			}
-		},
-    mounted: function(){
-      eventBus.$emit('valueDebit', this.roundoffClient());
-    }
+		}
 }
 </script>

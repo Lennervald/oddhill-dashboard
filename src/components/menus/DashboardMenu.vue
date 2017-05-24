@@ -41,6 +41,9 @@
 import { eventBus } from '../../main.js';
 
 export default {
+  props: [
+    'data' // contains data.client and data.inhouse
+  ],
   data: function() {
     return {
       debit: {
