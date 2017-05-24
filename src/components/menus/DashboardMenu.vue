@@ -6,30 +6,30 @@
         <button @click="setComponent('TransitionImage')" class="tmp-btn">bakgrundsbilder</button>
 
         <div class="nav-menu-body" @click="setComponent('Debit')" :style="debit">
-          <p class="app-title">Debiteringsgrad</p>
-          <p class="app-number dashboard-number">{{ valueDebit }}<span class="number-percent">%</span></p>
-          <p class="sub-title">Mars 2017</p>
+          <p class="app-title">{{titleDebit}}</p>
+          <p class="app-number dashboard-number">{{ valueDebit }}<span class="number-percent">{{unitDebit}}</span></p>
+          <p class="sub-title">{{subDebit}}</p>
         </div>
         <div class="linebreaker"></div>
 
         <div class="nav-menu-body" @click="setComponent('CurrentProjects')" :style="currentprojects">
-          <p class="app-title">Aktuella Projekt</p>
-          <p class="app-number dashboard-number">8.<span class="small-print"></span></p>
-          <p class="sub-title">Senaste månaden</p>
+          <p class="app-title">{{titleProj}}</p>
+          <p class="app-number dashboard-number">{{valueProj}}{{unitProj}}</p>
+          <p class="sub-title">{{subProj}}</p>
         </div>
         <div class="linebreaker"></div>
 
         <div class="nav-menu-body" @click="setComponent('NextEvent')" :style="nextevent">
-          <p class="app-title">Nästa Event</p>
-          <p class="app-number dashboard-number">20<span class="small-print">April</span></p>
-          <p class="sub-title">maj 2017</p>
+          <p class="app-title">{{titleEvent}}</p>
+          <p class="app-number dashboard-number">{{valueEvent}}<span class="small-print">{{unitEvent}}</span></p>
+          <p class="sub-title">{{subEvent}}</p>
         </div>
         <div class="linebreaker"></div>
 
         <div class="nav-menu-body" @click="setComponent('BlogPost')" :style="blogpost">
-          <p class="app-title">Senaste Blogginlägg</p>
-          <p class="app-number dashboard-number">22<span class="small-print">Juli</span></p>
-          <p class="sub-title">April 2017</p>
+          <p class="app-title">{{titleBlog}}</p>
+          <p class="app-number dashboard-number">{{valueBlog}}<span class="small-print">{{unitBlog}}</span></p>
+          <p class="sub-title">{{shortenTitle()}}</p>
         </div>
 
       </div>
@@ -58,7 +58,26 @@ export default {
 			transitionimage: {
         color: '#242323'
       },
-      valueDebit: ''
+
+			titleDebit: 'Debitingsgrad',
+      valueDebit: '',
+			unitDebit: '%',
+			subDebit: 'mars 2017',
+
+			titleProj: 'Aktuella Projekt',
+      valueProj: '7',
+			unitProj: '.',
+			subProj: 'Senaste månaden',
+
+			titleEvent: 'Nästa Event',
+      valueEvent: '26',
+			unitEvent: 'maj',
+			subEvent: 'Utvecklardag',
+
+			titleBlog: 'Senaste Blogginlägg',
+      valueBlog: '12',
+			unitBlog: 'april',
+			subBlog: 'Projektledning i det digitala landskapet'
     }
   },
   methods: {
@@ -107,7 +126,11 @@ export default {
           this.transitionimage.color = '#242323';
           this.blogpost.color = '#242323';
       }
-    }
+    },
+		shortenTitle: function(){
+			let str = this.subBlog;
+			return '"' + str.substring(0,30) + '..."';
+		}
   },
   created: function(){
     eventBus.$on('valueDebit', (value) => {
