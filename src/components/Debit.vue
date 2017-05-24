@@ -1,5 +1,5 @@
 <template>
-	<div class="views">
+  <div class="views">
 		<section class="hero debit-page-wrapper is-fullwidth">
 			<div class="hero-head component-head-spacer is-vcentered">
 				<div class="columns">
@@ -19,13 +19,12 @@
 					<div class="column is-offset-3-tablet is-offset-3-desktop is-6-tablet is-6-desktop">
 						<figure class="graph-image is-centered">
 							<app-chart
-                :client-percentage="roundoffClient()"
-                :inhouse-percentage="roundoffInhouse()"
+                :data="data"
               ></app-chart>
 							<!-- <img src="../assets/images/component_bgs/circle.png" alt=""> -->
 							<div class="graph-text-wrapper">
 								<article class="message">
-									<p class="graph-text app-number debit-number">{{ roundoffClient() }}<span class="number-percent">%</span></p>
+									<p class="graph-text app-number debit-number">{{ data.debit.week.client }}<span class="number-percent">%</span></p>
 									<p class="graph-text headline app-title section-item-active is-hidden-touch is-hidden-desktop-only">{{ headline }}</p>
 									<p class="graph-text value sub-title">{{ timevalues[0] }}</p>
 								</article>
@@ -78,39 +77,24 @@
 import DebitChart from './charts/DebitChart.vue';
 import { eventBus } from '../main.js';
 
-// Get response data from file temporarely
-// REMEMBER - When making a request, lets say for a week, the dates that are used
-// should be saved in variables to be used in array "timevalues" below
-var apiResponseWeek  = require('../assets/data/debiteringsgrad/api-response-week.js')
-var apiResponseMonth = require('../assets/data/debiteringsgrad/api-response-month.js')
-var apiResponseYear  = require('../assets/data/debiteringsgrad/api-response-year.js')
-
-
 export default {
+    props: [
+      'data'
+    ],
     data: function() {
         return {
 					headline: 'debiteringsgrad',
 				  sectionlinks: ["Vecka", "Månad", "År"],
 			  	value1: 'Klient',
 			  	value2: 'Inhouse',
-			  	timevalues: ["Vecka 12", "april 2017", "hela 2017"],
-				  clientPercentage: apiResponseWeek.client.percentage,
-          inhousePercentage: 100 - apiResponseWeek.client.percentage
+			  	timevalues: ["Vecka 12", "april 2017", "hela 2017"]
         }
     },
 		components: {
       appChart: DebitChart
     },
 		methods: {
-			roundoffClient: function(){
-				return Math.round(this.clientPercentage);
-			},
-			roundoffInhouse: function(){
-				return Math.floor(this.inhousePercentage);
-			}
-		},
-    mounted: function(){
-      eventBus.$emit('valueDebit', this.roundoffClient());
-    }
+      
+		}
 }
 </script>

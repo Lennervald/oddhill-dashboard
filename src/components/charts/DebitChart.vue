@@ -11,14 +11,13 @@
 
   export default{
     props: [
-      'clientPercentage',
-      'inhousePercentage'
+      'data'
     ],
     data () {
       return {
         projectname: 'Malmö Stadsteater',
-        client: this.clientPercentage,
-        inhouse: this.inhousePercentage
+        client: this.data.debit.week.client,
+        inhouse: this.data.debit.week.inhouse
       }
     },
     created() {
@@ -45,7 +44,7 @@
         this.datacollection = {
             labels: ['Client', 'Inhouse'],
             datasets: [{
-                data: [this.client, this.inhouse],
+                data: [this.data.debit.week.client, this.data.debit.week.inhouse],
                 backgroundColor: ["#F9418C", "#722FBC"],
                 borderWidth: 0,
             }],
