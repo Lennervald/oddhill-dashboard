@@ -129,7 +129,9 @@ export default {
     },
 		shortenTitle: function(){
 			let str = this.subBlog;
-			return '"' + str.substring(0,30) + '..."';
+			// perhaps unnessesary
+			// return '"' + str.substring(0,30) + '..."';
+			return '"' + str +'"';
 		}
   },
   created: function(){
