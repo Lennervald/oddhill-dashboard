@@ -29,8 +29,9 @@
     background: none;
   }
 
-  .app-number {
-    font-size: $font-size-1;
+  .debit-number {
+    font-size: $font-size-0;
+    margin-bottom: -4%;
   }
   .graph-text {
     color: $white;
@@ -66,19 +67,38 @@
 }
 
 ////////////////////////////////////////////////////
+@media screen and (min-width: 2000px){
+
+  .graph-text-wrapper {
+    .debit-number {
+      // transform: scale(1.4);
+      // margin-bottom: -2vh;
+    }
+    .app-title {
+      // transform: scale(1.4);
+      // margin-bottom: 1vh;
+    }
+    .sub-title {
+      // transform: scale(1.2);
+    }
+  }
+
+}
+
 
 @media screen and (min-width: 1600px){
   .graph-image {
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
   }
+
 }
 
 @media screen and (max-width: 1000px){
   .graph-text-wrapper {
-    .app-number {
-      font-size: 7vh;
-      margin-bottom: -1vh;
+    .debit-number {
+      font-size: 8vh;
+      // margin: 1vh 0 -2vh;
     }
   }
 }
@@ -90,9 +110,9 @@
   }
 
   .graph-text-wrapper {
-    .app-number {
+    .debit-number {
       font-size: $font-size-huge;
-      margin-bottom: -1vh;
+      margin-bottom: -4%;
     }
   }
 
@@ -103,9 +123,9 @@
     width: 98%;
     margin: 0 auto;
   }
-  .graph-text-wrapper {
-    .app-number {
-      font-size: $font-size-huge;
-    }
+  .debit-number {
+    font-size: $font-size-huge;
+    // margin-top: -2%;
+    margin-bottom: -2%;
   }
 }

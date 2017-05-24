@@ -6,24 +6,51 @@
   </article>
 
   <section class="hero next-event-page-wrapper is-fullwidth">
-    <div class="hero-head component-head-spacer is-vcentered">
+    <div class="hero-head component-head-spacer">
       <div class="columns">
-        <div class="column">
-          <h1>THIS WILL BE THE NEXT EVENT PAGE</h1>
-
+        <div class="column is-offset-1">
+          <p class="headline">{{title}}</p>
         </div>
       </div>
     </div>
 
     <div class="hero-body component-body">
-      <div class="columns is-mobile is-vcentered">
-        <div class="column is-offset-3-tablet is-offset-3-desktop is-6-tablet is-6-desktop">
-          <h1>THIS WILL BE THE NEXT EVENT PAGE</h1>
+      <div class="columns">
+        <div class="column is-hidden-mobile">
+          <div class="desktop-spacer"></div>
+        </div>
+        </div>
+        <div class="columns">
+        <div class="column is-offset-2 is-6-desktop is-6-tablet">
+          <p class="mega-title">{{eventtitle}}</p>
+          <div class="yellow-liner">
+          </div>
         </div>
       </div>
-    </div>
+      <div class="subjects-div">
+        <div class="tablet-spacer"></div>
+        <div class="columns">
+          <div class="column is-offset-3">
+            <p class="event-subjects">{{eventobjects[0]}} {{time}}</p>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-offset-4">
+            <p class="event-subjects">{{eventobjects[1]}} {{address}}</p>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-offset-5 is-5">
+            <p class="event-subjects">{{eventobjects[2]}} {{infotext}}</p>
+          </div>
+        </div>
 
-    <div class="hero-foot is-vcentered">
+      </div>
+
+
+        </div>
+
+    <div class="hero-foot">
       <div class="columns">
         <div class="column has-text-left is-hidden-desktop">
           <img class="footer-icon-mobile" src="../assets/images/oh_logo.png" alt="">
@@ -39,7 +66,13 @@
 export default {
   data: function() {
     return {
-
+      title: "Nästa Event",
+      eventtitle: "Utvecklardag",
+      eventobjects: ["När?", "Var?", "Info:"],
+      address: "Odd Hill, Humlegatan 4, Malmö",
+      time: "Fredagen den 26 Maj",
+      timespan: "Kl 9-17",
+      infotext: "Ps. Följ #utvecklardag på Twitter och Instagram."
     }
   }
 }

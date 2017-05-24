@@ -6,9 +6,9 @@
 		width: 80vh;
 		height: 300vh;
 		top: -120vh;
-		left: 10vh;
+		left: 12vh;
 		transform: scale(2);
-		transform: rotate(135deg);
+		transform: rotate(125deg);
 		background: $pink;
 
 	}
@@ -29,13 +29,23 @@
 
 ////////////////////////////////////////////////////
 
+@media screen and  (max-width: 1600px) {
+
+	.color-div-wrapper {
+		.col-div-next-event {
+			width: 76vh;
+		}
+	}
+}
+
+
 @media screen and  (max-width: 1000px) {
 
 	.color-div-wrapper {
 		.col-div-next-event {
 			height: 200vh;
 			top: -40vh;
-			left: 10vh;
+			left: 20vh;
 		}
 
 		.col-div-blog-page {

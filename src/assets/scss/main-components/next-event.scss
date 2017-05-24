@@ -8,4 +8,98 @@
   background-size: cover;
   height: 100vh;
   width: 100%;
+  text-align: left;
+}
+
+.desktop-spacer{
+  height: 5vh;
+}
+
+.mega-title {
+  font-size: 2.6rem;
+  text-transform: none;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1vh;
+}
+
+.yellow-liner {
+  height:1px;
+  width: 100%;
+  margin-top: 0.2rem;
+  background: $yellow;
+
+}
+
+.event-subjects {
+  font-size: 1.75rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  margin: -0.3rem 0;
+
+}
+
+.tablet-spacer {
+  height: 0;
+}
+
+
+
+// ////////////////////////////////////////////////////
+
+@media screen and (max-width: 1000px){
+
+
+
+  .mega-title {
+    font-size: 2.2rem;
+    margin-bottom: 1vh;
+  }
+
+  .subjects-div {
+    margin: 0 10%;
+  }
+
+
+  .event-subjects {
+    text-align: left;
+    letter-spacing: 0.1rem;
+    margin:  0.5rem 0;
+  }
+
+  .tablet-spacer {
+    height: 1vh;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+
+  .next-event-page-wrapper {
+    text-align: center;
+  }
+
+  .yellow-liner {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+
+}
+
+@media screen and (max-width: 520px){
+
+  .mega-title {
+    font-size: 2rem;
+    margin-bottom: 1vh;
+  }
+
+  .event-subjects {
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    margin:  0;
+  }
+
 }

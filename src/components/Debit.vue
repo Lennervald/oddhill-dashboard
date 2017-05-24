@@ -25,7 +25,7 @@
 							<!-- <img src="../assets/images/component_bgs/circle.png" alt=""> -->
 							<div class="graph-text-wrapper">
 								<article class="message">
-									<p class="graph-text numb app-number">{{ roundoffClient() }}<span class="number-percent">%</span></p>
+									<p class="graph-text app-number debit-number">{{ roundoffClient() }}<span class="number-percent">%</span></p>
 									<p class="graph-text headline app-title section-item-active is-hidden-touch is-hidden-desktop-only">{{ headline }}</p>
 									<p class="graph-text value sub-title">{{ timevalues[0] }}</p>
 								</article>
