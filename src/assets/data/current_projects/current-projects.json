@@ -1,77 +1,64 @@
 {
-	"project1": {
-		"companyName": "Malmö FF",
-		"projectMembers": [
-			{
-				"firstName": "Oddvar",
-				"lastName": "Hillsson",
-				"commitsPerDay": 5,
-				"hoursPerDay": 6
-			},
-			{
-				"firstName": "Oddvar",
-				"lastName": "Hillsson",
-				"commits": 5,
-				"hoursPerDay": 6
-			},
-			{
-				"firstName": "Oddvar",
-				"lastName": "Hillsson",
-				"commitsPerDay": 5,
-				"hoursPerDay": 6
-			}
-
-		]
+	"interval": {
+		"from": "2017-05-15",
+		"to": "2017-05-21"
 	},
-
-	"project2": {
-		"companyName": "Sedermera Fondkommision",
-		"projectMembers": [
-			{
-				"firstName": "Oddvar",
-				"lastName": "Hillsson",
-				"commitsPerDay": 5,
-				"hoursPerDay": 6
-			},
-			{
-				"firstName": "Oddvar",
-				"lastName": "Hillsson",
-				"commitsPerDay": 5,
-				"hoursPerDay": 6
-			},
-			{
-				"firstName": "Oddvar",
-				"lastName": "Hillsson",
-				"commitsPerDay": 5,
-				"hoursPerDay": 6
-			}
-
-		]
-	},
-
-	"project3": {
-		"companyName": "Malmö Opera",
-		"projectMembers": [
-			{
-				"firstName": "Oddvar",
-				"lastName": "Hillsson",
-				"commitsPerDay": 5,
-				"hoursPerDay": 6
-			},
-			{
-				"firstName": "Oddvar",
-				"lastName": "Hillsson",
-				"commitsPerDay": 5,
-				"hoursPerDay": 6
-			},
-			{
-				"firstName": "Oddvar",
-				"lastName": "Hillsson",
-				"commitsPerDay": 5,
-				"hoursPerDay": 6
-			}
-
-		]
-	}
+	"projects": [{
+			"name": "Malmö FF",
+			"developers": [{
+					"name": "Oddvar Hillsson",
+					"comits": "5",
+					"hours": "22"
+				},
+				{
+					"name": "Oddling Hillner",
+					"comits": "10",
+					"hours": "43"
+				}
+			]
+		},
+		{
+			"name": "Malmö Stadsteater",
+			"developers": [{
+					"name": "Oddaset Hillbert",
+					"comits": "33",
+					"hours": "38"
+				},
+				{
+					"name": "Oddset Hillvig",
+					"comits": "4",
+					"hours": "12"
+				},
+        {
+					"name": "Oddling Hillner",
+					"comits": "5",
+					"hours": "36"
+				}
+			]
+		},
+    {
+			"name": "Medicon Village",
+			"developers": [{
+					"name": "Oddaset Hillbert",
+					"comits": "7",
+					"hours": "25"
+				},
+				{
+					"name": "Oddset Hillvig",
+					"comits": "10",
+					"hours": "24"
+				},
+        {
+					"name": "Oddset Hillvig",
+					"comits": "1",
+					"hours": "9"
+				},
+        {
+					"name": "Oddling Hillner",
+					"comits": "2",
+					"hours": "5"
+				}
+			]
+		}
+	]
 }
-
