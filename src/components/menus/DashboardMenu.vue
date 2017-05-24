@@ -7,7 +7,7 @@
 
         <div class="nav-menu-body" @click="setComponent('Debit')" :style="debit">
           <p class="app-title">Debiteringsgrad</p>
-          <p class="app-number">{{ valueDebit }}<span class="number-percent">%</span></p>
+          <p class="app-number">{{ data.debit.week.client }}<span class="number-percent">%</span></p>
           <p class="sub-title">Mars 2017</p>
         </div>
         <div class="linebreaker"></div>
@@ -41,6 +41,9 @@
 import { eventBus } from '../../main.js';
 
 export default {
+  props: [
+    'data' // contains data.client and data.inhouse
+  ],
   data: function() {
     return {
       debit: {
@@ -57,8 +60,7 @@ export default {
       },
 			transitionimage: {
         color: '#242323'
-      },
-      valueDebit: ''
+      }
     }
   },
   methods: {
@@ -108,11 +110,6 @@ export default {
           this.blogpost.color = '#242323';
       }
     }
-  },
-  created: function(){
-    eventBus.$on('valueDebit', (value) => {
-      this.valueDebit = value;
-    });
   }
 }
 </script>
