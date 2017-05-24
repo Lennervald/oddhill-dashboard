@@ -55,7 +55,7 @@
 
 .sub-title {
   font-family: $project-sans-serif;
-  font-size: $font-size-7;
+  font-size: $font-size-6;
   font-weight: $weight-light;
 }
 
@@ -97,4 +97,20 @@
 
 .app-br:after {
     content: "|";
+}
+
+
+.under-lined {
+  text-decoration: none;
+  display: inline-table;
+}
+
+.under-lined:after {
+  content: "";
+  border-bottom: 0.1rem solid $pink;
+  display: table-caption;
+  caption-side: bottom;
+  position: relative;
+  width: 100%;
+padding-bottom: 0.3vw;
 }

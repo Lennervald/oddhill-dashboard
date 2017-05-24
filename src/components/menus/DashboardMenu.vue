@@ -29,7 +29,7 @@
         <div class="nav-menu-body" @click="setComponent('BlogPost')" :style="blogpost">
           <p class="app-title">{{titleBlog}}</p>
           <p class="app-number dashboard-number">{{valueBlog}}<span class="small-print">{{unitBlog}}</span></p>
-          <p class="sub-title">{{shortenTitle()}}</p>
+          <p class="sub-title blog-title">{{shortenTitle()}}</p>
         </div>
 
       </div>
