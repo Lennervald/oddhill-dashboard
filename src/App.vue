@@ -29,6 +29,9 @@ var apiResponseWeek  = require('./assets/data/debiteringsgrad/api-response-week.
 var apiResponseMonth = require('./assets/data/debiteringsgrad/api-response-month.js')
 var apiResponseYear  = require('./assets/data/debiteringsgrad/api-response-year.js')
 
+// Get project-data from JSON
+var projectData = require('./assets/data/projects/current-projects-week.json');
+
 export default {
   name: 'app',
   data () {
@@ -48,9 +51,7 @@ export default {
             inhouse: Math.floor(100 - apiResponseYear.client.percentage)
           }
         },
-        projects: {
-
-        }
+        projects: projectData.projects
       }
     }
   }

@@ -2,11 +2,11 @@ module.exports = {
   hours: 80,
   internal: {
     hours: 10,
-    percentage: 12.5 
+    percentage: 44 
   },
   client: {
     hours: 70,
-    percentage: 87.5
+    percentage: 66
   },
   billable: {
     hours: 60,

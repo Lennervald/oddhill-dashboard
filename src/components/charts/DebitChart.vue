@@ -11,22 +11,40 @@
 
   export default{
     props: [
-      'data'
+      'data',
+      'state'
     ],
     data () {
       return {
-        projectname: 'Malmö Stadsteater',
-        client: this.data.debit.week.client,
-        inhouse: this.data.debit.week.inhouse
+        client: null,
+        inhouse: null
       }
     },
     created() {
-        this.fillData()
+      this.displayData();
+      this.fillData();
     },
     components: {
         DoughnutChart
     },
     methods: {
+      displayData(){
+        if(this.state === 'month'){
+          console.log('state: month')
+          this.client = this.data.debit.month.client;
+          this.inhouse = this.data.debit.month.inhouse
+        } 
+        else if (this.state === 'week'){
+          console.log('state: week')
+          this.client = this.data.debit.week.client;
+          this.inhouse = this.data.debit.week.inhouse
+        }
+        else if (this.state === 'year'){
+          console.log('state: year')
+          this.client = this.data.debit.year.client;
+          this.inhouse = this.data.debit.year.inhouse
+        }
+      },
       fillData() {
         this.opts = {
             cutoutPercentage: 47, // The Fatness of the Pie
@@ -44,7 +62,7 @@
         this.datacollection = {
             labels: ['Client', 'Inhouse'],
             datasets: [{
-                data: [this.data.debit.week.client, this.data.debit.week.inhouse],
+                data: [this.client, this.inhouse],
                 backgroundColor: ["#F9418C", "#722FBC"],
                 borderWidth: 0,
             }],

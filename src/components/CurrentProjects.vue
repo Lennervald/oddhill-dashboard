@@ -209,14 +209,19 @@
 <script>
 
 export default {
-    data: function() {
-        return {
-					pagetitle: "Aktuella Projekt",
-					projectname: "Malmö Stadsteater",
-					projectObj: ["Commits", "Timmar"],
-					valueCommits: "178",
-					valueHours: "178",
-        }
-    }
+  props: ['data'],
+  data: function() {
+      return {
+        pagetitle: "Aktuella Projekt",
+        projectname: "Malmö Stadsteater",
+        projectObj: ["Commits", "Timmar"],
+        valueCommits: "178",
+        valueHours: "178",
+      }
+  },
+  mounted(){
+    console.log(this.data.projects[0].teamMembers[0].name);
+    console.log(this.data.projects.length)
+  }
 }
 </script>

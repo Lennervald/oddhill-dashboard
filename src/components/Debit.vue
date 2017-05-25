@@ -20,6 +20,7 @@
 						<figure class="graph-image is-centered">
 							<app-chart
                 :data="data"
+                :state="currentState"
               ></app-chart>
 							<!-- <img src="../assets/images/component_bgs/circle.png" alt=""> -->
 							<div class="graph-text-wrapper">
@@ -78,23 +79,39 @@ import DebitChart from './charts/DebitChart.vue';
 import { eventBus } from '../main.js';
 
 export default {
-    props: [
-      'data'
-    ],
-    data: function() {
-        return {
-					headline: 'debiteringsgrad',
-				  sectionlinks: ["Vecka", "Månad", "År"],
-			  	value1: 'Klient',
-			  	value2: 'Inhouse',
-			  	timevalues: ["Vecka 12", "april 2017", "hela 2017"]
-        }
-    },
-		components: {
-      appChart: DebitChart
-    },
-		methods: {
-      
-		}
+  props: [
+    'data'
+  ],
+  data: function() {
+      return {
+        headline: 'debiteringsgrad',
+        sectionlinks: ["Vecka", "Månad", "År"],
+        value1: 'Klient',
+        value2: 'Inhouse',
+        timevalues: ["Vecka 12", "april 2017", "hela 2017"],
+        states: ['week','month','year'],
+        currentState: 'week'
+      }
+  },
+  components: {
+    appChart: DebitChart
+  },
+  methods: {
+    play: function(){
+      // setInterval(function(){ 
+      //   if (this.currentState === "week"){
+      //     this.currentState = "month";
+      //     console.log('state = month');
+      //   } else
+      //   {
+      //     this.currentState = "week";
+      //     console.log('state = week');
+      //   }
+      // }, 3000);
+    }
+  },
+  mounted: function(){
+    this.play();
+  }
 }
 </script>
