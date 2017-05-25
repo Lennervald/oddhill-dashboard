@@ -2,13 +2,13 @@
 	"projects": [{
 			"name": "Malmö FF",
 			"teamMembers": [{
-					"name": "Oddvar Hillsson",
-					"comits": "5",
+					"name": "Magnus",
+					"commits": "5",
 					"hours": "22"
 				},
 				{
-					"name": "Oddling Hillner",
-					"comits": "10",
+					"name": "Calle",
+					"commits": "10",
 					"hours": "23"
 				}
 			]
@@ -16,53 +16,53 @@
     {
 			"name": "Skånes Dansteater",
 			"teamMembers": [{
-					"name": "Oddaset Hillbert",
-					"comits": "33",
+					"name": "Christoffer",
+					"commits": "33",
 					"hours": "30"
 				},
 				{
-					"name": "Oddset Hillvig",
-					"comits": "4",
+					"name": "Jennifer",
+					"commits": "4",
 					"hours": "12"
 				},
         {
-					"name": "Oddling Hillner",
-					"comits": "5",
+					"name": "Marri",
+					"commits": "5",
 					"hours": "33"
 				},
         {
-					"name": "Odd Hillodd",
-					"comits": "4",
+					"name": "Mattias",
+					"commits": "4",
 					"hours": "12"
 				},
         {
-					"name": "Odd-drak Hill-rak",
-					"comits": "12",
+					"name": "Nils",
+					"commits": "12",
 					"hours": "24"
 				},
 				{
-					"name": "Oddmule Hillsnir",
-					"comits": "9",
+					"name": "Jens_L",
+					"commits": "9",
 					"hours": "9"
 				},
         {
-					"name": "Oddstal Hillstat",
-					"comits": "10",
+					"name": "Jens_G",
+					"commits": "10",
 					"hours": "3"
 				},
         {
-					"name": "Oddd Hillodd",
-					"comits": "1",
+					"name": "Olof",
+					"commits": "1",
 					"hours": "15"
 				},
         {
-					"name": "Oddstit Hillstit",
-					"comits": "20",
+					"name": "Erik",
+					"commits": "20",
 					"hours": "22"
 				},
         {
-					"name": "Oddcat Hillsdog",
-					"comits": "2",
+					"name": "Anton",
+					"commits": "2",
 					"hours": "12"
 				}
 			]
@@ -71,17 +71,17 @@
 			"name": "Malmö Stadsteater",
 			"teamMembers": [{
 					"name": "Oddaset Hillbert",
-					"comits": "33",
+					"commits": "33",
 					"hours": "38"
 				},
 				{
 					"name": "Oddset Hillvig",
-					"comits": "4",
+					"commits": "4",
 					"hours": "12"
 				},
         {
 					"name": "Oddling Hillner",
-					"comits": "5",
+					"commits": "5",
 					"hours": "36"
 				}
 			]
@@ -90,22 +90,22 @@
 			"name": "Medicon Village",
 			"teamMembers": [{
 					"name": "Oddaset Hillbert",
-					"comits": "7",
+					"commits": "7",
 					"hours": "25"
 				},
 				{
 					"name": "Oddset Hillvig",
-					"comits": "10",
+					"commits": "10",
 					"hours": "24"
 				},
         {
 					"name": "Oddset Hillvig",
-					"comits": "1",
+					"commits": "1",
 					"hours": "9"
 				},
         {
 					"name": "Oddling Hillner",
-					"comits": "2",
+					"commits": "2",
 					"hours": "5"
 				}
 			]

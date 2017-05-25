@@ -1,10 +1,7 @@
 <template>
 <div class="views">
 
-
-
   <section class="hero current-projects-page-wrapper is-fullwidth">
-
     <div class="hero-body component-body component-head-spacer">
 
       <div class="columns">
@@ -24,86 +21,11 @@
         </div>
       </div>
 
-      <div class="columns is-mobile">
-        <div class="column is-offset-1 is-10 is-hidden-tablet is-hidden-desktop">
-          <div class="columns ">
-            <div class="column">
-              <article class="proj-mobile-headline">
-                <p class="subtitle project-values under-lined">{{valueCommits}} {{projectObj[0]}} | {{valueHours}} {{projectObj[1]}}</p>
-                <p class="title project-title">{{projectname}}</p>
-              </article>
-            </div>
-            <div class="columns is-mobile">
-              <div class="column is-4">
-                <figure class="image is-square">
-                  <img class="" src="../assets/images/staff/jens_l.png" alt="">
-                </figure>
-              </div>
-              <div class="column is-4">
-                <figure class="image is-square">
-                  <img class="" src="../assets/images/staff/jens_g.png" alt="">
-                </figure>
-              </div>
-              <div class="column is-4">
-                <figure class="image is-square">
-                  <img class="" src="../assets/images/staff/ola.png" alt="">
-                </figure>
-              </div>
+      <!-- HERE STARTS MOBILE -->
+      <current-projects-mobile></current-projects-mobile>
+      <!-- HERE ENDS MOBILE -->
 
-            </div>
-            <div class="columns is-mobile">
-              <div class="column is-4">
-                <div class="mobile-color-breaker b-color">
-                </div>
-              </div>
-              <div class="column">
-                <div class="mobile-color-breaker p-color">
-                </div>
-              </div>
-            </div>
-
-            <div class="columns is-mobile">
-              <div class="column is-4">
-                <figure class="image is-square">
-                  <img class="" src="../assets/images/staff/magnus.png" alt="">
-                </figure>
-              </div>
-              <div class="column is-4">
-                <figure class="image is-square">
-                  <img class="" src="../assets/images/staff/olof.png" alt="">
-                </figure>
-              </div>
-              <div class="column is-4">
-                <figure class="image is-square">
-                  <img class="" src="../assets/images/staff/anton.png" alt="">
-                </figure>
-              </div>
-            </div>
-            <div class="columns is-mobile">
-              <div class="column is-4">
-                <figure class="image is-square">
-                  <img class="" src="../assets/images/staff/mads.png" alt="">
-                </figure>
-              </div>
-              <div class="column is-4">
-                <figure class="image is-square">
-                  <img class="" src="../assets/images/staff/hannele.png" alt="">
-                </figure>
-              </div>
-              <div class="column is-4">
-                <figure class="image is-square">
-                  <img class="" src="../assets/images/staff/mohamed.png" alt="">
-                </figure>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-
-<!-- HERE STARTS DESKTOP -->
+      <!-- HERE STARTS DESKTOP -->
 
       <div class="columns is-hidden-mobile is-vcentered">
         <div class="column is-offset-1 is-10">
@@ -130,34 +52,37 @@
                   <p class="title"> 1</p>
                   <p class="title"> .</p>
                 </article>
+
                 <div class="tile is-ancestor">
+
                   <div class="tile is-parent">
+                    <!-- TEAM MEMBER 1 -->
                     <article class="tile is-child notification img-box p-color">
-                      <!-- <p class="title">2</p> -->
                       <div class="color-filter"></div>
                       <div class="pic-filler2 big-vertical">
                       </div>
                     </article>
                   </div>
+
                   <div class="tile is-vertical">
                     <div class="tile is-parent">
                       <article class="tile is-child notification is-danger">
                         <p class="title">3</p>
                       </article>
                     </div>
-                      <div class="tile is-vertical">
-                        <div class="tile is-parent">
-                          <article class="tile is-child notification is-danger">
-                            <p class="title"> .</p>
-                            <p class="subtitle">sss</p>
-                          </article>
-                        </div>
-                        <div class="tile is-parent">
-                          <article class="tile is-child notification is-danger">
-                            <p class="title">hss</p>
-                            <p class="subtitle">pic goes here</p>
-                          </article>
-                        </div>
+                    <div class="tile is-vertical">
+                      <div class="tile is-parent">
+                        <article class="tile is-child notification is-danger">
+                          <p class="title"> .</p>
+                          <p class="subtitle">sss</p>
+                        </article>
+                      </div>
+                      <div class="tile is-parent">
+                        <article class="tile is-child notification is-danger">
+                          <p class="title">hss</p>
+                          <p class="subtitle">pic goes here</p>
+                        </article>
+                      </div>
                     </div>
 
                   </div>
@@ -193,7 +118,7 @@
       </div>
 
 
-<!-- HERE ENDS DESKTOP -->
+      <!-- HERE ENDS DESKTOP -->
 
     </div>
     <div class="hero-foot is-vcentered">
@@ -206,22 +131,64 @@
   </section>
 </div>
 </template>
-<script>
 
+
+<script>
+import CurrentProjectsMobile from './subpages/CurrentProjectsMobile.vue';
 export default {
   props: ['data'],
   data: function() {
-      return {
-        pagetitle: "Aktuella Projekt",
-        projectname: "Malmö Stadsteater",
-        projectObj: ["Commits", "Timmar"],
-        valueCommits: "178",
-        valueHours: "178",
-      }
+    return {
+      pagetitle: "Aktuella Projekt",
+      projectname: "",
+      projectObj: ["Commits", "Timmar"],
+      valueCommits: "178",
+      valueHours: '',
+      teammembername: 'Nils',
+      profileimg: ''
+    }
   },
-  mounted(){
-    console.log(this.data.projects[0].teamMembers[0].name);
-    console.log(this.data.projects.length)
+  components: {
+    CurrentProjectsMobile
+  },
+  created: function(){
+    this.setupProject();
+  },
+  mounted() {
+    // console.log(this.data.projects[0].teamMembers[0].name);
+    // console.log(this.data.projects.length)
+  },
+  methods: {
+    setupProject: function(){
+      let selectedProj = this.data.projects[2];
+      let projMembers = selectedProj.teamMembers;
+      this.projectname = selectedProj.name;
+
+      let hourArr = [];
+      let commitArr = [];
+      let hourSum = 0;
+      let commitSum = 0;
+
+      projMembers.map(function(teamie){
+        let memName = teamie.name;
+        let memHours = parseInt(teamie.hours);
+        let memCommits = parseInt(teamie.commits);
+        hourArr.push(memHours);
+        commitArr.push(memCommits);
+      });
+
+      for (let i = 0; i < hourArr.length; i++){
+          hourSum += hourArr[i];
+      }
+
+      for (let i = 0; i < commitArr.length; i++){
+          commitSum += commitArr[i];
+      }
+
+      this.valueHours = hourSum;
+      this.valueCommits = commitSum;
+
   }
+}
 }
 </script>
