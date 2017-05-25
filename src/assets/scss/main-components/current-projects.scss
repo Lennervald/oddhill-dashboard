@@ -9,11 +9,11 @@
   width: 100%;
 }
 
-.head-spacer{
+.head-spacer {
   height: 2vh;
 }
 
-.current-desktop-spacer{
+.current-desktop-spacer {
   height: 2vh;
 }
 
@@ -28,9 +28,10 @@
   .project-values {
     font-size: 1.2rem;
   }
+
   .title {
     margin-top: 1rem;
-font-size: 2rem;
+    font-size: 2rem;
   }
 }
 
@@ -49,8 +50,8 @@ font-size: 2rem;
       font-weight: 400;
       letter-spacing: 0.1vw;
       margin-bottom: -0.5vh;
-
     }
+
     .project-values {
       font-size: $font-size-6;
       font-weight: 400;
@@ -60,24 +61,22 @@ font-size: 2rem;
   }
 }
 
-.p-color {
+.col-filter1 {
   background: $pink;
 }
 
-.b-color {
+.col-filter2 {
   background: $blue;
 }
 
-.pur-color {
-  background: $blue;
+.col-filter3 {
+  background: $purple_dark;
 }
-
 
 .img-box {
   position: relative;
   height: 100%;
   width: 100%;
-  // background: $pink;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -85,10 +84,25 @@ font-size: 2rem;
   background-size: cover;
 }
 
+.height-div{
+  width: 100%;
+  height: 12vh;
+}
+
+.height-div-bigger{
+  width: 100%;
+  height: 12vh;
+}
+
+.padder {
+  padding: 3vh 0;
+}
+
+
 .pic-filler-item {
   background-color: $white;
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
@@ -99,15 +113,14 @@ font-size: 2rem;
 .pic-filler1 {
   @extend .pic-filler-item;
   background-color: $blue;
-  // background-image: url('../../assets/images/staff/jens_l.png');
   background-position: 30% 10%;
   background-size: 160%;
+
 }
 
 .pic-filler2 {
   @extend .pic-filler-item;
   background-color: $pink;
-  // background-image: url('../../assets/images/staff/ola.png');
   background-position: 10% 10%;
   background-size: 140%;
 }
@@ -115,7 +128,6 @@ font-size: 2rem;
 .pic-filler3 {
   @extend .pic-filler-item;
   background-color: $blue;
-  // background-image: url('../../assets/images/staff/jens_l.png');
   background-position: 30% 10%;
   background-size: 160%;
 }
@@ -123,7 +135,6 @@ font-size: 2rem;
 .pic-filler4 {
   @extend .pic-filler-item;
   background-color: $pink;
-  // background-image: url('../../assets/images/staff/ola.png');
   background-position: 10% 10%;
   background-size: 140%;
 }
@@ -131,7 +142,6 @@ font-size: 2rem;
 .pic-filler5 {
   @extend .pic-filler-item;
   background-color: $blue;
-  // background-image: url('../../assets/images/staff/jens_l.png');
   background-position: 30% 10%;
   background-size: 160%;
 }
@@ -139,35 +149,37 @@ font-size: 2rem;
 .pic-filler6 {
   @extend .pic-filler-item;
   background-color: $pink;
-  // background-image: url('../../assets/images/staff/ola.png');
   background-position: 10% 10%;
   background-size: 140%;
 }
 
-.pic-filler4 {
+.pic-filler7 {
   @extend .pic-filler-item;
   background-color: $pink;
-  // background-image: url('../../assets/images/staff/ola.png');
   background-position: 10% 10%;
   background-size: 140%;
 }
 
-.pic-filler5 {
+.pic-filler8 {
   @extend .pic-filler-item;
   background-color: $blue;
-  // background-image: url('../../assets/images/staff/jens_l.png');
   background-position: 30% 10%;
   background-size: 160%;
 }
 
-.pic-filler6 {
+.pic-filler9 {
   @extend .pic-filler-item;
   background-color: $pink;
-  // background-image: url('../../assets/images/staff/ola.png');
   background-position: 10% 10%;
   background-size: 140%;
 }
 
+.illustrative-filler1 {
+  @extend .pic-filler-item;
+  background-color: $pink;
+  background-position: 10% 10%;
+  background-size: 140%;
+}
 
 .tile {
   // background: black;
@@ -177,14 +189,9 @@ font-size: 2rem;
   height: 3rem;
   width: 100%;
 }
-
-
 ////////////////////////////////////////////////
 // Media Queries:
-
-@media screen and (max-width: 768px){
-
-
+@media screen and (max-width: 768px) {
   .current-info-headline {
     text-align: center;
   }
