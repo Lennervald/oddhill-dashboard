@@ -127,6 +127,10 @@ export default {
 
 
       }
+  },
+  mounted(){
+    console.log(this.data.projects[0].teamMembers[0].name);
+    console.log(this.data.projects.length)
   }
 }
 </script>
