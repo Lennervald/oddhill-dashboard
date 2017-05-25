@@ -1,6 +1,6 @@
 <template>
 <div class="views">
-
+  <h1>{{team}}</h1>
   <section class="hero current-projects-page-wrapper is-fullwidth">
     <div class="hero-body component-body component-head-spacer">
 
@@ -59,7 +59,7 @@
                     <!-- TEAM MEMBER 1 -->
                     <article class="tile is-child notification img-box p-color">
                       <div class="color-filter"></div>
-                      <div class="pic-filler2 big-vertical">
+                      <div class="pic-filler2 big-vertical" >
                       </div>
                     </article>
                   </div>
@@ -132,7 +132,6 @@
 </div>
 </template>
 
-
 <script>
 import CurrentProjectsMobile from './subpages/CurrentProjectsMobile.vue';
 export default {
@@ -144,8 +143,8 @@ export default {
       projectObj: ["Commits", "Timmar"],
       valueCommits: "178",
       valueHours: '',
-      teammembername: 'Nils',
-      profileimg: ''
+      team: '',
+      profileimg: '',
     }
   },
   components: {
@@ -164,15 +163,17 @@ export default {
       let projMembers = selectedProj.teamMembers;
       this.projectname = selectedProj.name;
 
+      let membArr = [];
       let hourArr = [];
       let commitArr = [];
       let hourSum = 0;
       let commitSum = 0;
 
       projMembers.map(function(teamie){
-        let memName = teamie.name;
+        let memName = teamie.name.toLowerCase();
         let memHours = parseInt(teamie.hours);
         let memCommits = parseInt(teamie.commits);
+        membArr.push(memName);
         hourArr.push(memHours);
         commitArr.push(memCommits);
       });
@@ -187,6 +188,50 @@ export default {
 
       this.valueHours = hourSum;
       this.valueCommits = commitSum;
+      this.team = validateStaff(membArr);
+
+      function validateStaff(projMembers){
+        let oddHillStaff = [
+          "anton",
+          "bjorn",
+          "calle",
+          "christoffer",
+          "daniel",
+          "emil",
+          "erik",
+          "hannele",
+          "jennifer",
+          "jens_g",
+          "jens_l",
+          "johan",
+          "mads",
+          "magnus",
+          "marcus",
+          "marri",
+          "mattias",
+          "michaela",
+          "mohamed",
+          "mohammed",
+          "nils",
+          "ola",
+          "olof",
+          "pia"
+        ]
+
+        let valid = [];
+        let invalid = [];
+
+        for (var i = 0; i < projMembers.length; i++) {
+          if (oddHillStaff.indexOf(projMembers[i]) !== -1) {
+              valid.push(projMembers[i]);
+          } else {
+              invalid.push(projMembers[i]);
+              console.log("Warning. Following Member(s): " + invalid + "  is/are not known to our database, and will therefor not be displayed. Please update with a full name/image asap.");
+          }
+        }
+
+        return valid;
+      }
 
   }
 }

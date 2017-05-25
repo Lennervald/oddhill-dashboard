@@ -70,17 +70,17 @@
 		{
 			"name": "Malmö Stadsteater",
 			"teamMembers": [{
-					"name": "Oddaset Hillbert",
+					"name": "Erik",
 					"commits": "33",
 					"hours": "38"
 				},
 				{
-					"name": "Oddset Hillvig",
+					"name": "Mohammed",
 					"commits": "4",
 					"hours": "12"
 				},
         {
-					"name": "Oddling Hillner",
+					"name": "Magnus",
 					"commits": "5",
 					"hours": "36"
 				}
@@ -89,22 +89,22 @@
     {
 			"name": "Medicon Village",
 			"teamMembers": [{
-					"name": "Oddaset Hillbert",
+					"name": "Mads",
 					"commits": "7",
 					"hours": "25"
 				},
 				{
-					"name": "Oddset Hillvig",
+					"name": "Jens_G",
 					"commits": "10",
 					"hours": "24"
 				},
         {
-					"name": "Oddset Hillvig",
+					"name": "Sune",
 					"commits": "1",
 					"hours": "9"
 				},
         {
-					"name": "Oddling Hillner",
+					"name": "Marcus",
 					"commits": "2",
 					"hours": "5"
 				}
