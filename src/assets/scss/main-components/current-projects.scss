@@ -9,6 +9,31 @@
   width: 100%;
 }
 
+.head-spacer{
+  height: 2vh;
+}
+
+.current-desktop-spacer{
+  height: 2vh;
+}
+
+.current-info-headline {
+  text-align: left;
+}
+
+.proj-mobile-headline {
+  background: none;
+  color: $black;
+
+  .project-values {
+    font-size: 1.2rem;
+  }
+  .title {
+    margin-top: 1rem;
+font-size: 2rem;
+  }
+}
+
 .title-wrapper {
   position: relative;
   color: $black;
@@ -35,34 +60,132 @@
   }
 }
 
+.p-color {
+  background: $pink;
+}
+
+.b-color {
+  background: $blue;
+}
+
+.pur-color {
+  background: $blue;
+}
+
+
 .img-box {
+  position: relative;
   height: 100%;
   width: 100%;
-  background: $pink;
+  // background: $pink;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-image: url('../../assets/images/staff/erik.png');
-
-  .color-filter {
-
-  }
 }
 
-.small-horizonal {
-  background-position: 10% 30%;
+.pic-filler-item {
+  background-color: $white;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
   background-size: 100%;
 }
 
+.pic-filler1 {
+  @extend .pic-filler-item;
+  background-color: $blue;
+  background-image: url('../../assets/images/staff/jens_l.png');
+  background-position: 30% 10%;
+  background-size: 160%;
+}
+
+.pic-filler2 {
+  @extend .pic-filler-item;
+  background-color: $pink;
+  background-image: url('../../assets/images/staff/ola.png');
+  background-position: 10% 10%;
+  background-size: 140%;
+}
+
+.pic-filler3 {
+  @extend .pic-filler-item;
+  background-color: $blue;
+  background-image: url('../../assets/images/staff/jens_l.png');
+  background-position: 30% 10%;
+  background-size: 160%;
+}
+
+.pic-filler4 {
+  @extend .pic-filler-item;
+  background-color: $pink;
+  background-image: url('../../assets/images/staff/ola.png');
+  background-position: 10% 10%;
+  background-size: 140%;
+}
+
+.pic-filler5 {
+  @extend .pic-filler-item;
+  background-color: $blue;
+  background-image: url('../../assets/images/staff/jens_l.png');
+  background-position: 30% 10%;
+  background-size: 160%;
+}
+
+.pic-filler6 {
+  @extend .pic-filler-item;
+  background-color: $pink;
+  background-image: url('../../assets/images/staff/ola.png');
+  background-position: 10% 10%;
+  background-size: 140%;
+}
+
+.pic-filler4 {
+  @extend .pic-filler-item;
+  background-color: $pink;
+  background-image: url('../../assets/images/staff/ola.png');
+  background-position: 10% 10%;
+  background-size: 140%;
+}
+
+.pic-filler5 {
+  @extend .pic-filler-item;
+  background-color: $blue;
+  background-image: url('../../assets/images/staff/jens_l.png');
+  background-position: 30% 10%;
+  background-size: 160%;
+}
+
+.pic-filler6 {
+  @extend .pic-filler-item;
+  background-color: $pink;
+  background-image: url('../../assets/images/staff/ola.png');
+  background-position: 10% 10%;
+  background-size: 140%;
+}
+
+
+.tile {
+  // background: black;
+}
+
+.mobile-color-breaker {
+  height: 3rem;
+  width: 100%;
+}
 
 
 ////////////////////////////////////////////////
 // Media Queries:
 
 @media screen and (max-width: 768px){
-  .tile {
-    min-height: 160px;
+
+
+  .current-info-headline {
+    text-align: center;
   }
 }

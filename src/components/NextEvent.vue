@@ -44,11 +44,8 @@
             <p class="event-subjects">{{eventobjects[2]}} {{infotext}}</p>
           </div>
         </div>
-
       </div>
-
-
-        </div>
+    </div>
 
     <div class="hero-foot">
       <div class="columns">
