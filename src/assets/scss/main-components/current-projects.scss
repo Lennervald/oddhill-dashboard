@@ -10,7 +10,7 @@
 }
 
 .head-spacer {
-  height: 2vh;
+  // height: 2vh;
 }
 
 .current-desktop-spacer {
@@ -110,76 +110,88 @@
   background-size: 100%;
 }
 
+.illustrative-filler1 {
+  @extend .pic-filler-item;
+  background-color: $blue;
+  // background-image: url(../../assets/images/transitions/trans_img_2.png);
+  background-position: 0% 30%;
+  background-size: 100%;
+}
+
+.illustrative-filler2 {
+  @extend .pic-filler-item;
+  // background-color: $pink;
+  background-image: url(../../assets/images/illustrations/9.jpg);
+  background-position: 0% 30%;
+  // background-size: 200%;
+}
+
 .pic-filler1 {
   @extend .pic-filler-item;
   background-color: $blue;
-  background-position: 30% 10%;
-  background-size: 160%;
+  background-position: 50% 20%;
+  background-size: 130%;
+  // background-position: inherit;
 
 }
 
 .pic-filler2 {
   @extend .pic-filler-item;
   background-color: $pink;
-  background-position: 10% 10%;
-  background-size: 140%;
+  background-position: 40% 20%;
+  background-size: 120%;
 }
 
 .pic-filler3 {
   @extend .pic-filler-item;
   background-color: $blue;
-  background-position: 30% 10%;
-  background-size: 160%;
+  background-position: 50% 10%;
+  background-size: 350%;
 }
 
 .pic-filler4 {
   @extend .pic-filler-item;
-  background-color: $pink;
-  background-position: 10% 10%;
+  background-color: $purple_dark;
+  background-position: 50% 20%;
   background-size: 140%;
 }
 
 .pic-filler5 {
   @extend .pic-filler-item;
   background-color: $blue;
-  background-position: 30% 10%;
-  background-size: 160%;
+  background-position: 30% 20%;
+  background-size: 130%;
 }
 
 .pic-filler6 {
   @extend .pic-filler-item;
   background-color: $pink;
-  background-position: 10% 10%;
-  background-size: 140%;
+  background-position: 30% 20%;
+  background-size: 120%;
 }
 
 .pic-filler7 {
   @extend .pic-filler-item;
-  background-color: $pink;
+  // background-color: $pink;
   background-position: 10% 10%;
-  background-size: 140%;
+  background-size: 110%;
 }
 
 .pic-filler8 {
   @extend .pic-filler-item;
-  background-color: $blue;
-  background-position: 30% 10%;
-  background-size: 160%;
+  background-color: $purple_dark;
+  background-position: 30% 20%;
+  background-size: 105%;
 }
 
 .pic-filler9 {
   @extend .pic-filler-item;
-  background-color: $pink;
-  background-position: 10% 10%;
-  background-size: 140%;
+  background-color: $blue;
+  background-position: 10% 20%;
+  background-size: 100%;
 }
 
-.illustrative-filler1 {
-  @extend .pic-filler-item;
-  background-color: $pink;
-  background-position: 10% 10%;
-  background-size: 140%;
-}
+
 
 .tile {
   // background: black;
@@ -191,6 +203,36 @@
 }
 ////////////////////////////////////////////////
 // Media Queries:
+@media screen and (max-width:1600px) {
+  .pic-filler1 {
+    background-size: 230%;
+  }
+  // .pic-filler2 {
+  //   background-size: 230%;
+  // }
+  .pic-filler3 {
+    background-size: 630%;
+  }
+  .pic-filler4 {
+    background-size: 220%;
+  }
+
+  .pic-filler5 {
+    background-size: 220%;
+  }
+
+  .pic-filler6 {
+    background-size: 200%;
+  }
+
+  .pic-filler7 {
+    background-size: 200%;
+  }
+
+}
+
+
+
 @media screen and (max-width: 768px) {
   .current-info-headline {
     text-align: center;

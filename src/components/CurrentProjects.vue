@@ -34,8 +34,8 @@
               <article class="tile is-child notification img-box">
                 <p class="title">.</p>
                 <!-- ILLUSTRATIVE IMAGE 1 -->
-                <div class="illustrative-filler1" v-bind:style="illustrative1">
-                <div class="color-filter"></div>
+                <div class="illustrative-filler1">
+                  <div class="color-filter"></div>
                 </div>
               </article>
             </div>
@@ -52,29 +52,27 @@
             <div class="tile is-parent">
               <div class="tile is-vertical">
                 <article class="tile is-child notification img-box">
-                  <p class="title">.</p>
-                  <!-- TEAM MEMBER 8 -->
-                  <div class="pic-filler8 big-vertical " v-bind:style="bgImg8">
+                  <p class="padder">.</p>
+                  <!-- <p class="title">.</p> -->
+                  <!-- TEAM MEMBER 4 -->
+                  <div class="pic-filler4 big-vertical " v-bind:style="bgImg4">
                   <div class="color-filter"></div>
                   </div>
                 </article>
-
                 <div class="tile is-ancestor">
-
                   <div class="tile is-parent is-4">
                     <!-- TEAM MEMBER 3 -->
                     <article class="tile is-child notification img-box">
                       <div class="color-filter"></div>
-                      <div class="pic-filler3 big-vertical" v-bind:style="bgImg3">
+                      <div class="pic-filler3" v-bind:style="bgImg3">
                       </div>
                     </article>
                   </div>
-
                   <div class="tile is-vertical">
-
                     <div class="tile is-vertical">
                       <div class="tile is-parent">
                         <article class="tile is-child notification img-box">
+                          <p class="title">.</p>
                           <div class="height-div">
                           <!-- TEAM MEMBER 2 -->
                           <div class="pic-filler2" v-bind:style="bgImg2">
@@ -87,15 +85,16 @@
 
                       <div class="tile">
                         <div class="tile is-parent">
+
+
                           <article class="tile is-child notification img-box">
-                            <p class="padder">.</p>
-                            <!-- TEAM MEMBER 4 -->
-                            <div class="pic-filler4 big-vertical " v-bind:style="bgImg4">
+                            <p class="title">.</p>
+                            <!-- TEAM MEMBER 8 -->
+                            <div class="pic-filler8" v-bind:style="bgImg8">
                             <div class="color-filter"></div>
                             </div>
                           </article>
                         </div>
-
                         <div class="tile is-parent">
                           <article class="tile is-child notification img-box">
                             <p class="title">.</p>
@@ -116,13 +115,19 @@
             <div class="tile">
               <div class="tile is-parent is-vertical">
                 <article class="tile is-child notification img-box">
-                  <!-- TEAM MEMBER 7 -->
-                  <div class="pic-filler7 big-vertical " v-bind:style="bgImg7">
-                  <div class="color-filter"></div>
+                  <!-- <p class="title">.</p> -->
+                  <!-- TEAMMEMEBER 7  + ILLUSTRATIVE IMAGE 2 -->
+                  <div class="illustrative-filler2 pic-filler7">
+                    <div class="color-filter"></div>
                   </div>
                 </article>
 
                 <article class="tile is-child notification img-box">
+                  <p class="title">.</p>
+                  <p class="title">.</p>
+                  <p class="title">.</p>
+                  <p class="title">.</p>
+
                   <!-- TEAM MEMBER 1 -->
                   <div class="pic-filler1 small-horizonal" v-bind:style="bgImg1">
                   <div class="color-filter"></div>
@@ -135,11 +140,12 @@
                 </article>
                 <article class="tile is-child img-box">
                     <!-- TEAM MEMBER 9 -->
-                    <div class="color-filter"></div>
                     <div class="pic-filler9" v-bind:style="bgImg9">
+                      <div class="color-filter"></div>
                   </div>
                 </article>
                 <article class="tile is-child notification img-box">
+                  <p class="title">.</p>
                   <p class="title">.</p>
                   <p class="title">.</p>
                   <p class="title">.</p>

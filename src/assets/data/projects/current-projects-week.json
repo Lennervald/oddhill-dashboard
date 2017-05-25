@@ -21,17 +21,17 @@
 					"hours": "30"
 				},
 				{
-					"name": "Jennifer",
+					"name": "Marri",
 					"commits": "4",
 					"hours": "12"
 				},
         {
-					"name": "Marri",
+					"name": "mads",
 					"commits": "5",
 					"hours": "33"
 				},
         {
-					"name": "Mattias",
+					"name": "Anton",
 					"commits": "4",
 					"hours": "12"
 				},
@@ -41,29 +41,9 @@
 					"hours": "24"
 				},
 				{
-					"name": "Jens_L",
+					"name": "Jennifer",
 					"commits": "9",
 					"hours": "9"
-				},
-        {
-					"name": "Jens_G",
-					"commits": "10",
-					"hours": "3"
-				},
-        {
-					"name": "Olof",
-					"commits": "1",
-					"hours": "15"
-				},
-        {
-					"name": "Erik",
-					"commits": "20",
-					"hours": "22"
-				},
-        {
-					"name": "Anton",
-					"commits": "2",
-					"hours": "12"
 				}
 			]
 		},
@@ -75,12 +55,17 @@
 					"hours": "38"
 				},
 				{
-					"name": "Mohammed",
+					"name": "Mohamed",
 					"commits": "4",
 					"hours": "12"
 				},
         {
-					"name": "Jens_G",
+					"name": "Olof",
+					"commits": "5",
+					"hours": "36"
+				},
+				{
+					"name": "Mads",
 					"commits": "5",
 					"hours": "36"
 				}
@@ -89,12 +74,12 @@
     {
 			"name": "Medicon Village",
 			"teamMembers": [{
-					"name": "Mads",
+					"name": "Hannele",
 					"commits": "7",
 					"hours": "25"
 				},
 				{
-					"name": "Jens_G",
+					"name": "Jens_L",
 					"commits": "10",
 					"hours": "24"
 				},
@@ -104,10 +89,26 @@
 					"hours": "9"
 				},
         {
-					"name": "Marcus",
+					"name": "Mattias",
+					"commits": "2",
+					"hours": "5"
+				},
+				{
+					"name": "emil",
+					"commits": "2",
+					"hours": "5"
+				},
+				{
+					"name": "ola",
+					"commits": "2",
+					"hours": "5"
+				},
+				{
+					"name": "Anton",
 					"commits": "2",
 					"hours": "5"
 				}
+
 			]
 		}
 	]
