@@ -1,6 +1,5 @@
 <template>
 <div class="views">
-  <h1>{{team}}</h1>
   <section class="hero current-projects-page-wrapper is-fullwidth">
     <div class="hero-body component-body component-head-spacer">
 
@@ -59,7 +58,7 @@
                     <!-- TEAM MEMBER 1 -->
                     <article class="tile is-child notification img-box p-color">
                       <div class="color-filter"></div>
-                      <div class="pic-filler2 big-vertical" >
+                      <div class="pic-filler2 big-vertical" v-bind:style="bgImg2">
                       </div>
                     </article>
                   </div>
@@ -92,13 +91,15 @@
             <div class="tile">
               <div class="tile is-parent is-vertical">
                 <article class="tile is-child notification img-box">
+                  <!-- TEAM MEMBER 1 -->
                   <div class="color-filter"></div>
-                  <div class="pic-filler1 small-horizonal">
+                  <div class="pic-filler1 small-horizonal" v-bind:style="bgImg1">
                   </div>
                 </article>
-                <article class="tile  is-child notification">
-                  <p class="title">...tiles</p>
-                  <p class="subtitle">Bottom tile</p>
+                <article class="tile is-child notification img-box p-color">
+                  <div class="color-filter"></div>
+                  <div class="pic-filler2 big-vertical" v-bind:style="bgImg3">
+                  </div>
                 </article>
               </div>
               <div class="tile is-parent is-vertical">
@@ -144,7 +145,7 @@ export default {
       valueCommits: "178",
       valueHours: '',
       team: '',
-      profileimg: '',
+      profileImages: ''
     }
   },
   components: {
@@ -152,14 +153,67 @@ export default {
   },
   created: function(){
     this.setupProject();
+    this.generateImages();
   },
   mounted() {
     // console.log(this.data.projects[0].teamMembers[0].name);
     // console.log(this.data.projects.length)
   },
+  computed: {
+    bgImg1: function() {
+      return {
+        backgroundImage: 'url('+this.profileImages[0]+')',
+      }
+    },
+    bgImg2: function() {
+      return {
+        backgroundImage: 'url('+this.profileImages[1]+')',
+      }
+    },
+    bgImg3: function() {
+      return {
+        backgroundImage: 'url('+this.profileImages[2]+')',
+      }
+    },
+    bgImg4: function() {
+      return {
+        backgroundImage: 'url('+this.profileImages[3]+')',
+      }
+    },
+    bgImg5: function() {
+      return {
+        backgroundImage: 'url('+this.profileImages[4]+')',
+      }
+    },
+    bgImg6: function() {
+      return {
+        backgroundImage: 'url('+this.profileImages[5]+')',
+      }
+    },
+    bgImg7: function() {
+      return {
+        backgroundImage: 'url('+this.profileImages[6]+')',
+      }
+    },
+    bgImg8: function() {
+      return {
+        backgroundImage: 'url('+this.profileImages[7]+')',
+      }
+    },
+    bgImg9: function() {
+      return {
+        backgroundImage: 'url('+this.profileImages[8]+')',
+      }
+    },
+    bgImg10: function() {
+      return {
+        backgroundImage: 'url('+this.profileImages[9]+')',
+      }
+    },
+  },
   methods: {
     setupProject: function(){
-      let selectedProj = this.data.projects[2];
+      let selectedProj = this.data.projects[1];
       let projMembers = selectedProj.teamMembers;
       this.projectname = selectedProj.name;
 
@@ -233,7 +287,21 @@ export default {
         return valid;
       }
 
+    },
+    generateImages: function(){
+      let team = this.team;
+      let imgPaths = [];
+
+      for(let i = 0; i < team.length; i++){
+          imgPaths.push('src/assets/images/staff/' + team[i] + '.png');
+      }
+      // team.map(function(memb){
+      // });
+
+      console.log(this.team);
+      console.log(imgPaths);
+      this.profileImages = imgPaths;
+    },
   }
-}
 }
 </script>
