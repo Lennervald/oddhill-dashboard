@@ -117,15 +117,16 @@
 <script>
 
 export default {
-    data: function() {
-        return {
-					projectname: "Malmö Stadsteater",
-					projectObj: ["Commits", "Timmar"],
-					valueCommits: "178",
-					valueHours: "178",
+  props: ['data'],
+  data: function() {
+      return {
+        projectname: "Malmö Stadsteater",
+        projectObj: ["Commits", "Timmar"],
+        valueCommits: "178",
+        valueHours: "178",
 
 
-        }
-    }
+      }
+  }
 }
 </script>

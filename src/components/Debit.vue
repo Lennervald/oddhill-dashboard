@@ -98,16 +98,16 @@ export default {
   },
   methods: {
     play: function(){
-      setInterval(function(){ 
-        if (this.currentState === "week"){
-          this.currentState = "month";
-          console.log('state = month');
-        } else
-        {
-          this.currentState = "week";
-          console.log('state = week');
-        }
-      }, 3000);
+      // setInterval(function(){ 
+      //   if (this.currentState === "week"){
+      //     this.currentState = "month";
+      //     console.log('state = month');
+      //   } else
+      //   {
+      //     this.currentState = "week";
+      //     console.log('state = week');
+      //   }
+      // }, 3000);
     }
   },
   mounted: function(){
