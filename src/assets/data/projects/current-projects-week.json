@@ -2,7 +2,7 @@
 	"projects": [{
 			"name": "Malmö FF",
 			"teamMembers": [{
-					"name": "Hannele",
+					"name": "anton",
 					"commits": "5",
 					"hours": "22"
 				},
@@ -31,7 +31,7 @@
 					"hours": "33"
 				},
         {
-					"name": "Anton",
+					"name": "Jens_g",
 					"commits": "4",
 					"hours": "12"
 				},

@@ -101,7 +101,7 @@
                             <p class="title">.</p>
                             <!-- TEAM MEMBER 5 -->
                             <div class="pic-filler5" v-bind:style="bgImg5">
-                              <div class="color-filter"></div>
+                              <div class="color-filter col-filter2"></div>
                             </div>
                           </article>
                         </div>
@@ -151,7 +151,7 @@
                   <p class="title">.</p>
                     <!-- TEAM MEMBER 6 -->
                     <div class="pic-filler6" v-bind:style="bgImg6">
-                      <div class="color-filter"></div>
+                      <div class="color-filter col-filter1"></div>
                     </div>
                 </article>
               </div>
@@ -205,7 +205,7 @@ export default {
   },
   methods: {
     chosenProject: function() {
-      this.currentProj = this.data.projects[1];
+      this.currentProj = this.data.projects[2];
     },
     setupProject: function() {
       let selectedProj = this.currentProj;

@@ -121,7 +121,7 @@
 .illustrative-filler2 {
   @extend .pic-filler-item;
   // background-color: $pink;
-  background-image: url(../../assets/images/illustrations/9.jpg);
+  background-image: url(../../assets/images/illustrations/7.jpg);
   background-position: 0% 30%;
   // background-size: 200%;
 }
@@ -152,8 +152,8 @@
 .pic-filler4 {
   @extend .pic-filler-item;
   background-color: $purple_dark;
-  background-position: 50% 20%;
-  background-size: 140%;
+  background-position: 50% 30%;
+  background-size: 100%;
 }
 
 .pic-filler5 {
@@ -214,7 +214,7 @@
     background-size: 630%;
   }
   .pic-filler4 {
-    background-size: 220%;
+    background-size: 200%;
   }
 
   .pic-filler5 {
