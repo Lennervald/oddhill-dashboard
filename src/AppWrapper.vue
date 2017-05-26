@@ -11,8 +11,8 @@
     </nav>
     <div class="app-wrapper-main">
       <transition name="fade">
-        <component 
-          :is="selectedComponent" 
+        <component
+          :is="selectedComponent"
           :data="data"
         ></component>
       </transition>
@@ -48,7 +48,7 @@ export default {
     },
     data: function() {
         return {
-            selectedComponent: 'Debit'
+            selectedComponent: 'CurrentProjects'
         }
     },
     created: function(){
