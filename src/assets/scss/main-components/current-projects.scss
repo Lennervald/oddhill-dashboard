@@ -17,9 +17,6 @@
   height: 2vh;
 }
 
-.current-info-headline {
-  text-align: left;
-}
 
 .proj-mobile-headline {
   background: none;
@@ -35,31 +32,28 @@
   }
 }
 
-.title-wrapper {
-  position: relative;
-  color: $black;
 
-  .projekt-title-box {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+.title-wrapper { padding-bottom: 2vh;}
 
-    .project-title {
-      color: $white;
-      font-size: $font-size-3;
-      font-weight: 400;
-      letter-spacing: 0.1vw;
-      margin-bottom: -0.5vh;
-    }
-
-    .project-values {
-      font-size: $font-size-6;
-      font-weight: 400;
-      letter-spacing: 0.05vw;
-      margin-top: 1vh;
-    }
-  }
+.project-title {
+  color: $white;
+  font-size: $font-size-3;
+  font-weight: 400;
+  letter-spacing: 0.1vw;
+  margin-bottom: -0.5vh;
 }
+
+.project-values {
+  font-size: $font-size-6;
+  font-weight: 400;
+  letter-spacing: 0.05vw;
+  margin-top: 1vh;
+}
+
+.current-info-headline {
+  text-align: left;
+}
+
 
 .col-filter1 {
   background: $pink;
@@ -84,19 +78,39 @@
   background-size: cover;
 }
 
-.height-div{
+.row-height1 {
   width: 100%;
-  height: 12vh;
+  padding-top: 10vh;
 }
 
-.height-div-bigger{
+.row-height2 {
   width: 100%;
-  height: 12vh;
+  padding-top: 20vh;
 }
 
-.padder {
-  padding: 3vh 0;
+.row-height3 {
+  width: 100%;
+  padding-top: 14vh;
 }
+
+.row-height4 {
+  width: 100%;
+  padding-top: 20vh;
+}
+
+// .height-div{
+//   width: 100%;
+//   height: 12vh;
+// }
+//
+// .height-div-bigger{
+//   width: 100%;
+//   height: 12vh;
+// }
+//
+// .padder {
+//   padding: 3vh 0;
+// }
 
 
 .pic-filler-item {
@@ -190,8 +204,6 @@
   background-position: 10% 20%;
   background-size: 100%;
 }
-
-
 
 .tile {
   // background: black;

@@ -1,22 +1,22 @@
 <template>
 <div class="views">
   <section class="hero current-projects-page-wrapper is-fullwidth">
-    <div class="hero-body component-body component-head-spacer">
-
+    <div class="hero-body component-body">
+      <div class="columns ">
+        <div class="column is-offset-1 is-10">
       <div class="columns">
         <div class="column">
-          <div class="head-spacer"></div>
         </div>
       </div>
       <div class="columns">
-        <div class="column is-offset-1">
+        <div class="column is-6">
           <p class="headline current-info-headline">{{pagetitle}}</p>
         </div>
-      </div>
-
-      <div class="columns">
-        <div class="column is-hidden-mobile">
-          <div class="current-desktop-spacer"></div>
+        <div class="column">
+          <section class="title-wrapper has-text-right">
+            <p class="subtitle project-values under-lined">{{valueCommits}} {{projectObj[0]}} | {{valueHours}} {{projectObj[1]}}</p>
+            <p class="title project-title">{{projectname}}</p>
+          </section>
         </div>
       </div>
 
@@ -26,36 +26,14 @@
 
       <!-- HERE STARTS DESKTOP -->
 
-      <div class="columns is-hidden-mobile is-vcentered">
-        <div class="column is-offset-1 is-10">
-          <div class="tile is-ancestor">
-
-            <div class="tile is-parent is-7">
-              <article class="tile is-child notification img-box">
-                <p class="title">.</p>
-                <!-- ILLUSTRATIVE IMAGE 1 -->
-                <div class="illustrative-filler1">
-                  <div class="color-filter"></div>
-                </div>
-              </article>
-            </div>
-            <div class="tile is-parent is-hidden-mobile">
-              <section class="tile is-child title-wrapper has-text-right">
-                <div class="projekt-title-box">
-                  <p class="subtitle project-values under-lined">{{valueCommits}} {{projectObj[0]}} | {{valueHours}} {{projectObj[1]}}</p>
-                  <p class="title project-title">{{projectname}}</p>
-                </div>
-              </section>
-            </div>
-          </div>
+      <!-- <div class="columns is-hidden-mobile is-vcentered"> -->
+      <div class="tile">
           <div class="tile is-ancestor">
             <div class="tile is-parent">
               <div class="tile is-vertical">
-                <article class="tile is-child notification img-box">
-                  <p class="padder">.</p>
-                  <!-- <p class="title">.</p> -->
+                <article class="tile is-child notification img-box row-height1">
                   <!-- TEAM MEMBER 4 -->
-                  <div class="pic-filler4 big-vertical " v-bind:style="bgImg4">
+                  <div class="pic-filler4" v-bind:style="bgImg4">
                   <div class="color-filter"></div>
                   </div>
                 </article>
@@ -71,24 +49,16 @@
                   <div class="tile is-vertical">
                     <div class="tile is-vertical">
                       <div class="tile is-parent">
-                        <article class="tile is-child notification img-box">
-                          <p class="title">.</p>
-                          <div class="height-div">
+                        <article class="tile is-child notification img-box row-height2">
                           <!-- TEAM MEMBER 2 -->
                           <div class="pic-filler2" v-bind:style="bgImg2">
-
                             <div class="color-filter"></div>
-                          </div>
                           </div>
                         </article>
                       </div>
-
                       <div class="tile">
                         <div class="tile is-parent">
-
-
                           <article class="tile is-child notification img-box">
-                            <p class="title">.</p>
                             <!-- TEAM MEMBER 8 -->
                             <div class="pic-filler8" v-bind:style="bgImg8">
                             <div class="color-filter"></div>
@@ -96,16 +66,13 @@
                           </article>
                         </div>
                         <div class="tile is-parent">
-                          <article class="tile is-child notification img-box">
-                            <p class="title">.</p>
-                            <p class="title">.</p>
+                          <article class="tile is-child notification img-box row-height3">
                             <!-- TEAM MEMBER 5 -->
                             <div class="pic-filler5" v-bind:style="bgImg5">
                               <div class="color-filter col-filter2"></div>
                             </div>
                           </article>
                         </div>
-
                       </div>
                     </div>
                   </div>
@@ -115,7 +82,6 @@
             <div class="tile">
               <div class="tile is-parent is-vertical">
                 <article class="tile is-child notification img-box">
-                  <!-- <p class="title">.</p> -->
                   <!-- TEAMMEMEBER 7  + ILLUSTRATIVE IMAGE 2 -->
                   <div class="illustrative-filler2 pic-filler7">
                     <div class="color-filter"></div>
@@ -123,10 +89,6 @@
                 </article>
 
                 <article class="tile is-child notification img-box">
-                  <p class="title">.</p>
-                  <p class="title">.</p>
-                  <p class="title">.</p>
-                  <p class="title">.</p>
 
                   <!-- TEAM MEMBER 1 -->
                   <div class="pic-filler1 small-horizonal" v-bind:style="bgImg1">
@@ -144,11 +106,7 @@
                       <div class="color-filter"></div>
                   </div>
                 </article>
-                <article class="tile is-child notification img-box">
-                  <p class="title">.</p>
-                  <p class="title">.</p>
-                  <p class="title">.</p>
-                  <p class="title">.</p>
+                <article class="tile is-child notification img-box row-height4">
                     <!-- TEAM MEMBER 6 -->
                     <div class="pic-filler6" v-bind:style="bgImg6">
                       <div class="color-filter col-filter1"></div>
@@ -159,17 +117,18 @@
             </div>
           </div>
         </div>
-      </div>
 
       <!-- HERE ENDS DESKTOP -->
 
     </div>
-    <div class="hero-foot is-vcentered">
-      <div class="columns">
-        <div class="column has-text-left is-hidden-desktop">
-          <img class="footer-icon-mobile" src="../assets/images/oh_logo.png" alt="">
-        </div>
+  </div>
+  <div class="hero-foot is-vcentered">
+    <div class="columns">
+      <div class="column has-text-left is-hidden-desktop">
+        <img class="footer-icon-mobile" src="../assets/images/oh_logo.png" alt="">
       </div>
+    </div>
+  </div>
     </div>
   </section>
 </div>
@@ -205,7 +164,7 @@ export default {
   },
   methods: {
     chosenProject: function() {
-      this.currentProj = this.data.projects[2];
+      this.currentProj = this.data.projects[0];
     },
     setupProject: function() {
       let selectedProj = this.currentProj;
@@ -278,10 +237,8 @@ export default {
             console.log("Warning. Following Member(s): " + invalid + "  is/are not known to our database, and will therefor not be displayed. Please update with a full name/image asap.");
           }
         }
-
         return valid;
       }
-
     },
     generateImages: function() {
       let team = this.team;
@@ -344,7 +301,6 @@ export default {
         backgroundImage: 'url(' + this.profileImages[9] + ')',
       }
     },
-
   }
 }
 </script>
