@@ -6,7 +6,7 @@
   </article>
 
   <section class="hero next-event-page-wrapper is-fullwidth">
-    <div class="hero-head component-head-spacer">
+    <div class="hero-head  ">
       <div class="columns">
         <div class="column is-offset-1">
           <p class="headline">{{title}}</p>

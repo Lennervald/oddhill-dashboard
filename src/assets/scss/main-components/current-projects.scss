@@ -9,12 +9,8 @@
   width: 100%;
 }
 
-.head-spacer {
-  // height: 2vh;
-}
-
-.current-desktop-spacer {
-  height: 2vh;
+.project-body {
+  padding-top: 0;
 }
 
 
@@ -33,7 +29,9 @@
 }
 
 
-.title-wrapper { padding-bottom: 2vh;}
+.title-wrapper {
+  padding-bottom: 2vh;
+}
 
 .project-title {
   color: $white;
@@ -85,32 +83,18 @@
 
 .row-height2 {
   width: 100%;
-  padding-top: 20vh;
+  padding-top: 18vh;
 }
 
 .row-height3 {
   width: 100%;
-  padding-top: 14vh;
+  padding-top: 13vh;
 }
 
 .row-height4 {
   width: 100%;
   padding-top: 20vh;
 }
-
-// .height-div{
-//   width: 100%;
-//   height: 12vh;
-// }
-//
-// .height-div-bigger{
-//   width: 100%;
-//   height: 12vh;
-// }
-//
-// .padder {
-//   padding: 3vh 0;
-// }
 
 
 .pic-filler-item {
@@ -205,9 +189,6 @@
   background-size: 100%;
 }
 
-.tile {
-  // background: black;
-}
 
 .mobile-color-breaker {
   height: 3rem;

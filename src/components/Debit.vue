@@ -1,7 +1,7 @@
 <template>
   <div class="views">
 		<section class="hero debit-page-wrapper is-fullwidth">
-			<div class="hero-head component-head-spacer is-vcentered">
+			<div class="hero-head   is-vcentered">
 				<div class="columns">
 					<div class="column">
 						<p class="headline debit-headline is-hidden-desktop">{{ headline }}</p>
@@ -98,7 +98,7 @@ export default {
   },
   methods: {
     play: function(){
-      // setInterval(function(){ 
+      // setInterval(function(){
       //   if (this.currentState === "week"){
       //     this.currentState = "month";
       //     console.log('state = month');
