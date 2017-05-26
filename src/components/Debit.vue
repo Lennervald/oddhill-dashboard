@@ -6,9 +6,9 @@
 					<div class="column">
 						<p class="headline debit-headline is-hidden-desktop">{{ headline }}</p>
 						<ul>
-							<li><p class="section-links"><span class="section-item-active">{{ sectionlinks[0] }}</span><span class="app-br"></span></p></li>
-							<li><p class="section-links"><span class="section-item">{{ sectionlinks[1] }}</span><span class="app-br"></span></p></li>
-							<li><p class="section-links"><span class="section-item">{{ sectionlinks[2] }}</span></p></li>
+							<li><p class="section-links"><span class="section-item" :class="{'section-item-active': states.week }">{{ sectionlinks[0] }}</span><span class="app-br"></span></p></li>
+							<li><p class="section-links"><span class="section-item" :class="{'section-item-active': states.month }">{{ sectionlinks[1] }}</span><span class="app-br"></span></p></li>
+							<li><p class="section-links"><span class="section-item" :class="{'section-item-active': states.year }">{{ sectionlinks[2] }}</span></p></li>
 						</ul>
 					</div>
 				</div>
@@ -20,12 +20,11 @@
 						<figure class="graph-image is-centered">
 							<app-chart
                 :data="data"
-                :state="currentState"
               ></app-chart>
 							<!-- <img src="../assets/images/component_bgs/circle.png" alt=""> -->
 							<div class="graph-text-wrapper">
 								<article class="message">
-									<p class="graph-text app-number debit-number">{{ data.debit.week.client }}<span class="number-percent">%</span></p>
+									<p class="graph-text app-number debit-number">{{ client }}<span class="number-percent">%</span></p>
 									<p class="graph-text headline app-title section-item-active is-hidden-touch is-hidden-desktop-only">{{ headline }}</p>
 									<p class="graph-text value sub-title">{{ timevalues[0] }}</p>
 								</article>
@@ -88,30 +87,25 @@ export default {
         sectionlinks: ["Vecka", "Månad", "År"],
         value1: 'Klient',
         value2: 'Inhouse',
-        timevalues: ["Vecka 12", "april 2017", "hela 2017"],
-        states: ['week','month','year'],
-        currentState: 'week'
+        timevalues: ["Vecka 12", "april 2017", "2017"],
+        states: {
+          'week': true,
+          'month': false,
+          'year': false 
+        },
+        client: this.data.debit.week.client,
       }
   },
   components: {
     appChart: DebitChart
   },
   methods: {
-    play: function(){
-      // setInterval(function(){ 
-      //   if (this.currentState === "week"){
-      //     this.currentState = "month";
-      //     console.log('state = month');
-      //   } else
-      //   {
-      //     this.currentState = "week";
-      //     console.log('state = week');
-      //   }
-      // }, 3000);
-    }
+   
   },
-  mounted: function(){
-    this.play();
+  created: function() {
+    eventBus.$on('updateDebit',(client) => {
+        this.client = client;
+    });
   }
 }
 </script>

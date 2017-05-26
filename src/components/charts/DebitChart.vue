@@ -8,43 +8,32 @@
 
 <script>
   import DoughnutChart from './DoughnutChart.js';
+  import { eventBus } from '../../main.js';
+  import { settings } from '../../variables/settings.js'
 
   export default{
     props: [
-      'data',
-      'state'
+      'data'
     ],
-    data () {
+    data: function() {
       return {
-        client: null,
-        inhouse: null
+        client: this.data.debit.week.client,
+        inhouse: this.data.debit.week.inhouse
+      }
+    },
+    watch: {
+      client: function() {
+        this.fillData();
       }
     },
     created() {
-      this.displayData();
       this.fillData();
+      this.play();
     },
     components: {
         DoughnutChart
     },
     methods: {
-      displayData(){
-        if(this.state === 'month'){
-          console.log('state: month')
-          this.client = this.data.debit.month.client;
-          this.inhouse = this.data.debit.month.inhouse
-        } 
-        else if (this.state === 'week'){
-          console.log('state: week')
-          this.client = this.data.debit.week.client;
-          this.inhouse = this.data.debit.week.inhouse
-        }
-        else if (this.state === 'year'){
-          console.log('state: year')
-          this.client = this.data.debit.year.client;
-          this.inhouse = this.data.debit.year.inhouse
-        }
-      },
       fillData() {
         this.opts = {
             cutoutPercentage: 47, // The Fatness of the Pie
@@ -66,9 +55,22 @@
                 backgroundColor: ["#F9418C", "#722FBC"],
                 borderWidth: 0,
             }],
+        }
+      },
+      play: function(){
+        setInterval(() => {
+          if(this.client == this.data.debit.month.client){
+            this.client = this.data.debit.week.client;
+            this.inhouse = this.data.debit.week.inhouse;
+            eventBus.$emit('updateDebit', this.client);
           }
-        },
-
+          else {
+            this.client = this.data.debit.month.client;
+            this.inhouse = this.data.debit.month.inhouse;
+            eventBus.$emit('updateDebit', this.client);
+          }
+        },settings.debitRotationTime);
       }
     }
+  }
 </script>
