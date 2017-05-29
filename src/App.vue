@@ -52,8 +52,25 @@ export default {
           }
         },
         projects: projectData.projects
-      }
+      },
+      windowWidth: 0
     }
+  },
+  mounted() {
+    this.$nextTick(function() {
+      window.addEventListener('resize', this.getWindowWidth);
+
+      //Init
+      this.getWindowWidth();
+    })
+  },
+  methods: {
+    getWindowWidth(event) {
+        this.windowWidth = document.documentElement.clientWidth;
+    }
+  },
+  beforeDestroy() {
+    window.removeEventListener('resize', this.getWindowWidth);
   }
 }
 </script>

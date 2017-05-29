@@ -108,7 +108,6 @@ export default {
     this.client = this.data.debit.week.client;
     this.state = 'week';
     this.timespan = "Vecka 12"
-    console.log(this.state);
 
     // listen to updated client data
     eventBus.$on('updateDebit',(client) => {
