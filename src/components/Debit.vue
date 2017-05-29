@@ -128,7 +128,7 @@ export default {
           this.states.week = false;
           this.states.month = true;
           this.states.year = false;
-          this.timespan = 'april 17';
+          this.timespan = 'mars 17';
           break;
           case 'year':
           this.states.week = false;

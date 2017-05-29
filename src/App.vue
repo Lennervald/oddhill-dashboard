@@ -40,15 +40,15 @@ export default {
         debit: {
           week: {
             client: Math.round(apiResponseWeek.client.percentage),
-            inhouse: Math.floor(100 - apiResponseWeek.client.percentage)
+            inhouse: Math.round(100 - apiResponseWeek.client.percentage)
           },
           month: {
             client: Math.round(apiResponseMonth.client.percentage),
-            inhouse: Math.floor(100 - apiResponseMonth.client.percentage)
+            inhouse: Math.round(100 - apiResponseMonth.client.percentage)
           },
           year: {
             client: Math.round(apiResponseYear.client.percentage),
-            inhouse: Math.floor(100 - apiResponseYear.client.percentage)
+            inhouse: Math.round(100 - apiResponseYear.client.percentage)
           }
         },
         projects: projectData.projects
