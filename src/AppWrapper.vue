@@ -48,7 +48,7 @@ export default {
     },
     data: function() {
         return {
-            selectedComponent: 'CurrentProjects'
+            selectedComponent: 'Debit'
         }
     },
     created: function(){
