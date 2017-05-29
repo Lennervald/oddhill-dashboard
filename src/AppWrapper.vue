@@ -13,7 +13,8 @@
       <transition name="fade">
         <component
           :is="selectedComponent"
-          :data="data"
+          :data="data" 
+          :windowWidth="windowWidth"
         ></component>
       </transition>
     </div>
@@ -36,7 +37,8 @@ import { eventBus } from './main.js';
 
 export default {
     props: [
-      'data'
+      'data',
+      'windowWidth'
     ],
     components: {
       Debit,
