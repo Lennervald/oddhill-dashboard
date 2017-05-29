@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import VueResource from 'vue-resource';
+import VueRouter from 'vue-router';
 
 import App from './App.vue';
 import AppWrapper from './AppWrapper.vue';
@@ -14,6 +15,7 @@ import 'bulma/css/bulma.css';
 import './assets/scss/main.scss';
 
 Vue.use(VueResource);
+Vue.use(VueRouter);
 
 Vue.component('app-wrapper', AppWrapper);
 Vue.component('dashboard-menu', DashboardMenu);
