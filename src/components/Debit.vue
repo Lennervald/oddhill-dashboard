@@ -19,7 +19,8 @@
 					<div class="column is-offset-3-tablet is-offset-3-desktop is-6-tablet is-6-desktop">
 						<figure class="graph-image is-centered">
 							<app-chart
-                :data="data"
+                :data="data" 
+                :windowWidth="windowWidth"
               ></app-chart>
 							<!-- <img src="../assets/images/component_bgs/circle.png" alt=""> -->
 							<div class="graph-text-wrapper">
@@ -80,7 +81,8 @@ import { settings } from '../variables/settings.js';
 
 export default {
   props: [
-    'data'
+    'data',
+    'windowWidth'
   ],
   data: function() {
       return {

@@ -3,6 +3,7 @@
     <doughnut-chart :chart-data="datacollection" :options="opts"
       :labels="{}">{{fillData()}}
     </doughnut-chart>
+    <p>Window width: {{windowWidth}}</p>
   </div>
 </template>
 
@@ -11,25 +12,37 @@
   import { eventBus } from '../../main.js';
   import { settings } from '../../variables/settings.js'
 
-  export default{
+  export default {
     props: [
-      'data'
+      'data',
+      'windowWidth'
     ],
     data: function() {
       return {
         client: this.data.debit.week.client,
         inhouse: this.data.debit.week.inhouse,
-        interval: null
+        interval: null,
+        rotationTime: settings.debitRotationTime
       }
     },
     watch: {
       client: function() {
         this.fillData();
+      },
+      windowWidth: function(){
+        if (this.windowWidth < 1000) { 
+          clearInterval(this.interval);
+        }
+        else {
+          this.rotationTime = settings.debitRotationTime;
+          clearInterval(this.interval);
+          this.play();
+        }
       }
     },
     created() {
       this.fillData();
-      this.play();
+      if (this.windowWidth > 1000) {this.play()}
     },
     beforeDestroy (){
       window.clearInterval(this.interval)
@@ -62,6 +75,7 @@
         }
       },
       play: function(){
+
         this.interval = setInterval(() => {
           if(this.client == this.data.debit.week.client){
             this.client = this.data.debit.month.client;
@@ -81,7 +95,7 @@
             eventBus.$emit('state', 'week');
             eventBus.$emit('updateDebit', this.client);
           }
-        },settings.debitRotationTime);
+        },this.rotationTime);
       }
     }
   }

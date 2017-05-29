@@ -3,7 +3,8 @@
     <div class="columns is-gapless">
       <div class="column wrapper-skeleton">
           <app-wrapper
-            :data="data"
+            :data="data" 
+            :windowWidth="windowWidth"
           ></app-wrapper>
       </div>
       <div class="column is-one-quarter is-hidden-touch">
