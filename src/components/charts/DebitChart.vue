@@ -18,7 +18,8 @@
     data: function() {
       return {
         client: this.data.debit.week.client,
-        inhouse: this.data.debit.week.inhouse
+        inhouse: this.data.debit.week.inhouse,
+        interval: null
       }
     },
     watch: {
@@ -29,6 +30,9 @@
     created() {
       this.fillData();
       this.play();
+    },
+    beforeDestroy (){
+      window.clearInterval(this.interval)
     },
     components: {
         DoughnutChart
@@ -58,7 +62,7 @@
         }
       },
       play: function(){
-        setInterval(() => {
+        this.interval = setInterval(() => {
           if(this.client == this.data.debit.week.client){
             this.client = this.data.debit.month.client;
             this.inhouse = this.data.debit.month.inhouse;
