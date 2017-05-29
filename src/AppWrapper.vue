@@ -26,7 +26,7 @@
 
 <script>
 import Debit from './components/Debit.vue';
-import CurrentProjects from './components/CurrentProjects.vue';
+import CurrentProjects from './components/projects/CurrentProjects.vue';
 import NextEvent from './components/NextEvent.vue';
 import BlogPost from './components/BlogPost.vue';
 import TransitionImage from './components/TransitionImage.vue';
