@@ -5,7 +5,7 @@
         <img class="close-icon" src="src/assets/images/icons/menu_close_icon_x.png" @click="closeNav()">
       </div>
       <div class="side-nav-content headline">
-          <a href="#" @click="setComponent('Debit');closeNav()">Debiteringsgrad</a>
+          <a href="#" @click="setComponent('Debit');closeNav()">{{debitTitle}}</a>
           <div class="break-row"></div>
           <a href="#" @click="setComponent('CurrentProjects');closeNav()">Aktuella Projekt</a>
           <div class="break-row"></div>
@@ -25,10 +25,12 @@
 
 <script>
 import { eventBus } from '../../main.js';
+import { settings } from '../../variables/settings.js';
 
   export default {
     data: function() {
       return {
+        debitTitle: settings.debitTitle,
         debit: {
           color: '#F9418C'
         },
