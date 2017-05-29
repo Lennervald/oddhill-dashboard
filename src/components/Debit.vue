@@ -26,7 +26,7 @@
 								<article class="message">
 									<p class="graph-text app-number debit-number">{{ client }}<span class="number-percent">%</span></p>
 									<p class="graph-text headline app-title section-item-active is-hidden-touch is-hidden-desktop-only">{{ headline }}</p>
-									<p class="graph-text value sub-title">{{ timevalues[0] }}</p>
+									<p class="graph-text value sub-title">{{ timespan }}</p>
 								</article>
 							</div>
 						</figure>
@@ -87,35 +87,56 @@ export default {
         sectionlinks: ["Vecka", "Månad", "År"],
         value1: 'Klient',
         value2: 'Inhouse',
-        timevalues: ["Vecka 12", "april 2017", "2017"],
+        timespan: '',
         states: {
           'week': true,
           'month': false,
           'year': false
         },
-        client: this.data.debit.week.client,
+        state: 'week',
+        client: '',
       }
   },
   components: {
     appChart: DebitChart
   },
   methods: {
-    play: function(){
-      // setInterval(function(){
-      //   if (this.currentState === "week"){
-      //     this.currentState = "month";
-      //     console.log('state = month');
-      //   } else
-      //   {
-      //     this.currentState = "week";
-      //     console.log('state = week');
-      //   }
-      // }, 3000);
-    }
+
   },
   created: function() {
+    // inital state
+    this.client = this.data.debit.week.client;
+    this.state = 'week';
+    this.timespan = "Vecka 12"
+
+    // listen to updated client data
     eventBus.$on('updateDebit',(client) => {
         this.client = client;
+    });
+    // listen to updated state
+    eventBus.$on('state', (state) => {
+        this.state = state;
+        switch (this.state) {
+          case 'week':
+          this.states.week = true;
+          this.states.month = false;
+          this.states.year = false;
+          this.timespan = 'Vecka 12';
+          break;
+          case 'month':
+          this.states.week = false;
+          this.states.month = true;
+          this.states.year = false;
+          this.timespan = 'mars 17';
+          break;
+          case 'year':
+          this.states.week = false;
+          this.states.month = false;
+          this.states.year = true;
+          this.timespan = '2017';
+          break;
+        }
+        console.log(this.state);
     });
   }
 }

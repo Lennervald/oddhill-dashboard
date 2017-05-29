@@ -18,7 +18,8 @@
     data: function() {
       return {
         client: this.data.debit.week.client,
-        inhouse: this.data.debit.week.inhouse
+        inhouse: this.data.debit.week.inhouse,
+        interval: null
       }
     },
     watch: {
@@ -29,6 +30,9 @@
     created() {
       this.fillData();
       this.play();
+    },
+    beforeDestroy (){
+      window.clearInterval(this.interval)
     },
     components: {
         DoughnutChart
@@ -58,15 +62,23 @@
         }
       },
       play: function(){
-        setInterval(() => {
-          if(this.client == this.data.debit.month.client){
-            this.client = this.data.debit.week.client;
-            this.inhouse = this.data.debit.week.inhouse;
-            eventBus.$emit('updateDebit', this.client);
-          }
-          else {
+        this.interval = setInterval(() => {
+          if(this.client == this.data.debit.week.client){
             this.client = this.data.debit.month.client;
             this.inhouse = this.data.debit.month.inhouse;
+            eventBus.$emit('state', 'month');
+            eventBus.$emit('updateDebit', this.client);
+          }
+          else if (this.client == this.data.debit.month.client) {
+            this.client = this.data.debit.year.client;
+            this.inhouse = this.data.debit.year.inhouse;
+            eventBus.$emit('state', 'year');
+            eventBus.$emit('updateDebit', this.client);
+          }
+          else if (this.client == this.data.debit.year.client){
+            this.client = this.data.debit.week.client;
+            this.inhouse = this.data.debit.week.inhouse;
+            eventBus.$emit('state', 'week');
             eventBus.$emit('updateDebit', this.client);
           }
         },settings.debitRotationTime);
