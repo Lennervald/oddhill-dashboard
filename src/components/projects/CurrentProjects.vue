@@ -1,9 +1,9 @@
 <template>
 <div class="views">
-  <li v-for="(project, index) in projects">
+  <!-- <li v-for="(project, index) in projects">
     <ul><button @click="selectedProject = index">index: {{index}} - {{project}}</button></ul>
   </li>
-  <h3>selected: {{selectedProject}}</h3>
+  <h3>selected: {{selectedProject}}</h3> -->
   <section class="hero current-projects-page-wrapper is-fullwidth">
   <div class="hero-head is-vcentered">
     <div class="columns">

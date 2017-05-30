@@ -10,7 +10,7 @@
       </div>
     </nav>
     <div class="app-wrapper-main">
-      <transition name="fade">
+      <transition name="fade" mode="out-in">
         <component
           :is="selectedComponent"
           :data="data"
@@ -50,7 +50,7 @@ export default {
     },
     data: function() {
         return {
-            selectedComponent: 'CurrentProjects'
+        selectedComponent: 'CurrentProjects'
         }
     },
     created: function(){

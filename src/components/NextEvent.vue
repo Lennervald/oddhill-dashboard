@@ -1,10 +1,8 @@
 <template>
 <div class="views">
-
   <article class="color-div-wrapper">
     <div class="moving-color-div col-div-next-event"></div>
   </article>
-
   <section class="hero next-event-page-wrapper is-fullwidth">
     <div class="hero-head  ">
       <div class="columns">
