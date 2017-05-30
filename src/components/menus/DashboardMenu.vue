@@ -84,6 +84,11 @@ export default {
 			subBlog: 'Projektledning i det digitala landskapet'
     }
   },
+  created: function() {
+    eventBus.$on('menuStyle',(cmp) => {
+      this.setComponent(cmp);
+    });
+  },
   methods: {
     setComponent: function(cmp){
       eventBus.$emit('setNewComponent', cmp);

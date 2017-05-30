@@ -49,11 +49,25 @@ export default {
       TransitionImage
     },
     data: function() {
-        return {
-        selectedComponent: 'CurrentProjects'
-        }
+      return {
+        selectedComponent: 'Debit',
+        cmpArray: ['Debit', 'CurrentProjects', 'NextEvent', 'BlogPost']
+      }
     },
     created: function(){
+      
+      var i = 0;
+      var items = this.cmpArray;
+      function mainPlay() {
+        console.log(items[i]);
+        eventBus.$emit('setNewComponent', items[i]);
+        eventBus.$emit('menuStyle',items[i]);
+        i++;
+        if (i===4){i=0;}
+        setTimeout(mainPlay, 7000); // callback
+      }
+      mainPlay();
+
       eventBus.$on('setNewComponent',(cmp) => {
         this.selectedComponent = cmp;
       });
