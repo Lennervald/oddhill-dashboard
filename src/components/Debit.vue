@@ -6,9 +6,9 @@
 					<div class="column">
 						<p class="headline debit-headline is-hidden-desktop">{{ headline }}</p>
 						<ul>
-							<li><p class="section-links"><span class="section-item" :class="{'section-item-active': states.week }">{{ sectionlinks[0] }}</span><span class="app-br"></span></p></li>
-							<li><p class="section-links"><span class="section-item" :class="{'section-item-active': states.month }">{{ sectionlinks[1] }}</span><span class="app-br"></span></p></li>
-							<li><p class="section-links"><span class="section-item" :class="{'section-item-active': states.year }">{{ sectionlinks[2] }}</span></p></li>
+							<li @click="setState('week')"><p class="section-links"><span class="section-item" :class="{'section-item-active': states.week }">{{ sectionlinks[0] }}</span><span class="app-br"></span></p></li>
+							<li @click="setState('month')"><p class="section-links"><span class="section-item" :class="{'section-item-active': states.month }">{{ sectionlinks[1] }}</span><span class="app-br"></span></p></li>
+							<li @click="setState('year')"><p class="section-links"><span class="section-item" :class="{'section-item-active': states.year }">{{ sectionlinks[2] }}</span></p></li>
 						</ul>
 					</div>
 				</div>
@@ -104,7 +104,14 @@ export default {
     appChart: DebitChart
   },
   methods: {
-
+    setState: function(state){
+      if (state == 'week') { 
+        Object.keys(this.states).forEach(v => this.states[v] = false); this.states.week = true; eventBus.$emit('state', 'week')}
+      if (state == 'month') { 
+        Object.keys(this.states).forEach(v => this.states[v] = false); this.states.month = true; eventBus.$emit('state', 'month')}
+      if (state == 'year') { 
+        Object.keys(this.states).forEach(v => this.states[v] = false); this.states.year = true; eventBus.$emit('state', 'year')}
+    }
   },
   created: function() {
     // inital state
