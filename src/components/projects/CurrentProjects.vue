@@ -1,7 +1,7 @@
 <template>
 <div class="views">
   <li v-for="(project, index) in projects">
-    <ul><button @click="changeProj(index)">index: {{index}} - {{project.name}}</button></ul>
+    <ul><button @click="changeProj(index)">index: {{index}} - {{project}}</button></ul>
   </li>
   <section class="hero current-projects-page-wrapper is-fullwidth">
   <div class="hero-head is-vcentered">
@@ -65,15 +65,17 @@ export default {
     // console.log(this.data.projects.length)
   },
   methods: {
+    changeProj: function(index) {
+      let clicker = index;
+      // this.numb = clicker;
+      this.numb = 0;
+      console.log(clicker);
+    },
     selectProj: function() {
       this.projects = this.data.projects;
     },
     chosenProject: function() {
-      let count = this.projectCount;
       this.currentProj = this.data.projects[this.numb];
-    },
-    changeProj: function(index) {
-      this.numb = 1;
     },
     setupProject: function() {
       let selectedProj = this.currentProj;
