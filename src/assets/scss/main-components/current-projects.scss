@@ -2,6 +2,26 @@
 ////////////////////////////////////////////////
 // Current Projects Page:
 
+.carousel {
+  // margin-bottom: 4.5rem;
+  .project-circle {
+    background: #aaa;
+    width: 12px;
+    height: 12px;
+    margin-left: 20px;
+    border-radius: 50%;
+  }
+  // .project-circle:first-child {
+  //   background: $white;
+  // }
+
+  .selected{
+    background: $white;
+  }
+}
+
+
+
 .current-projects-page-wrapper {
   background: #c9c9c9;
   background-size: cover;
@@ -218,6 +238,15 @@
   }
 
 }
+
+@media screen and (min-width: 1000px) {
+  .carousel {
+    margin-bottom: 4.5rem;
+  }
+}
+
+
+
 
 
 
