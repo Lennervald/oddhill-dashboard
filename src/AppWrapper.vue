@@ -31,6 +31,7 @@ import NextEvent from './components/NextEvent.vue';
 import BlogPost from './components/BlogPost.vue';
 import TransitionImage from './components/TransitionImage.vue';
 import TestPage from './components/TestPage.vue';
+import { settings } from './variables/settings.js';
 
 // listen for click events from right menu
 import { eventBus } from './main.js';
@@ -59,12 +60,11 @@ export default {
       var i = 0;
       var items = this.cmpArray;
       function mainPlay() {
-        console.log(items[i]);
         eventBus.$emit('setNewComponent', items[i]);
         eventBus.$emit('menuStyle',items[i]);
         i++;
         if (i===4){i=0;}
-        setTimeout(mainPlay, 7000); // callback
+        setTimeout(mainPlay, settings.mainRotationTime); // callback
       }
       mainPlay();
 
