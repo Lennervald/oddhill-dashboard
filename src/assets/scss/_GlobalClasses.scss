@@ -75,6 +75,10 @@
   margin: 1.4vw auto;
 }
 
+.section-item:hover {
+  cursor: pointer;
+}
+
 .section-item-active {
   text-decoration: none;
   display: inline-table;

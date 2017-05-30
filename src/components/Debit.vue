@@ -106,11 +106,43 @@ export default {
   methods: {
     setState: function(state){
       if (state == 'week') { 
-        Object.keys(this.states).forEach(v => this.states[v] = false); this.states.week = true; eventBus.$emit('state', 'week')}
+        Object.keys(this.states).forEach(v => this.states[v] = false); this.states.week = true; eventBus.$emit('state', 'week');
+        // update percent in middle
+        this.client = this.data.debit.week.client;
+        var data = {
+          client: this.data.debit.week.client,
+          inhouse: this.data.debit.week.inhouse
+        };
+        // send updated data to graph in debitChart.vue
+        eventBus.$emit('updateGraph',data);
+        // turn of the rotation since we clicked a menu item
+        eventBus.$emit('interval','');
+      } 
       if (state == 'month') { 
-        Object.keys(this.states).forEach(v => this.states[v] = false); this.states.month = true; eventBus.$emit('state', 'month')}
+        Object.keys(this.states).forEach(v => this.states[v] = false); this.states.month = true; eventBus.$emit('state', 'month');
+        // update percent in middle
+        this.client = this.data.debit.month.client;
+        var data = {
+          client: this.data.debit.month.client,
+          inhouse: this.data.debit.month.inhouse
+        };
+        // send updated data to graph in debitChart.vue
+        eventBus.$emit('updateGraph',data);
+        // turn of the rotation since we clicked a menu item
+        eventBus.$emit('interval','');
+        }
       if (state == 'year') { 
-        Object.keys(this.states).forEach(v => this.states[v] = false); this.states.year = true; eventBus.$emit('state', 'year')}
+        Object.keys(this.states).forEach(v => this.states[v] = false); this.states.year = true; eventBus.$emit('state', 'year');
+        this.client = this.data.debit.year.client;
+        var data = {
+          client: this.data.debit.year.client,
+          inhouse: this.data.debit.year.inhouse
+        };
+        // send updated data to graph in debitChart.vue
+        eventBus.$emit('updateGraph',data);
+        // turn of the rotation since we clicked a menu item
+        eventBus.$emit('interval','');
+        }
     }
   },
   created: function() {
@@ -121,7 +153,7 @@ export default {
 
     // listen to updated client data
     eventBus.$on('updateDebit',(client) => {
-        this.client = client;
+      this.client = client;
     });
     // listen to updated state
     eventBus.$on('state', (state) => {

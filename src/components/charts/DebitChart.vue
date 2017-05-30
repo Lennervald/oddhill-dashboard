@@ -42,7 +42,18 @@
     },
     created() {
       this.fillData();
-      if (this.windowWidth > 1000) {this.play()}
+      if (this.windowWidth > 1000) {
+        this.play()
+      }
+      // when this custom event is called, rotation will be stopped
+      eventBus.$on('interval',() => {
+        window.clearInterval(this.interval)
+      });
+      // call this custom event to update the doughnut
+      eventBus.$on('updateGraph', (obj)=>{
+        this.client = obj.client;
+        this.inhouse = obj.inhouse;
+      });
     },
     beforeDestroy (){
       window.clearInterval(this.interval)
