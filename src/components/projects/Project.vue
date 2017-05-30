@@ -186,19 +186,6 @@ export default {
         backgroundImage: 'url(' + this.profileImages[9] + ')',
       }
     },
-
-  // data: function() {
-  //   return {
-  //     pagetitle: "Aktuella Projekt",
-  //     projectname: "",
-  //
-  //     valueCommits: "178",
-  //     valueHours: '',
-  //     team: '',
-  //     profileImages: '',
-  //     currentProj: ''
-  //   }
-  // }
-}
+  }
 }
 </script>
