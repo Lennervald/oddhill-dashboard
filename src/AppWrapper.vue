@@ -31,6 +31,7 @@ import NextEvent from './components/NextEvent.vue';
 import BlogPost from './components/BlogPost.vue';
 import TransitionImage from './components/TransitionImage.vue';
 import TestPage from './components/TestPage.vue';
+import { settings } from './variables/settings.js';
 
 // listen for click events from right menu
 import { eventBus } from './main.js';
@@ -49,11 +50,24 @@ export default {
       TransitionImage
     },
     data: function() {
-        return {
-        selectedComponent: 'CurrentProjects'
-        }
+      return {
+        selectedComponent: 'Debit',
+        cmpArray: ['Debit', 'CurrentProjects', 'NextEvent', 'BlogPost']
+      }
     },
     created: function(){
+      
+      var i = 0;
+      var items = this.cmpArray;
+      function mainPlay() {
+        eventBus.$emit('setNewComponent', items[i]);
+        eventBus.$emit('menuStyle',items[i]);
+        i++;
+        if (i===4){i=0;}
+        setTimeout(mainPlay, settings.mainRotationTime); // callback
+      }
+      mainPlay();
+
       eventBus.$on('setNewComponent',(cmp) => {
         this.selectedComponent = cmp;
       });

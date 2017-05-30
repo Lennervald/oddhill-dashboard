@@ -1,5 +1,5 @@
 export const settings = {
-  mainRotationTime:   15000,
+  mainRotationTime:   18000,
   debitRotationTime:  6000,
   debitTitle: 'Kundtimmar'
 }
