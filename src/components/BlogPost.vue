@@ -3,7 +3,7 @@
 		<article class="color-div-wrapper">
 			<div class="moving-color-div col-div-blog-page"></div>
 		</article>
-		<section class="hero blog-page-wrapper">
+		<section class="hero blog-page-wrapper is-fullwidth">
 			<div class="hero-head is-vcentered">
         <div class="columns is-mobile">
 					<div class="column
