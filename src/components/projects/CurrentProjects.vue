@@ -1,8 +1,9 @@
 <template>
 <div class="views">
   <li v-for="(project, index) in projects">
-    <ul><button @click="changeProj(index)">index: {{index}} - {{project}}</button></ul>
+    <ul><button @click="selectedProject = index">index: {{index}} - {{project}}</button></ul>
   </li>
+  <h3>selected: {{selectedProject}}</h3>
   <section class="hero current-projects-page-wrapper is-fullwidth">
   <div class="hero-head is-vcentered">
     <div class="columns">
@@ -42,21 +43,21 @@ export default {
       valueHours: '',
       team: '',
       profileImages: '',
-      currentProj: '',
       projects: '',
-      numb: '0',
+      // Martin: Man kan manuellt updatera vilket project som är valt här:
+      // Ett klick på buttons ändrar även vilken selectedproject som är vald,
+      // Vad som behövs är att när man klickar så ska sidan laddas om, eller någon typ av ny instansiering ske för att detta ska funka.
+      // Annars får man bygga det på annat sätt. men gissar att det ska funka.
+      selectedProject: '1',
       projectinfo: {
         name: '',
         hours: '',
         commits: '',
-
       }
     }
   },
   created: function() {
-    this.changeProj();
     this.selectProj();
-    this.chosenProject();
     this.setupProject();
   },
   mounted() {
@@ -65,22 +66,13 @@ export default {
     // console.log(this.data.projects.length)
   },
   methods: {
-    changeProj: function(index) {
-      let clicker = index;
-      // this.numb = clicker;
-      this.numb = 0;
-      console.log(clicker);
-    },
     selectProj: function() {
       this.projects = this.data.projects;
     },
-    chosenProject: function() {
-      this.currentProj = this.data.projects[this.numb];
-    },
     setupProject: function() {
-      let selectedProj = this.currentProj;
-      let projMembers = selectedProj.teamMembers;
-      this.projectinfo.name = selectedProj.name;
+      let activeProject = this.data.projects[this.selectedProject];
+      this.projectinfo.name = activeProject.name;
+      let projMembers = activeProject.teamMembers;
 
       let membArr = [];
       let hourArr = [];
