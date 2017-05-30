@@ -31,7 +31,8 @@
 
   .debit-number {
     font-size: $font-size-0;
-    margin-bottom: -2%;
+    margin-bottom: -4%;
+    margin-top: -2%;
   }
   .graph-text {
     color: $white;
@@ -112,7 +113,7 @@
   .graph-text-wrapper {
     .debit-number {
       font-size: $font-size-huge;
-      margin-bottom: -4%;
+      // margin-bottozm: -4%;
     }
   }
 

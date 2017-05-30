@@ -39,6 +39,7 @@
 
 <script>
 import { eventBus } from '../../main.js';
+import { settings } from '../../variables/settings.js';
 
 export default {
   props: [
@@ -62,7 +63,7 @@ export default {
         color: '#242323'
       },
 
-			titleDebit: 'Debiteringsgrad',
+			titleDebit: settings.debitTitle,
       valueDebit: this.data.debit.month.client,
 			unitDebit: '%',
 			subDebit: 'mars 2017',

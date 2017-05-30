@@ -77,6 +77,7 @@
 <script>
 import DebitChart from './charts/DebitChart.vue';
 import { eventBus } from '../main.js';
+import { settings } from '../variables/settings.js';
 
 export default {
   props: [
@@ -85,7 +86,7 @@ export default {
   ],
   data: function() {
       return {
-        headline: 'debiteringsgrad',
+        headline: settings.debitTitle,
         sectionlinks: ["Vecka", "Månad", "År"],
         value1: 'Klient',
         value2: 'Inhouse',
