@@ -93,6 +93,7 @@ export default {
     setComponent: function(cmp){
       eventBus.$emit('setNewComponent', cmp);
       // change text color on clicked cpm
+      console.log('cmp', cmp);
       switch (cmp) {
         case 'Debit':
           this.debit.color = '#F9418C';
@@ -120,13 +121,6 @@ export default {
 						this.currentprojects.color = '#242323';
 						this.nextevent.color = '#242323';
 						this.blogpost.color = '#F9418C';
-						break;
-
-				case 'TransitionImage':
-						this.debit.color = '#242323';
-						this.currentprojects.color = '#242323';
-						this.nextevent.color = '#F9418C';
-						this.blogpost.color = '#242323';
 						break;
 
         default:

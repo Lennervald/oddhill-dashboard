@@ -52,7 +52,12 @@ export default {
     data: function() {
       return {
         selectedComponent: 'Debit',
-        cmpArray: ['Debit', 'CurrentProjects', 'NextEvent', 'BlogPost']
+        cmpArray: [
+          'Debit', 'TransitionImage', 
+          'CurrentProjects', 'TransitionImage',
+          'NextEvent', 'TransitionImage', 
+          'BlogPost', 'TransitionImage'
+        ]
       }
     },
     created: function(){
@@ -60,11 +65,19 @@ export default {
       var i = 0;
       var items = this.cmpArray;
       function mainPlay() {
+        var timer;
+
+        if (items[i] === 'TransitionImage'){
+          eventBus.$emit('menuStyle','');
+          timer = settings.transitionImageRotationTime;
+        } else {
+          eventBus.$emit('menuStyle',items[i]);
+          timer = settings.mainRotationTime;
+        }
         eventBus.$emit('setNewComponent', items[i]);
-        eventBus.$emit('menuStyle',items[i]);
         i++;
-        if (i===4){i=0;}
-        setTimeout(mainPlay, settings.mainRotationTime); // callback
+        if (i===8){i=0;}
+        setTimeout(mainPlay, timer); // callback
       }
       mainPlay();
 
