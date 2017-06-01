@@ -178,6 +178,7 @@ export default {
           this.timespan = '2017';
           break;
         }
+        console.log(this.state);
     });
   }
 }
