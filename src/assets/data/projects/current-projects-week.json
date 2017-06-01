@@ -21,17 +21,17 @@
 					"hours": "30"
 				},
 				{
-					"name": "Marri",
+					"name": "ola",
 					"commits": "4",
 					"hours": "12"
 				},
         {
-					"name": "mads",
+					"name": "jens_l",
 					"commits": "5",
 					"hours": "33"
 				},
         {
-					"name": "Jens_g",
+					"name": "bjorn",
 					"commits": "4",
 					"hours": "12"
 				},
@@ -59,13 +59,13 @@
 					"commits": "4",
 					"hours": "12"
 				},
-        {
+				{
 					"name": "Olof",
 					"commits": "5",
 					"hours": "36"
 				},
 				{
-					"name": "Mads",
+					"name": "jennifer",
 					"commits": "5",
 					"hours": "36"
 				}
