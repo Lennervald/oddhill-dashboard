@@ -5,17 +5,14 @@
 .carousel {
   // margin-bottom: 4.5rem;
   .project-circle {
+    margin-top: 0;
     background: #aaa;
-    width: 12px;
-    height: 12px;
+    width: 13px;
+    height: 13px;
     margin-left: 20px;
     border-radius: 50%;
   }
-  // .project-circle:first-child {
-  //   background: $white;
-  // }
-
-  .selected{
+  .active{
     background: $white;
   }
 }

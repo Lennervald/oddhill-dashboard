@@ -8,25 +8,22 @@
         </div>
       </div>
     </div>
-
     <transition name="slide" mode="out-in">
       <component :is="selectedComponent"
-      :data="data"
-      :projnumber="number">
-        <h1>hkshdh</h1>
+        :data="data"
+        :projnumber="number">
       </component>
     </transition>
     <div class="carousel">
       <div class="block">
         <li v-for="(project, index) in projects">
-          <!-- <a class="button" @click="selectedComponent = 'appProject' + project.id">{{project.name}}</a> -->
-          <!-- <div class="project-circle" v-bind:class="{ active: isActive }"  @click="selectedComponent = 'appProject' + project.id"></div> -->
-          <!-- <div class="project-circle" v-bind:class="{ active: isActive }" @click="selectSwitch(project.id)" ></div> -->
-          <div class="project-circle" @click="selectSwitch(index)" ></div>
+          <div class="project-circle"
+          @click="selectSwitch(index)"
+          :class="{'active': activeItemId === index}">
+        </div>
         </li>
-        <!-- <h1>{{selectedComponent}}</h1> -->
-      </div>
     </div>
+  </div>
     <div class="hero-foot is-vcentered">
       <div class="columns">
         <div class="column has-text-left is-hidden-desktop">
@@ -39,14 +36,14 @@
 </template>
 
 <script>
-import Project0 from './Project1.vue';
+import Project0 from './Project0.vue';
 import Project1 from './Project1.vue';
 import Project2 from './Project2.vue';
 import Project3 from './Project2.vue';
 import Project4 from './Project2.vue';
 
 export default {
-  props: ['data'],
+  props: ['data','title', 'content', 'active', 'index'],
   components: {
     appProject0: Project0,
     appProject1: Project1,
@@ -56,8 +53,8 @@ export default {
   },
   data: function() {
     return {
-      selectedComponent: 'appProject1',
-      isActive: true,
+      selectedComponent: 'appProject0',
+      activeItemId: '',
       pagetitle: "Aktuella Projekt",
       projectObj: ["Commits", "Timmar"],
       valueCommits: "178",
@@ -66,16 +63,17 @@ export default {
       profileImages: '',
       projects: '',
       number: '0',
-      // Martin: Man kan manuellt updatera vilket project som är valt här:
-      // Ett klick på buttons ändrar även vilken selectedproject som är vald,
-      // Vad som behövs är att när man klickar så ska sidan laddas om, eller någon typ av ny instansiering ske för att detta ska funka.
-      // Annars får man bygga det på annat sätt. men gissar att det ska funka.
       selectedProject: '1',
       projectinfo: {
         name: '',
         hours: '',
         commits: '',
-      }
+      },
+      items: [
+      	{title: 'Title 1', content: 'Content 1'},
+        {title: 'Title 2', content: 'Content 2'}
+      ],
+      activeLiIndex: null
     }
   },
   created: function() {
@@ -83,15 +81,18 @@ export default {
     this.setupProject();
   },
   mounted() {
-    // console.log(this.selected)
+    this.activeItemId = 0;
     // console.log(this.data.projects[0].teamMembers[0].name);
     // console.log(this.data.projects.length)
   },
   methods: {
+    toggleActive: function() {
+       this.activeItemId = itemIndex;
+    },
     selectSwitch: function(indexNumber) {
       this.selectedComponent = 'appProject' + indexNumber;
       this.number = indexNumber;
-      // this.isActive = !this.isActive;
+      this.activeItemId = indexNumber;
     },
     selectProj: function() {
       this.projects = this.data.projects;
