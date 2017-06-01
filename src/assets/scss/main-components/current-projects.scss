@@ -3,7 +3,6 @@
 // Current Projects Page:
 
 .carousel {
-  // margin-bottom: 4.5rem;
   .project-circle {
     margin-top: 0;
     background: #aaa;
@@ -14,6 +13,16 @@
   }
   .active{
     background: $white;
+    width: 13px;
+    height: 13px;
+    -webkit-animation: nicey 1.5s;
+    animation: nicey 1.5s;
+    animation-iteration-count: 1;
+  }
+
+    @keyframes nicey {
+      0% {background-color: #aaa;}
+      100% {background-color:  $white;}
   }
 }
 

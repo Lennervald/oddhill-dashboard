@@ -1,6 +1,5 @@
 {
 	"projects": [{
-			"id": 1,
 			"name": "Malmö FF",
 			"teamMembers": [{
 					"name": "anton",
@@ -15,7 +14,6 @@
 			]
 		},
     {
-			"id": 2,
 			"name": "Skånes Dansteater",
 			"teamMembers": [{
 					"name": "Christoffer",
@@ -50,7 +48,6 @@
 			]
 		},
 		{
-			"id": 3,
 			"name": "Malmö Stadsteater",
 			"teamMembers": [{
 					"name": "Erik",
@@ -75,7 +72,6 @@
 			]
 		},
     {
-			"id": 4,
 			"name": "Medicon Village",
 			"teamMembers": [{
 					"name": "Hannele",
