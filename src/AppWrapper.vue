@@ -63,27 +63,27 @@ export default {
     },
     methods: {
       mainPlay: function(){
-        var items = this.cmpArray;
         var timer;
 
-        if (items[this.index] === 'TransitionImage'){
+        if (this.cmpArray[this.index] === 'TransitionImage'){
           eventBus.$emit('menuStyle','');
           timer = settings.transitionImageRotationTime;
         } else {
-          eventBus.$emit('menuStyle',items[this.index]);
+          eventBus.$emit('menuStyle',this.cmpArray[this.index]);
           timer = settings.mainRotationTime;
         }
-        eventBus.$emit('setNewComponent', items[this.index]);
+        eventBus.$emit('setNewComponent', this.cmpArray[this.index]);
         this.index++;
         if (this.index===8){this.index=0;}
         setTimeout(this.mainPlay, timer); // callback
       }
     },
     created: function(){
-      this.mainPlay();
+      // on created, set the cmp and start the main rotation
       eventBus.$on('setNewComponent',(cmp) => {
         this.selectedComponent = cmp;
       });
+      this.mainPlay();
     }
 }
 </script>
