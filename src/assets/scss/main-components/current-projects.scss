@@ -54,6 +54,10 @@
   }
 }
 
+.notification {
+  background-color: transparent;
+}
+
 .project-title {
   color: $white;
   font-size: $font-size-3;
@@ -104,12 +108,12 @@
 
 .row-height2 {
   width: 100%;
-  padding-top: 18vh;
+  padding-top: 14vh;
 }
 
 .row-height3 {
   width: 100%;
-  padding-top: 13vh;
+  padding-top: 18vh;
 }
 
 .row-height4 {
@@ -117,9 +121,24 @@
   padding-top: 20vh;
 }
 
+.row-height5 {
+  width: 100%;
+  padding-top: 24vh;
+}
+
+.row-height6 {
+  width: 100%;
+  padding-top: 29vh;
+}
+
+.row-height7 {
+  width: 100%;
+  padding-top: 41vh;
+}
+
 
 .pic-filler-item {
-  background-color: $white;
+  // background-color: $white;
   position: absolute;
   top: 0;
   left: 0;
@@ -131,18 +150,39 @@
 
 .illustrative-filler1 {
   @extend .pic-filler-item;
-  background-color: $blue;
-  // background-image: url(../../assets/images/transitions/trans_img_2.png);
+  // background-color: $pink;
+  background-image: url(../../assets/images/illustrations/12.jpg);
   background-position: 0% 30%;
-  background-size: 100%;
+  // background-size: 200%;
 }
 
 .illustrative-filler2 {
   @extend .pic-filler-item;
   // background-color: $pink;
-  background-image: url(../../assets/images/illustrations/7.jpg);
+  background-image: url(../../assets/images/illustrations/13.jpg);
   background-position: 0% 30%;
   // background-size: 200%;
+}
+
+.illustrative-filler3 {
+  @extend .pic-filler-item;
+  // background-color: $pink;
+  background-image: url(../../assets/images/illustrations/10.jpg);
+  background-position: 0% 30%;
+  // background-size: 200%;
+}
+
+.illustrative-filler4 {
+  @extend .pic-filler-item;
+  background-image: url(../../assets/images/illustrations/10.jpg);
+  background-position: 0% 30%;
+}
+
+.illustrative-filler5 {
+  @extend .pic-filler-item;
+  // background-color: $pink;
+  background-image: url(../../assets/images/illustrations/11.jpg);
+  background-position: 0% 30%;
 }
 
 .pic-filler1 {
@@ -156,7 +196,7 @@
 
 .pic-filler2 {
   @extend .pic-filler-item;
-  background-color: $pink;
+  background-color: $purple_dark;
   background-position: 40% 20%;
   background-size: 120%;
 }
@@ -164,7 +204,7 @@
 .pic-filler3 {
   @extend .pic-filler-item;
   background-color: $blue;
-  background-position: 50% 10%;
+  background-position: 50% 20%;
   background-size: 350%;
 }
 
@@ -200,7 +240,7 @@
   @extend .pic-filler-item;
   background-color: $purple_dark;
   background-position: 30% 20%;
-  background-size: 105%;
+  background-size: 125%;
 }
 
 .pic-filler9 {

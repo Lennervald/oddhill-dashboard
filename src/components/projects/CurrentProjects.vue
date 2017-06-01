@@ -12,13 +12,16 @@
       <component
         :is="selectedComponent"
         :data="data"
+        :projectAttr="projectAttr"
         :selectedNumber="selectedIndex">
     </component>
   </transition>
     <div class="carousel">
       <div class="block">
         <li v-for="(project, index) in projectCount">
-          <div class="project-circle" @click="selectSwitch(index)" :class="{'active': activeItemId === index}">
+          <div class="project-circle"
+          @click="projectSwitch(index)"
+          :class="{'active': activeItemId === index}">
           </div>
         </li>
       </div>
@@ -69,18 +72,114 @@ export default {
       selectedIndex: '0',
       projectCount: '',
       activeItemId: '',
-      activeLiIndex: null
+      activeLiIndex: null,
+      number: 0,
+      projectAttr: [{
+        name: '',
+        size: '',
+        commits: '',
+        hours: '',
+        profiles: ''
+      }]
     }
+  },
+  created: function() {
+    this.projectSwitch(0);
   },
   mounted() {
     this.projectCount = this.data.projects.length;
     this.activeItemId = 0;
   },
   methods: {
-    selectSwitch: function(indexNumber) {
+    projectSwitch: function(indexNumber) {
+      this.projectAttr.name= this.data.projects[indexNumber].name;
+      this.numbvalue = indexNumber;
       this.selectedComponent = 'appProject' + indexNumber;
       this.selectedIndex = indexNumber;
       this.activeItemId = indexNumber;
+
+      let project = this.data.projects[indexNumber],
+      fetchMembers = project.teamMembers;
+
+      let membArr = [],
+        hourArr = [],
+        commitArr = [],
+        hourSum = 0,
+        commitSum = 0;
+
+      fetchMembers.map(function(staff) {
+        let memName = staff.name.toLowerCase();
+        let memHours = parseInt(staff.hours);
+        let memCommits = parseInt(staff.commits);
+        membArr.push(memName);
+        hourArr.push(memHours);
+        commitArr.push(memCommits);
+      });
+
+      // Calculates the complete sum of Commits & Hours
+
+      for (let i = 0; i < hourArr.length; i++) {
+        hourSum += hourArr[i];
+      }
+
+      for (let i = 0; i < commitArr.length; i++) {
+        commitSum += commitArr[i];
+      }
+
+      this.projectAttr.size = membArr.length;
+      this.projectAttr.hours = hourSum;
+      this.projectAttr.commits = commitSum;
+
+      let team = validateStaff(membArr);
+
+      function validateStaff(projMembers) {
+        let oddHillStaff = [
+          "anton",
+          "bjorn",
+          "calle",
+          "christoffer",
+          "daniel",
+          "emil",
+          "erik",
+          "hannele",
+          "jennifer",
+          "jens_g",
+          "jens_l",
+          "johan",
+          "mads",
+          "magnus",
+          "marcus",
+          "marri",
+          "mattias",
+          "michaela",
+          "mohamed",
+          "mohammed",
+          "nils",
+          "ola",
+          "olof",
+          "pia"
+        ]
+
+        let valid = [];
+        let invalid = [];
+
+        for (var i = 0; i < projMembers.length; i++) {
+          if (oddHillStaff.indexOf(projMembers[i]) !== -1) {
+            valid.push(projMembers[i]);
+          } else {
+            invalid.push(projMembers[i]);
+            console.log("Warning. Following Member(s): " + invalid + "  is/are not known to our database, and will therefor not be displayed. Please update with a full name/image asap.");
+          }
+        }
+        return valid;
+      }
+
+      let imgPaths = [];
+
+      for (let i = 0; i < team.length; i++) {
+        imgPaths.push('src/assets/images/staff/' + team[i] + '.png');
+      }
+      this.projectAttr.profiles = imgPaths;
     }
   }
 }
