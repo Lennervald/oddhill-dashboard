@@ -58,24 +58,32 @@ export default {
           'NextEvent', 'TransitionImage', 
           'BlogPost', 'TransitionImage'
         ],
-        index: 0
+        index: 0,
+        timer: settings.mainRotationTime
       }
     },
     methods: {
       mainPlay: function(){
-        var timer;
-
+        // set color of selected cmp or none color if its transitionImage
         if (this.cmpArray[this.index] === 'TransitionImage'){
           eventBus.$emit('menuStyle','');
-          timer = settings.transitionImageRotationTime;
+          this.timer = settings.transitionImageRotationTime;
         } else {
           eventBus.$emit('menuStyle',this.cmpArray[this.index]);
-          timer = settings.mainRotationTime;
+          this.timer = settings.mainRotationTime;
         }
         eventBus.$emit('setNewComponent', this.cmpArray[this.index]);
         this.index++;
         if (this.index===8){this.index=0;}
-        setTimeout(this.mainPlay, timer); // callback
+        // when calling method timeout, with a time prop, the rotation will keep going
+        this.timeout(this.timer)
+
+      },
+      timeout: function(timer){
+        if (timer) {
+          setTimeout(this.mainPlay, timer); // callback
+        }
+        else console.log('no more mainRotation');
       }
     },
     created: function(){
