@@ -26,7 +26,7 @@
                   <div class="tile is-parent is-3">
                     <article class="tile is-child notification img-box">
                       <div class="color-filter"></div>
-                      <div class="illustrative-filler4 pic-filler3">
+                      <div class=" pic-filler3">
                       </div>
                     </article>
                   </div>

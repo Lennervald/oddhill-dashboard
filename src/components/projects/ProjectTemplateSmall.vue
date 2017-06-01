@@ -25,23 +25,18 @@
                 <div class="tile is-ancestor">
                   <div class="tile is-parent is-2">
                     <div class="tile is-vertical">
-                    <article class="tile is-child notification img-box row-height6">
+                    <article class="tile is-child notification img-box">
                       <div class="color-filter"></div>
                       <div class="pic-filler3" v-bind:style="bgImg3">
                       </div>
                     </article>
-                    <!-- <article class="tile is-child notification img-box">
-                      <div class="color-filter"></div>
-                      <div class="pic-filler3" v-bind:style="bgImg3">
-                      </div>
-                    </article> -->
                   </div>
                   </div>
                   <div class="tile is-vertical">
                     <div class="tile is-vertical">
                       <div class="tile is-parent">
-                        <article class="tile is-child notification img-box row-height7">
-                          <div class="illustrative-filler3">
+                        <article class="tile is-child notification img-box">
+                          <div class="illustrative-filler3 ">
                             <div class="color-filter"></div>
                           </div>
                         </article>
@@ -54,6 +49,12 @@
             </div>
             <div class="tile">
               <div class="tile is-parent is-vertical">
+                <article class="tile is-child notification img-box">
+                  <div class=" pic-filler7">
+                    <div class="color-filter"></div>
+                  </div>
+                </article>
+
                 <article class="tile is-child notification img-box">
                   <div class="illustrative-filler1 pic-filler7">
                     <div class="color-filter"></div>
@@ -73,7 +74,7 @@
                     <div class="color-filter"></div>
                   </div>
                 </article>
-                <article class="tile is-child notification img-box row-height3">
+                <article class="tile is-child notification img-box row-height5">
                   <div class="pic-filler6" v-bind:style="bgImg2">
                     <div class="color-filter col-filter2"></div>
                   </div>

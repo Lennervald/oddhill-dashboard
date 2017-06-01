@@ -17,7 +17,7 @@
           <div class="tile is-ancestor">
             <div class="tile is-parent">
               <div class="tile is-vertical">
-                <article class="tile is-child notification img-box row-height1">
+                <article class="tile is-child notification img-box row-height3">
                   <div class="pic-filler4" v-bind:style="bgImg4">
                     <div class="color-filter col-filter1"></div>
                   </div>
@@ -48,7 +48,7 @@
                           </article>
                         </div>
                         <div class="tile is-parent">
-                          <article class="tile is-child notification img-box row-height2">
+                          <article class="tile is-child notification img-box row-height1">
                             <div class="pic-filler5" v-bind:style="bgImg5">
                               <div class="color-filter col-filter2"></div>
                             </div>
@@ -81,7 +81,7 @@
                     <div class="color-filter"></div>
                   </div>
                 </article>
-                <article class="tile is-child notification img-box row-height3">
+                <article class="tile is-child notification img-box row-height4">
                   <div class="pic-filler6" v-bind:style="bgImg6">
                     <div class="color-filter"></div>
                   </div>
