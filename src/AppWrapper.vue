@@ -57,30 +57,30 @@ export default {
           'CurrentProjects', 'TransitionImage',
           'NextEvent', 'TransitionImage', 
           'BlogPost', 'TransitionImage'
-        ]
+        ],
+        index: 0
       }
     },
-    created: function(){
-      
-      var i = 0;
-      var items = this.cmpArray;
-      function mainPlay() {
+    methods: {
+      mainPlay: function(){
+        var items = this.cmpArray;
         var timer;
 
-        if (items[i] === 'TransitionImage'){
+        if (items[this.index] === 'TransitionImage'){
           eventBus.$emit('menuStyle','');
           timer = settings.transitionImageRotationTime;
         } else {
-          eventBus.$emit('menuStyle',items[i]);
+          eventBus.$emit('menuStyle',items[this.index]);
           timer = settings.mainRotationTime;
         }
-        eventBus.$emit('setNewComponent', items[i]);
-        i++;
-        if (i===8){i=0;}
-        setTimeout(mainPlay, timer); // callback
+        eventBus.$emit('setNewComponent', items[this.index]);
+        this.index++;
+        if (this.index===8){this.index=0;}
+        setTimeout(this.mainPlay, timer); // callback
       }
-      mainPlay();
-
+    },
+    created: function(){
+      this.mainPlay();
       eventBus.$on('setNewComponent',(cmp) => {
         this.selectedComponent = cmp;
       });
