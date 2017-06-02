@@ -1,19 +1,6 @@
 {
-	"projects": [{
-			"name": "Malmö FF",
-			"teamMembers": [{
-					"name": "anton",
-					"commits": "5",
-					"hours": "22"
-				},
-				{
-					"name": "Calle",
-					"commits": "10",
-					"hours": "23"
-				}
-			]
-		},
-    {
+	"projects": [
+		{
 			"name": "Skånes Dansteater",
 			"teamMembers": [{
 					"name": "Christoffer",
@@ -25,17 +12,17 @@
 					"commits": "4",
 					"hours": "12"
 				},
-        {
+				{
 					"name": "jens_l",
 					"commits": "5",
 					"hours": "33"
 				},
-        {
+				{
 					"name": "bjorn",
 					"commits": "4",
 					"hours": "12"
 				},
-        {
+				{
 					"name": "Nils",
 					"commits": "12",
 					"hours": "24"
@@ -44,6 +31,20 @@
 					"name": "Jennifer",
 					"commits": "9",
 					"hours": "9"
+				}
+			]
+		},
+		{
+			"name": "Malmö FF",
+			"teamMembers": [{
+					"name": "anton",
+					"commits": "5",
+					"hours": "22"
+				},
+				{
+					"name": "Calle",
+					"commits": "10",
+					"hours": "23"
 				}
 			]
 		},

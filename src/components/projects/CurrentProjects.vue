@@ -38,6 +38,8 @@
 </template>
 
 <script>
+import { settings } from '../../variables/settings';
+
 import Project0 from './Project0.vue';
 import Project1 from './Project1.vue';
 import Project2 from './Project2.vue';
@@ -67,6 +69,7 @@ export default {
   },
   data: function() {
     return {
+      interval: null,
       pagetitle: "Aktuella Projekt",
       selectedComponent: 'appProject0',
       selectedIndex: '0',
@@ -85,12 +88,20 @@ export default {
   },
   created: function() {
     this.projectSwitch(0);
+    this.playProject();
   },
   mounted() {
     this.projectCount = this.data.projects.length;
     this.activeItemId = 0;
   },
   methods: {
+    playProject: function() {
+      let count = 1;
+        this.interval = setInterval(() => {
+          this.projectSwitch(count);
+          count++;
+        }, settings.projectRotationTime);
+    },
     projectSwitch: function(indexNumber) {
       this.projectAttr.name= this.data.projects[indexNumber].name;
       this.numbvalue = indexNumber;
