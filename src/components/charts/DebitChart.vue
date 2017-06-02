@@ -3,7 +3,7 @@
     <doughnut-chart :chart-data="datacollection" :options="opts"
       :labels="{}">{{fillData()}}
     </doughnut-chart>
-    <p>Window width: {{windowWidth}}</p>
+    <!-- <p>Window width: {{windowWidth}}</p> -->
   </div>
 </template>
 
@@ -30,7 +30,7 @@
         this.fillData();
       },
       windowWidth: function(){
-        if (this.windowWidth < 1000) { 
+        if (this.windowWidth < 1000) {
           clearInterval(this.interval);
         }
         else {

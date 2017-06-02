@@ -3,7 +3,7 @@
 		<div class="menu-wrapper is-parent">
       <div class="menu-box is-child">
         <!-- tmp btn -->
-        <button @click="setComponent('TransitionImage')" class="tmp-btn">bg.</button>
+        <!-- <button @click="setComponent('TransitionImage')" class="tmp-btn">bg.</button> -->
 
         <div class="nav-menu-body" @click="setComponent('Debit')" :style="debit">
           <p class="app-title">{{titleDebit}}</p>
@@ -69,7 +69,7 @@ export default {
 			subDebit: 'mars 2017',
 
 			titleProj: 'Aktuella Projekt',
-      valueProj: '7',
+      valueProj: this.data.projects.length,
 			unitProj: '.',
 			subProj: 'Senaste månaden',
 
