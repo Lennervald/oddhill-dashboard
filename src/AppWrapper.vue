@@ -68,7 +68,8 @@ export default {
         if (this.cmpArray[this.index] === 'TransitionImage'){
           eventBus.$emit('menuStyle','');
           timer = settings.transitionImageRotationTime;
-        } else {
+        } 
+        else {
           eventBus.$emit('menuStyle',this.cmpArray[this.index]);
           timer = settings.mainRotationTime;
         }
@@ -79,7 +80,7 @@ export default {
       }
     },
     created: function(){
-      // on created, set the cmp and start the main rotation
+      // on created, set the component and start the main rotation
       eventBus.$on('setNewComponent',(cmp) => {
         this.selectedComponent = cmp;
       });

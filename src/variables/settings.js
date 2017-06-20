@@ -1,7 +1,7 @@
 export const settings = {
-  mainRotationTime:   18000,
-  debitRotationTime:  6000,
-  projectRotationTime:  6000,
-  transitionImageRotationTime: 3000,
+  mainRotationTime:   20000,
+  debitRotationTime:  6667,
+  projectRotationTime:  5000,
+  transitionImageRotationTime: 4000,
   debitTitle: 'Kundtimmar'
 }
